@@ -1,0 +1,10 @@
+Year,Activity,Represented facility-month rows,Complete numeric age components,Complete age-sum disagreements,Known age sums above total,Applicable modality columns,Complete numeric modality components,Modality-sum disagreements,Structurally inapplicable modalities
+2023,FSH blood test,1021,536,0,0,4,479,253,None identified in inspected coded template
+2023,Gynaecological consultation,877,452,0,0,4,344,137,None identified in inspected coded template
+2023,Transvaginal / rectal ultrasound,832,489,0,0,4,402,218,None identified in inspected coded template
+2024,FSH blood test,1112,546,0,0,4,478,239,None identified in inspected coded template
+2024,Gynaecological consultation,1011,522,0,0,4,397,145,None identified in inspected coded template
+2024,Transvaginal / rectal ultrasound,932,525,0,0,4,415,225,None identified in inspected coded template
+2025,FSH blood test,769,220,0,0,2,235,49,Institutional remote; purchased remote
+2025,Gynaecological consultation,822,318,0,0,4,218,29,None identified in inspected coded template
+2025,Transvaginal / rectal ultrasound,708,264,0,0,2,247,62,Institutional remote; purchased remote

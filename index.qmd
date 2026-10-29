@@ -1,0 +1,90 @@
+---
+title: "Neurodegeneration and reproductive health in Chile"
+description: "Full Methods and Results, extended analyses and presentations from the Chilean neurodegeneration and reproductive-health research project."
+lang: en
+navbar: false
+sidebar: false
+page-layout: full
+format:
+  html:
+    toc: false
+    embed-resources: true
+    css: docs/research_index.css
+execute:
+  enabled: false
+---
+
+~~~{=html}
+<div class="research-home" id="home">
+  <a class="research-skip" href="#results">Skip to full reports</a>
+  <header class="research-header">
+    <a class="research-wordmark" href="index.html" aria-label="Research collection home">CHILE <span>Research collection</span></a>
+    <nav class="research-nav" aria-label="Main navigation">
+      <a href="#results">Full reports</a>
+      <a href="#presentations">Presentations</a>
+      <a href="https://github.com/AmaruSimonAgueroJimenez/Reproductive-hormones-cognitive-decline-women-Chile">Repository <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <section class="research-intro" aria-labelledby="collection-title">
+    <p class="research-eyebrow">Methods, results and extended analyses · October 2026</p>
+    <h1 id="collection-title">Neurodegeneration and reproductive health in Chile</h1>
+    <p class="research-lead">Read the complete evidence behind the presentations: descriptive disease recording, connected reproductive analyses, and the updated study of hormonal care and diagnostic recording.</p>
+    <div class="research-intro-links"><a class="research-button" href="#results">Read the full reports <span aria-hidden="true">↓</span></a><a class="research-text-link" href="docs/combined_project_key_results_slides.html">View the combined presentation <span aria-hidden="true">→</span></a></div>
+  </section>
+
+  <section class="research-results" id="results" aria-labelledby="results-title">
+    <div class="research-section-heading"><div><p class="research-eyebrow">The full research record</p><h2 id="results-title">Three connected reports</h2></div><p>Each report includes Methods and Results, detailed tables, panel figures and folded analysis code.</p></div>
+    <div class="research-report-grid">
+      <article class="research-card">
+        <div class="research-card-top"><span class="research-part">01 / Part I</span><time datetime="2026-10-28">28 Oct 2026</time></div>
+        <h3><a href="docs/descriptive_methods_results.html">Dementia and neurodegenerative disease</a></h3>
+        <p>Recorded burden across mortality, hospital and primary-care sources, with age and sex patterns, diagnostic coding, variation across centres and geographic analyses.</p>
+        <p class="research-counts">24 figures · 24 tables <span>including the extended selection bank</span></p>
+        <div class="research-card-links"><a class="research-report-link" href="docs/descriptive_methods_results.html">Read Methods and Results <span aria-hidden="true">→</span></a><a class="research-source-link" href="docs/descriptive_methods_results_source.txt" download="descriptive_methods_results.qmd">Download Quarto source</a></div>
+      </article>
+
+      <article class="research-card">
+        <div class="research-card-top"><span class="research-part">02 / Part II</span><time datetime="2026-10-28">28 Oct 2026</time></div>
+        <h3><a href="docs/reproductive_life_course.html">Reproductive factors and neurodegenerative outcomes</a></h3>
+        <p>One connected analysis of reproductive history, reported cognitive difficulty, ovarian surgery and menopause-care context, retaining each source's population and observation unit.</p>
+        <p class="research-counts">14 figures · 26 tables <span>with extended survey, surgery and care analyses</span></p>
+        <div class="research-card-links"><a class="research-report-link" href="docs/reproductive_life_course.html">Read Methods and Results <span aria-hidden="true">→</span></a><a class="research-source-link" href="docs/reproductive_life_course_source.txt" download="reproductive_life_course.qmd">Download Quarto source</a></div>
+      </article>
+
+      <article class="research-card research-card-update">
+        <div class="research-card-top"><span class="research-part">03 / Administrative extension</span><time datetime="2026-10-29">29 Oct 2026</time></div>
+        <h3><a href="docs/access_diagnostic_recording_extension.html">Hormonal care and diagnostic recording</a></h3>
+        <p>Updated REM, DEIS and FONASA GRD evidence on menopause-care recording, neurological caseloads and hospital diagnoses, with source-completeness audits, maps and association sensitivities.</p>
+        <p class="research-counts">10 figures · 26 tables <span>including geographic panels and denominator checks</span></p>
+        <div class="research-card-links"><a class="research-report-link" href="docs/access_diagnostic_recording_extension.html">Read Methods and Results <span aria-hidden="true">→</span></a><a class="research-source-link" href="docs/access_diagnostic_recording_extension_source.txt" download="access_diagnostic_recording_extension.qmd">Download Quarto source</a></div>
+      </article>
+    </div>
+    <p class="research-version-note"><strong>Reading the versions.</strong> Parts I and II preserve the reviewed 28 October snapshots. The 29 October extension updates REM definitions and source handling; use that report for the updated administrative care and diagnostic-recording analyses. Recorded service use and exploratory associations retain the limitations stated in each report.</p>
+  </section>
+
+  <section class="research-presentations" id="presentations" aria-labelledby="presentations-title">
+    <div class="research-section-heading"><div><p class="research-eyebrow">Selected findings</p><h2 id="presentations-title">Presentations</h2></div><p>Concise visual summaries using the reviewed tables and original figures.</p></div>
+    <div class="research-slide-grid">
+      <article class="research-slide-card research-slide-primary">
+        <p class="research-slide-label">29 slides · Parts I and II</p>
+        <h3>Combined project presentation</h3>
+        <p>Descriptive neurodegenerative evidence followed by reproductive histories, ovarian surgery and menopause-care context.</p>
+        <a href="docs/combined_project_key_results_slides.html">Open the combined presentation <span aria-hidden="true">→</span></a>
+      </article>
+      <article class="research-slide-card">
+        <p class="research-slide-label">18 slides · Part II</p>
+        <h3>Reproductive and care analyses</h3>
+        <p>The focused presentation of the connected reproductive and neurodegenerative analyses.</p>
+        <a href="docs/reproductive_key_results_slides.html">Open the Part II presentation <span aria-hidden="true">→</span></a>
+      </article>
+    </div>
+  </section>
+
+  <footer class="research-footer">
+    <p>Source-backed research using <a href="https://deis.minsal.cl/#datosabiertos">DEIS/MINSAL</a>, <a href="https://datosabiertos.fonasa.cl/">FONASA</a>, <a href="https://www.ine.gob.cl/">INE</a> and the survey sources documented in each report.</p>
+    <p>Scientific definitions, observation windows and uncertainty are reported with the results. Institutional links identify the original sources.</p>
+    <a class="research-back-top" href="#home">Back to top ↑</a>
+  </footer>
+</div>
+~~~

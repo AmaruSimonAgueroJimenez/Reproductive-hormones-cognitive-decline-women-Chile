@@ -1,0 +1,9 @@
+Outcome,Sex,Reporting rule,Exposure eligible,Outcome eligible,Joint facilities,Municipalities,Flagged facilities
+Dementia,Women,strict,369,223,97,61,1
+Dementia,Women,relaxed,561,454,244,125,2
+Dementia,Men,strict,369,224,97,61,1
+Dementia,Men,relaxed,561,453,244,125,2
+Parkinson,Women,strict,369,833,231,109,4
+Parkinson,Women,relaxed,561,1319,454,174,23
+Parkinson,Men,strict,369,830,232,109,5
+Parkinson,Men,relaxed,561,1313,453,176,23

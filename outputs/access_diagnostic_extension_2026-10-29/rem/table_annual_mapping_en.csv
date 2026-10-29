@@ -1,0 +1,7 @@
+Component,Codes,Mapped years,Age scope,Interpretation
+P1 core care/MRS/MHT,P1030301; P1060040; P1060050; P1060060,2019–2025,45–64,"Snapshot; 2025 Col02, earlier Col01"
+P1 entry/follow-up/improved MRS,P1700101; P1700102; P1700103,2025,<45 and 45–64,Overlapping previous-year histories
+A03 MRS applications/high/domains,03600180; 03600190; 03600210; 03600220; 03600230,2021–2025,Source-defined climacteric ages,Entry; follow-up without MHT; follow-up with MHT
+A05 programme entries,01080090,2019–2025,Unstratified,"Annual activity flow, not diagnosis onset"
+A29 climacteric consultation/FSH/ultrasound,29101711; 29101712; 29101713,2023–2025,45–64 and 65+; adds 40–44 in 2025,"Age 45–64: Col02 in 2023–24, Col03 in 2025"
+Legacy A29 package/FSH,29101160; 29101210,2021–2022,Unstratified,"Different source scope, kept separate"

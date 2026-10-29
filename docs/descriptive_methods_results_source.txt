@@ -1,0 +1,249 @@
+---
+title: "Dementia and neurodegenerative disease in Chile"
+subtitle: "Methods results and the extended figure and table bank"
+lang: en
+date-modified: 2026-10-28
+navbar: false
+sidebar: false
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    code-fold: true
+    code-summary: "Show reproducible code"
+    code-tools: true
+    code-copy: true
+    embed-resources: true
+    fig-responsive: true
+    css: descriptive_methods_results.css
+execute:
+  echo: true
+  warning: false
+  message: false
+  error: false
+  freeze: false
+  cache: false
+jupyter: python3
+---
+
+```{python}
+#| label: prepare-shared-evidence
+#| output: asis
+from pathlib import Path
+import contextlib
+import html
+import io
+import json
+import sys
+import pandas as pd
+from IPython.display import Markdown, HTML, display
+
+# Separate rich-output objects explicitly so Pandoc preserves paragraphs,
+# headings and Markdown tables across consecutive Jupyter display calls.
+def markdown(text):
+    return Markdown("\n\n" + str(text) + "\n\n")
+
+def raw_html(text):
+    return HTML("\n\n" + str(text) + "\n\n")
+
+PROJECT = next(p for p in [Path.cwd(), *Path.cwd().parents]
+               if (p / "scripts/descriptive_review.py").exists())
+sys.path.insert(0, str(PROJECT / "scripts"))
+import descriptive_review as review
+from descriptive_candidate_bank import load_bank, BANK_BUNDLE
+
+# Recalculate reported numbers from the aggregate tables, fill the manuscript
+# templates and construct exactly the same tables and captions as the Word file.
+with contextlib.redirect_stdout(io.StringIO()):
+    core = review.build_bundle(rebuild_metrics=True)
+article = core["languages"]["en"]
+core_id = core["content_sha256"]
+bank = load_bank() if BANK_BUNDLE.exists() else None
+if bank and bank["core_bundle_sha256"] != core_id:
+    raise ValueError("Rebuild the candidate bank against the current core evidence")
+display(raw_html(f'<div class="evidence-id" data-evidence-bundle="{core_id}">'
+             f'Shared core evidence identifier: <code>{core_id}</code></div>'))
+
+def render_blocks(section):
+    for block in section["blocks"]:
+        prefix = "### " if block["type"] == "heading" else ""
+        display(markdown(prefix + block["text"]))
+
+def render_table(table, candidate=False):
+    frame = pd.DataFrame(table["rows"], columns=table["columns"])
+    title = f'Table {table["number"]} {table["title"]}'
+    if candidate:
+        display(raw_html('<details class="provenance"><summary>' + html.escape(title)
+                     + '</summary>' + frame.to_html(index=False, escape=True)
+                     + '<p>' + html.escape(table["note"]) + '</p></details>'))
+    else:
+        display(markdown("### " + title))
+        display(markdown(frame.to_markdown(index=False)))
+        display(markdown(table["note"]))
+
+def render_figure(figure):
+    raster = PROJECT / figure["path"]
+    relative = "../" + str(raster.relative_to(PROJECT))
+    display(markdown(f'### Figure {figure["number"]}'))
+    display(raw_html(f'<img class="paper-figure" src="{html.escape(relative, quote=True)}" '
+                     f'alt="{html.escape(figure["alt"], quote=True)}">'))
+    display(markdown(figure["caption"]))
+    svg = "../" + str(raster.with_suffix(".svg").relative_to(PROJECT))
+    pdf = "../" + str(raster.with_suffix(".pdf").relative_to(PROJECT))
+    display(markdown(f'[Editable SVG]({svg}) · [Vector PDF]({pdf})'))
+```
+
+The Word documents and this page share source-backed text, tables, captions and
+native-resolution figures. Expand the code blocks to inspect the executed code.
+Candidate identifiers support author selection; they do not assign material to
+the main article or supplement.
+
+[Methods and Results Word document](../manuscript/revision_descriptiva_2026-10-28/Methods_Results_EN.docx)
+· [Extended figure and table bank Word document](../manuscript/revision_descriptiva_2026-10-28/Figure_Table_Bank_EN.docx)
+· [All English figure and table assets](../outputs/paper/revision_descriptiva_2026-10-28/Figure_Table_Assets_EN.zip)
+
+## Methods
+
+```{python}
+#| label: methods-from-verified-template
+#| output: asis
+render_blocks(article["sections"][0])
+if article["references"]:
+    display(markdown("### Methodological references"))
+    for number, reference in enumerate(article["references"], 1):
+        display(markdown(f"{number}. {reference}"))
+```
+
+## Results
+
+```{python}
+#| label: results-from-shared-evidence
+#| output: asis
+render_blocks(article["sections"][1])
+```
+
+```{python}
+#| label: core-tables-identical-to-word
+#| output: asis
+for table in article["tables"]:
+    render_table(table)
+```
+
+```{python}
+#| label: core-panel-figures-identical-to-word
+#| output: asis
+for figure in article["figures"]:
+    render_figure(figure)
+```
+
+## Extended selection bank
+
+```{python}
+#| label: extended-bank-catalogue
+#| output: asis
+if bank:
+    candidates = bank["languages"]["en"]
+    display(raw_html(f'<div class="evidence-id" data-candidate-bundle="{bank["content_sha256"]}">'
+                 f'Candidate-bank evidence identifier: <code>{bank["content_sha256"]}</code></div>'))
+    display(markdown(f'The complete collection contains **{len(article["figures"]) + len(candidates["figures"])} figures** '
+                     f'and **{len(article["tables"]) + len(candidates["tables"])} tables**, '
+                     'including the core and additional candidates.'))
+    render_blocks(candidates["sections"][0])
+    render_blocks(candidates["sections"][1])
+else:
+    display(markdown("The extended bank is built separately from the core evidence."))
+```
+
+```{python}
+#| label: candidate-tables-for-selection
+#| output: asis
+if bank:
+    display(markdown("### Candidate tables"))
+    for table in candidates["tables"]:
+        render_table(table, candidate=True)
+```
+
+```{python}
+#| label: candidate-panel-figures-for-selection
+#| output: asis
+if bank:
+    for figure in candidates["figures"]:
+        render_figure(figure)
+```
+
+## Reproducibility and data access
+
+Aggregate-input reconstruction uses saved study tables, text templates and the
+public geographic boundaries packaged with the figures. Source-record
+reconstruction requires authorised access to DEIS, GRD, REM, FONASA and INE
+files; patient-level records remain outside the repository. GRD encrypted
+identifiers are not distributed in these materials.
+
+Rendering this page recalculates the reported core numbers from aggregates.
+Network estimation is a separate, explicitly invoked computation with recorded
+seeds, replicates and definitions. It is not repeated during every render.
+Word consistency checks compare every prose block, every table cell and the
+hashes of the embedded figure images.
+
+```{python}
+#| label: inspectable-core-numeric-registry
+#| output: asis
+rows = []
+for key, value in core["metrics"].items():
+    if "raw" not in value:
+        continue
+    rows.append({"Metric key": key, "Reported value": value["en"],
+                 "Source": value.get("source", ""),
+                 "Selection": json.dumps(value.get("filter", ""), ensure_ascii=False),
+                 "Calculation": value.get("calculation", value.get("column", ""))})
+registry = pd.DataFrame(rows)
+display(raw_html('<details class="provenance"><summary>Inspect values sources and filters</summary>'
+             + registry.to_html(index=False, escape=True) + '</details>'))
+```
+
+```{python}
+#| label: calculation-functions-and-runtime
+#| output: asis
+# These functions create the Word tables directly from the aggregate evidence.
+core_tables = [review.source_table(core["metrics"], "en"), review.ratio_table("en"),
+               review.centre_table("en"), review.network_table("en")]
+assert core_tables == article["tables"]
+versions = review.software_versions()
+display(markdown("### Calculation environment"))
+display(markdown(pd.DataFrame(versions.items(), columns=["Component", "Version"]).to_markdown(index=False)))
+```
+
+Rebuild the English core documents, selection bank and HTML from aggregates:
+
+```bash
+python3 scripts/run_descriptive_review.py --bank --html
+```
+
+Also refit rates and facility analyses from local source-derived intermediates:
+
+```bash
+python3 scripts/run_descriptive_review.py --recalculate --source-checks --bank --html
+```
+
+Re-extract authorised sources and repeat the complete network analysis:
+
+```bash
+python3 scripts/run_descriptive_review.py --full --bank --html
+```
+
+Verify input hashes and correspondence with the English Word documents:
+
+```bash
+python3 scripts/run_descriptive_review.py --verify-only --bank
+```
+
+`ASESORIAS_DATA_ROOT` selects the data root, and `MF_DERIVED` can select a
+different intermediate-data directory. On another computer, `DOCX_PYTHON` or
+`--docx-python` must identify a Python interpreter with `python-docx`. Direct
+analysis dependencies are in `requirements.txt`; the versions actually used are
+recorded in `reproducibility_manifest.json`. Select the calculation environment
+for Quarto through `QUARTO_PYTHON`.
+
+Intervals and tests retain their stated units and assumptions. These descriptive
+analyses do not identify clinical incidence, hormonal effects or causal
+mechanisms. The authors must confirm ethics and funding declarations.

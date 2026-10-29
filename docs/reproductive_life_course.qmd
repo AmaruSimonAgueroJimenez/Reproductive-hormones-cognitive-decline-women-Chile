@@ -1,0 +1,255 @@
+---
+title: "Reproductive factors and neurodegenerative outcomes in Chile"
+subtitle: "One connected analysis of cognitive difficulties, ovarian surgery and care context"
+lang: en
+date-modified: 2026-10-28
+navbar: false
+sidebar: false
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    code-fold: true
+    code-summary: "Show reproducible code"
+    code-tools: true
+    code-copy: true
+    embed-resources: true
+    css: reproductive_life_course.css
+execute:
+  echo: true
+  warning: false
+  message: false
+  error: false
+  freeze: false
+  cache: false
+jupyter: python3
+---
+
+[Download the matching line-numbered Methods and Results Word document](../manuscript/publication_programme_2026-10-28/Connected_Reproductive_Neurodegenerative_Results_EN.docx)
+
+[View the key-results slides](reproductive_key_results_slides.qmd) · [Download PowerPoint](../manuscript/publication_programme_2026-10-28/Connected_Reproductive_Neurodegenerative_Key_Results_EN.pptx) · <a href="reproductive_key_results_slides_source.txt" download="reproductive_key_results_slides.qmd">Download editable slide source</a>
+
+```{python}
+#| label: shared-connected-evidence
+#| output: asis
+from pathlib import Path
+import contextlib
+import html
+import io
+import json
+import sys
+import pandas as pd
+from IPython.display import Markdown, HTML, display
+
+PROJECT = next(p for p in [Path.cwd(), *Path.cwd().parents]
+               if (p / 'scripts/publication_programme/integrated_evidence.py').exists())
+sys.path.insert(0, str(PROJECT / 'scripts/publication_programme'))
+import integrated_evidence as integration
+
+# Report-level calculations and figures are recreated from saved aggregates.
+# Raw-record analysis and independent R validation use the explicit refresh mode.
+with contextlib.redirect_stdout(io.StringIO()):
+    evidence = integration.build()
+
+def md(text): return Markdown('\n\n' + str(text) + '\n\n')
+def raw(text): return HTML('\n\n' + str(text) + '\n\n')
+def section(key):
+    item = next(s for s in evidence['sections'] if s['id'] == key)
+    for text in item['paragraphs']: display(md(text))
+def table(key, collapsed=False):
+    item = next(t for t in evidence['tables'] if t['id'] == key)
+    frame = pd.DataFrame(item['rows'], columns=item['columns'])
+    body = frame.to_html(index=False, escape=True)
+    title = html.escape('Table ' + str(item['number']) + '. ' + item['title'])
+    note = html.escape(item['note'])
+    if collapsed:
+        display(raw(f'<details class="provenance"><summary>{title}</summary>{body}<p>{note}</p></details>'))
+    else:
+        display(md('#### Table ' + str(item['number']) + '. ' + item['title']))
+        display(raw(f'<div class="table-responsive">{body}</div><p>{note}</p>'))
+def figure(key):
+    item = next(f for f in evidence['figures'] if f['key'] == key)
+    path = PROJECT / item['path']
+    image = '../' + str(path.relative_to(PROJECT))
+    display(md('#### Figure ' + item['id']))
+    display(raw(f'<img class="paper-figure" src="{html.escape(image,quote=True)}" alt="{html.escape(item["alt"],quote=True)}">'))
+    display(md(item['caption']))
+    pdf = '../' + str(path.with_suffix('.pdf').relative_to(PROJECT))
+    svg = '../' + str(path.with_suffix('.svg').relative_to(PROJECT))
+    display(md(f'[Vector PDF]({pdf}) · [Editable SVG]({svg})'))
+
+def extension(group):
+    info=evidence['extensions'][group]
+    for key in info['section_ids']:
+        item=next(s for s in evidence['sections'] if s['id']==key)
+        display(md('#### '+item['title']))
+        section(key)
+    for key in info['figure_keys']:figure(key)
+    for key in info['table_ids']:table(key)
+
+display(raw(f'<details class="provenance evidence-id" data-evidence-id="{evidence["content_sha256"]}"><summary>Reproducibility record</summary><p>Shared evidence identifier: <code>{evidence["content_sha256"]}</code></p></details>'))
+```
+
+## Methods
+
+```{python}
+#| label: connected-study-methods
+#| output: asis
+for item in evidence['methods']:
+    display(md('### ' + item['title']))
+    for paragraph in item['paragraphs']:display(md(paragraph))
+```
+
+## Results
+
+### A common neurodegenerative question
+
+```{python}
+#| label: question-and-source-scope
+#| output: asis
+section('connected-question')
+table('scope')
+```
+
+### Individual reproductive history and cognitive difficulties
+
+```{python}
+#| label: individual-history-results
+#| output: asis
+section('family-history')
+figure('base-1')
+table('survey-estimates')
+table('survey-flow', collapsed=True)
+extension('survey')
+```
+
+### Ovarian intervention and the feasibility of a neurodegenerative endpoint
+
+```{python}
+#| label: ovarian-intervention-results
+#| output: asis
+section('ovarian-intervention')
+figure('base-2')
+table('surgery-year')
+extension('surgery')
+if any(s['id'] == 'surgery-neuro-feasibility' for s in evidence['sections']):
+    section('surgery-neuro-feasibility')
+    table('surgery-neuro-feasibility')
+```
+
+### Menopause care and the context of disease registration
+
+```{python}
+#| label: menopause-care-context
+#| output: asis
+section('care-context')
+figure('base-3')
+table('care-year')
+figure('base-4')
+table('care-region', collapsed=True)
+table('care-quality', collapsed=True)
+extension('care')
+```
+
+### Linking the context to cognitive and neurodegenerative outcomes
+
+```{python}
+#| label: contextual-neurodegenerative-associations
+#| output: asis
+if any(s['id'] == 'contextual-outcomes' for s in evidence['sections']):
+    section('contextual-outcomes')
+    figure('base-5')
+    table('lagged-mht')
+    table('contextual-outcomes')
+    table('contextual-contrasts', collapsed=True)
+else:
+    display(md('The inherited MHT and MRS models are being connected to their source definitions and outcome-specific interpretation.'))
+```
+
+### Reading the three analyses together
+
+```{python}
+#| label: integrated-interpretation-and-next-analyses
+#| output: asis
+section('joint-reading')
+table('roadmap')
+```
+
+## Reproducibility and original data sources
+
+Survey data originate from [MDSF CASEN 2024](https://observatorio.ministeriodesarrollosocial.gob.cl/encuesta-casen-2024)
+and [MINSAL ENCAVI 2023–2024](https://epi.minsal.cl/wp-content/uploads/2025/08/Informe_metodologico_ENCAVI_2023_2024.pdf).
+The ENCAVI documentation discrepancy is described in Methods.
+
+Administrative data originate from [FONASA GRD](https://datosabiertos.fonasa.cl/dimensiones-financiamientos/),
+[DEIS monthly statistical returns](https://deis.minsal.cl/#datosabiertos) and
+[FONASA APS enrolment](https://public.tableau.com/views/ReporteInscritosCentrosAPS/ReporteAPS?:showVizHome=no).
+The analysis uses the retained 2019–2024 GRD and 2019–2025 REM/enrolment snapshots.
+
+Age denominators and contemporary context use [INE population projections](https://www.ine.gob.cl/estadisticas-por-tema/demografia-y-poblacion/estimaciones-y-proyecciones-de-poblacion)
+and [MDSF municipal poverty estimates for 2024](https://observatorio.ministeriodesarrollosocial.gob.cl/pobreza-comunal-2024).
+Administrative basemap boundaries originate from the [Biblioteca del Congreso Nacional de Chile Mapoteca](https://www.bcn.cl/siit/siit/mapas_vectoriales/).
+The [original-source bibliography](reproductive_slides_references.bib) records the documents and catalogue links.
+
+This report is one executable Quarto document. Its sections form a common
+scientific narrative; they are not three separate reports. Rendering recalculates
+report-level summaries from saved aggregate evidence and recreates the
+integrated forest plots. The survey, surgical and care extensions are rebuilt
+from their saved aggregate inputs by the runner below. The Word document uses the same Methods and Results prose,
+table cells and PNG figure files. Original survey and GRD records remain outside the project. Public
+facility coordinates are retained for the programme maps.
+
+```{python}
+#| label: inspectable-source-evidence
+#| output: asis
+sources = []
+for folder in [integration.OUT, integration.MAN]:
+    for path in sorted(folder.rglob('*.csv')):
+        sources.append({'Evidence file': str(path.relative_to(PROJECT)),
+                        'SHA256': integration.sha(path)})
+display(raw('<details class="provenance"><summary>Inspect calculation files and checksums</summary>'
+            + pd.DataFrame(sources).to_html(index=False,escape=True) + '</details>'))
+```
+
+Rebuild the connected evidence and this HTML from the saved aggregates:
+
+```bash
+python3 scripts/run_reproductive_life_course.py --word --html
+```
+
+Recalculate the primary analyses and base audits from the authorised source-derived
+records, including the independent Python and R survey implementations, before rendering:
+
+```bash
+python3 scripts/run_reproductive_life_course.py --refresh-source-records --word --html
+```
+
+Render the presentation directly from its editable Quarto source:
+
+```bash
+quarto render docs/reproductive_key_results_slides.qmd --to revealjs
+```
+
+The presentation source contains its text, selected table cells and original figure paths.
+The figures are the same files used in Word. Original institutional references are
+recorded in the companion bibliography and linked on the slides. The PowerPoint
+builder preserves editable text and tables and uses reversible crops of those figure files.
+
+Verify the saved evidence and output hashes:
+
+```bash
+python3 scripts/run_reproductive_life_course.py --verify-only
+```
+
+The refresh mode requires the configured external inputs and R with the `survey`
+package. `ASESORIAS_DATA_ROOT` and `MF_DERIVED` identify the authorised data
+locations. Quarto uses the interpreter selected through `QUARTO_PYTHON`.
+Word generation uses the configured document environment; `DOCX_PYTHON` can
+override its bundled interpreter on another host.
+The refresh command re-estimates the validated primary CASEN models and base
+audits. Inherited exploratory estimates remain frozen source results; refreshing
+the report does not repair their covariance or validate their exposure definitions.
+Validated primary analyses, audited descriptive calculations, inherited
+exploratory estimates and proposed analyses retain their separate status.
+
+[Reviewed descriptive neurodegeneration article](descriptive_methods_results.qmd)

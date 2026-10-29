@@ -1,0 +1,22 @@
+Year,Activity,Age group,Observed numeric activity count,Represented facilities,Numeric facility-month cells,Blank facility-month cells
+2023,Gynaecological consultation,45-64,9962.0,209,869,8
+2023,Gynaecological consultation,65+,410.0,209,458,419
+2023,FSH blood test,45-64,12225.0,213,1006,15
+2023,FSH blood test,65+,332.0,213,542,479
+2023,Transvaginal / rectal ultrasound,45-64,9230.0,199,828,4
+2023,Transvaginal / rectal ultrasound,65+,239.0,199,490,342
+2024,Gynaecological consultation,45-64,11491.0,242,1010,1
+2024,Gynaecological consultation,65+,251.0,242,523,488
+2024,FSH blood test,45-64,13401.0,224,1102,10
+2024,FSH blood test,65+,625.0,224,551,561
+2024,Transvaginal / rectal ultrasound,45-64,9283.0,224,930,2
+2024,Transvaginal / rectal ultrasound,65+,212.0,224,526,406
+2025,Gynaecological consultation,40-44,486.0,202,437,385
+2025,Gynaecological consultation,45-64,9930.0,202,814,8
+2025,Gynaecological consultation,65+,142.0,202,339,483
+2025,FSH blood test,40-44,1188.0,161,374,395
+2025,FSH blood test,45-64,9480.0,161,761,8
+2025,FSH blood test,65+,542.0,161,263,506
+2025,Transvaginal / rectal ultrasound,40-44,622.0,189,345,363
+2025,Transvaginal / rectal ultrasound,45-64,7426.0,189,699,9
+2025,Transvaginal / rectal ultrasound,65+,291.0,189,308,400

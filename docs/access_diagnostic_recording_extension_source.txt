@@ -1,0 +1,638 @@
+---
+title: "Hormonal care and neurodegenerative diagnostic recording in Chile"
+subtitle: "Executed Methods and Results across REM DEIS and FONASA GRD"
+lang: en
+date: 2026-10-29
+navbar: false
+sidebar: false
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    code-fold: true
+    code-summary: "Show reproducible analysis"
+    code-tools: true
+    code-copy: true
+    embed-resources: true
+    css: reproductive_life_course.css
+execute:
+  echo: true
+  warning: false
+  message: false
+  error: false
+  freeze: false
+  cache: false
+jupyter: python3
+---
+
+[Download the matching line-numbered Methods and Results Word document](../manuscript/access_diagnostic_extension_2026-10-29/Methods_Results_EN.docx)
+
+[Part I descriptive article](descriptive_methods_results.qmd) · [Part II connected analysis](reproductive_life_course.qmd) · <a href="access_diagnostic_recording_extension_source.txt" download="access_diagnostic_recording_extension.qmd">Download executable QMD</a> · [Download figures tables and reproducible sources](../outputs/access_diagnostic_extension_2026-10-29/Access_Diagnostic_Recording_Assets_EN.zip)
+
+This executed report replaces the earlier data-availability proposal. It contains newly re-extracted administrative evidence. The facility association is sensitive to programme intensity and one denominator-inconsistent provider; it does not establish an individual hormonal effect. All substantive prose, table cells and figure files below share one evidence bundle with the Word document.
+
+```{python}
+#| label: rebuild-public-administrative-evidence
+#| output: asis
+from pathlib import Path
+import sys, contextlib, io, json, html, base64
+from IPython.display import display, Markdown, HTML
+PROJECT = next(p for p in [Path.cwd(), *Path.cwd().parents] if (p/'scripts/access_extension/access_report.py').exists())
+sys.path.insert(0, str(PROJECT/'scripts/access_extension'))
+import access_report as report
+# Public aggregate mode regenerates every display and refits the facility models.
+# Original-record refresh is a separate documented command requiring the data volume.
+with contextlib.redirect_stdout(io.StringIO()):
+    evidence = report.rebuild_public()
+def section(kind, index):
+    for p in evidence[kind][index]['paragraphs']: display(Markdown(p))
+def table(index):
+    t=evidence['tables'][index]
+    import pandas as pd
+    frame=pd.DataFrame(t['rows'], columns=t['columns'])
+    display(HTML('<div class="table-responsive">'+frame.to_html(index=False,escape=True)+'</div><p class="table-note">'+html.escape(t['note'])+'</p>'))
+    display(Markdown('[Download source table](../'+t['csv_path']+')'))
+def figure(index):
+    f=evidence['figures'][index]
+    uri='data:image/png;base64,'+base64.b64encode((PROJECT/f['path']).read_bytes()).decode()
+    display(HTML('<img class="paper-figure" src="'+uri+'" alt="'+html.escape(f['alt'],quote=True)+'" style="max-width:100%;height:auto"><p class="figure-caption">'+html.escape('Figure '+str(f['number'])+'. '+f['caption'])+'</p>'))
+    base=str(Path(f['path']).with_suffix(''))
+    display(Markdown('[Editable SVG](../'+base+'.svg) · [Vector PDF](../'+base+'.pdf) · [600 dpi PNG](../'+base+'.png)'))
+```
+
+## Methods
+
+### Study purpose and relation to the two study parts
+
+```{python}
+#| label: methods-1
+#| output: asis
+section('methods', 0)
+```
+
+### Primary care source scope and observation units
+
+```{python}
+#| label: methods-2
+#| output: asis
+section('methods', 1)
+```
+
+### Annual code mapping and changes in source definitions
+
+```{python}
+#| label: methods-3
+#| output: asis
+section('methods', 2)
+```
+
+### MRS contexts and programme entry activity
+
+```{python}
+#| label: methods-4
+#| output: asis
+section('methods', 3)
+```
+
+### Climacteric consultations  FSH and ultrasound
+
+```{python}
+#| label: methods-5
+#| output: asis
+section('methods', 4)
+```
+
+### Duplicate handling and source visibility
+
+```{python}
+#| label: methods-6
+#| output: asis
+section('methods', 5)
+```
+
+### Age specific enrolment and geographic summaries
+
+```{python}
+#| label: methods-7
+#| output: asis
+section('methods', 6)
+```
+
+### Reproducibility and source attribution
+
+```{python}
+#| label: methods-8
+#| output: asis
+section('methods', 7)
+```
+
+### Neurological programme records and annual dictionary validation
+
+```{python}
+#| label: methods-9
+#| output: asis
+section('methods', 8)
+```
+
+### Explicit numeric cells  accounting identification and missing records
+
+```{python}
+#| label: methods-10
+#| output: asis
+section('methods', 9)
+```
+
+### Same year enrolment and association ready data
+
+```{python}
+#| label: methods-11
+#| output: asis
+section('methods', 10)
+```
+
+### Hospital source scope and operational diagnostic definitions
+
+```{python}
+#| label: methods-12
+#| output: asis
+section('methods', 11)
+```
+
+### Denominators  repeated records and descriptive analysis
+
+```{python}
+#| label: methods-13
+#| output: asis
+section('methods', 12)
+```
+
+### Connecting earlier hormonal care with later neurological recording
+
+```{python}
+#| label: methods-14
+#| output: asis
+section('methods', 13)
+```
+
+### Expected counts and conditional mean models
+
+```{python}
+#| label: methods-15
+#| output: asis
+section('methods', 14)
+```
+
+### Sensitivity analyses and geographical dependence
+
+```{python}
+#| label: methods-16
+#| output: asis
+section('methods', 15)
+```
+
+## Results
+
+### Reading the connected administrative evidence
+
+```{python}
+#| label: results-1
+#| output: asis
+section('results', 0)
+```
+
+### December climacteric care and MHT recording
+
+```{python}
+#| label: results-2
+#| output: asis
+section('results', 1)
+```
+
+### Source visibility and the conditional denominator
+
+```{python}
+#| label: results-3
+#| output: asis
+section('results', 2)
+```
+
+### New assessment history fields in 2025
+
+```{python}
+#| label: results-4
+#| output: asis
+section('results', 3)
+```
+
+### Programme entry flows and reporting coverage
+
+```{python}
+#| label: results-5
+#| output: asis
+section('results', 4)
+```
+
+### MRS applications across entry and follow up contexts
+
+```{python}
+#| label: results-6
+#| output: asis
+section('results', 5)
+```
+
+### Climacteric diagnostic service recording
+
+```{python}
+#| label: results-7
+#| output: asis
+section('results', 6)
+```
+
+### Geographic recording patterns and observation limits
+
+```{python}
+#| label: results-8
+#| output: asis
+section('results', 7)
+```
+
+### Source corrections and reproducibility checks
+
+```{python}
+#| label: results-9
+#| output: asis
+section('results', 8)
+```
+
+### Reporting feasibility and exact count eligibility
+
+```{python}
+#| label: results-10
+#| output: asis
+section('results', 9)
+```
+
+### Identified caseload patterns among annually paired providers
+
+```{python}
+#| label: results-11
+#| output: asis
+section('results', 10)
+```
+
+### Hospital recording of menopause related conditions
+
+```{python}
+#| label: results-12
+#| output: asis
+section('results', 11)
+```
+
+### What the cross source association sample can support
+
+```{python}
+#| label: results-13
+#| output: asis
+section('results', 12)
+```
+
+### Secondary neurological and sex comparisons
+
+```{python}
+#| label: results-14
+#| output: asis
+section('results', 13)
+```
+
+## Tables
+
+### Table 1. Annual source definitions and column mapping
+
+```{python}
+#| label: table-1
+#| output: asis
+table(0)
+```
+
+### Table 2. P1 national counts and conditional matched rates
+
+```{python}
+#| label: table-2
+#| output: asis
+table(1)
+```
+
+### Table 3. Source visibility among denominator-eligible facilities
+
+```{python}
+#| label: table-3
+#| output: asis
+table(2)
+```
+
+### Table 4. Explicit correction of the frozen 2021 core counts
+
+```{python}
+#| label: table-4
+#| output: asis
+table(3)
+```
+
+### Table 5. Observed activity flows and reporting scope
+
+```{python}
+#| label: table-5
+#| output: asis
+table(4)
+```
+
+### Table 6. Matched MRS recording by assessment context
+
+```{python}
+#| label: table-6
+#| output: asis
+table(5)
+```
+
+### Table 7. Separate 2025 assessment histories by age scope
+
+```{python}
+#| label: table-7
+#| output: asis
+table(6)
+```
+
+### Table 8. Climacteric consultation, FSH and ultrasound by supported age band
+
+```{python}
+#| label: table-8
+#| output: asis
+table(7)
+```
+
+### Table 9. Diagnostic-service age and modality source checks
+
+```{python}
+#| label: table-9
+#| output: asis
+table(8)
+```
+
+### Table 10. Annual neurological outcome eligibility with both older-age bands
+
+```{python}
+#| label: table-10
+#| output: asis
+table(9)
+```
+
+### Table 11. Multi-year neurological recording eligibility, 2022–2025
+
+```{python}
+#| label: table-11
+#| output: asis
+table(10)
+```
+
+### Table 12. Neurological source-sum reconciliation and duplicate corrections
+
+```{python}
+#| label: table-12
+#| output: asis
+table(11)
+```
+
+### Table 13. Caseload recording in annually paired eligible establishments
+
+```{python}
+#| label: table-13
+#| output: asis
+table(12)
+```
+
+### Table 14. Recorded dementia-stage composition in paired eligible provider snapshots, 2022–2025
+
+```{python}
+#| label: table-14
+#| output: asis
+table(13)
+```
+
+### Table 15. Recorded code frequencies in the common 2019–2024 window
+
+```{python}
+#| label: table-15
+#| output: asis
+table(14)
+```
+
+### Table 16. Same-episode co-recording among GRD women aged ≥45, 2019–2024
+
+```{python}
+#| label: table-16
+#| output: asis
+table(15)
+```
+
+### Table 17. Observation-unit sensitivity for broad menopause-code recording, age ≥45
+
+```{python}
+#| label: table-17
+#| output: asis
+table(16)
+```
+
+### Table 18. Source totals and eligibility audit, 2019–2024
+
+```{python}
+#| label: table-18
+#| output: asis
+table(17)
+```
+
+### Table 19. National principal menopause-code recording by available age band and sector, 2019–2024
+
+```{python}
+#| label: table-19
+#| output: asis
+table(18)
+```
+
+### Table 20. Facility eligibility across exposure and outcome reporting rules
+
+```{python}
+#| label: table-20
+#| output: asis
+table(19)
+```
+
+### Table 21. Strict facility associations between earlier MHT recording and later neurological caseload
+
+```{python}
+#| label: table-21
+#| output: asis
+table(20)
+```
+
+### Table 22. All completed model specifications in women
+
+```{python}
+#| label: table-22
+#| output: asis
+table(21)
+```
+
+### Table 23. All completed model specifications in men
+
+```{python}
+#| label: table-23
+#| output: asis
+table(22)
+```
+
+### Table 24. Paired facility comparison of women and men
+
+```{python}
+#| label: table-24
+#| output: asis
+table(23)
+```
+
+### Table 25. Unadjusted grouped description in the strict female dementia sample
+
+```{python}
+#| label: table-25
+#| output: asis
+table(24)
+```
+
+### Table 26. Exploratory spatial diagnostic of municipal residuals
+
+```{python}
+#| label: table-26
+#| output: asis
+table(25)
+```
+
+## Figures
+
+### Figure 1
+
+```{python}
+#| label: access-figure-cell-1
+#| output: asis
+figure(0)
+```
+
+### Figure 2
+
+```{python}
+#| label: access-figure-cell-2
+#| output: asis
+figure(1)
+```
+
+### Figure 3
+
+```{python}
+#| label: access-figure-cell-3
+#| output: asis
+figure(2)
+```
+
+### Figure 4
+
+```{python}
+#| label: access-figure-cell-4
+#| output: asis
+figure(3)
+```
+
+### Figure 5
+
+```{python}
+#| label: access-figure-cell-5
+#| output: asis
+figure(4)
+```
+
+### Figure 6
+
+```{python}
+#| label: access-figure-cell-6
+#| output: asis
+figure(5)
+```
+
+### Figure 7
+
+```{python}
+#| label: access-figure-cell-7
+#| output: asis
+figure(6)
+```
+
+### Figure 8
+
+```{python}
+#| label: access-figure-cell-8
+#| output: asis
+figure(7)
+```
+
+### Figure 9
+
+```{python}
+#| label: access-figure-cell-9
+#| output: asis
+figure(8)
+```
+
+### Figure 10
+
+```{python}
+#| label: access-figure-cell-10
+#| output: asis
+figure(9)
+```
+
+## Original data and classification sources
+
+The scientific sources are the institutional datasets, coded annual dictionaries and manuals below. Derived files and computational metadata support reproducibility; they are not substitute scientific sources.
+
+- [DEIS open data catalogue and annual REM files](https://deis.minsal.cl/#datosabiertos)
+- [DEIS REM 2025–2026 Series P manual version 1.2, sections P1, P3 and P6](https://repositoriodeis.minsal.cl/ContenidoSitioWeb2020/REM/2025/SERIE/MANUAL_REM_P_2025_Version_1.2.pdf)
+- [DEIS REM 2025–2026 Series A BS BM D manual version 1.3, sections A03, A05 and A29](https://repositoriodeis.minsal.cl/ContenidoSitioWeb2020/REM/2025/SERIE/Manual_Series_REM_2025_2026_SERIE_A_BS_BM_D_V1.3.pdf)
+- [FONASA registered primary-care population by facility and year](https://public.tableau.com/views/ReporteInscritosCentrosAPS/ReporteAPS?:showVizHome=no)
+- [FONASA GRD open data and financing portal](https://datosabiertos.fonasa.cl/dimensiones-financiamientos/)
+- [DEIS hospital discharge data specification, including principal diagnosis and external cause](https://repositoriodeis.minsal.cl/deis/egresos_2003/Estructura_2003.htm)
+- [DEIS WHO PAHO ICD10 tabular volume 2018](https://repositoriodeis.minsal.cl/ContenidoSitioWeb2020/uploads/2020/12/CIE-10_2018_VOL1.pdf)
+- [DEIS Chilean ICD10 tabular list August 2026](https://repositoriodeis.minsal.cl/ContenidoSitioWeb2020/uploads/2021/03/Lista%20tabular%20CIE-10%20-%20agosto%202026.xlsx)
+- [INE population projections by municipality age and sex, base 2017](https://www.ine.gob.cl/estadisticas-por-tema/demografia-y-poblacion/estimaciones-y-proyecciones-de-poblacion)
+- [MDSF municipal poverty estimates 2024](https://observatorio.ministeriodesarrollosocial.gob.cl/pobreza-comunal-2024)
+- [Biblioteca del Congreso Nacional Mapoteca vector boundaries](https://www.bcn.cl/siit/siit/mapas_vectoriales/)
+
+## Computational reproducibility
+
+The default executable path uses saved public aggregate inputs and refits the facility models. It regenerates every reported table and figure. Original person-level hospital records and encrypted identifiers stay on the external data volume and are not included in this report or the downloadable package. The separate raw-refresh mode re-extracts source files and reproduces the public aggregate inputs; access to the same raw releases and the stated external data tree is required.
+
+From the project root, use the Python environment recorded in the software manifest:
+
+```{.bash}
+python3 scripts/run_access_diagnostic_extension.py --html
+# Rebuild the matching Word document as well
+python3 scripts/run_access_diagnostic_extension.py --word --html
+# Refresh original records only when the external data volume is available
+python3 scripts/run_access_diagnostic_extension.py --refresh-raw --word --html
+```
+
+The raw path additionally uses the pre-existing FONASA denominator and public facility/context preparation described in the build instructions. Source hashes, dictionary mappings, denominator checks, duplicate decisions, coding exclusions and exact reporting eligibility remain inspectable. Public aggregation and raw-source refresh provide different reproducibility levels; independent replication requires obtaining the original releases rather than accepting derived data as their own validation.
+
+```{python}
+#| label: computational-source-inspector
+#| output: asis
+display(Markdown('Evidence content SHA256: `'+evidence['content_sha256']+'`'))
+for file in ['association_analysis.py','association_report_content.py','rem_tables_figures.py','rem_report_content.py','neuro_reporting_figures.py','hospital_analysis.py']:
+    source=(PROJECT/'scripts/access_extension'/file).read_text()
+    display(HTML('<details><summary>Inspect '+html.escape(file)+'</summary><pre><code>'+html.escape(source)+'</code></pre></details>'))
+```

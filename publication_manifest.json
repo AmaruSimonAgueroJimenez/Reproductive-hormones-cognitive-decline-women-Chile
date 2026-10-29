@@ -1,88 +1,75 @@
 {
-  "schema_version": 1,
-  "scope": "Combined two-part presentation source, aggregate figure PNGs and online HTML only; underlying analyses and source records are not included.",
-  "intended_repository": "https://github.com/AmaruSimonAgueroJimenez/Reproductive-hormones-cognitive-decline-women-Chile",
-  "source_embedded_html_sha256": "3af09a431c40f2ad77b045662df7658a87623ee9365bd289fe514f5ea74a6479",
-  "html_delivery_sha256": "fa1650404143e2ce3282be04934c443a68f117894663b338b7598b7e92e28c1b",
-  "optimization": {
-    "method": "Replace only embedded PNG img src values with relative URLs to byte-identical original PNGs.",
-    "image_placements": 24,
-    "unique_originals": 15,
-    "non_image_src_bytes_sha256": "284f1fe838b99b1bad09aa976889519a6018f829aa54ab98dbc07e372c55ab87",
-    "all_other_html_bytes_preserved": true
-  },
-  "verification": {
-    "slides": 29,
-    "image_placements": 24,
-    "original_figures": 15,
-    "tables": 3,
-    "table_cells": 36,
-    "all_local_links_resolve": true,
-    "qmd_download_exact": true,
-    "original_pngs_exact": true
-  },
-  "original_figures": [
-    {
-      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS15_unique_unadjusted_en.png",
-      "sha256": "af6e9c908ffbdb7a5062677572cb957da1b7e365dd53d2409a4d963b0df9df92"
-    },
-    {
-      "path": "outputs/paper/revision_descriptiva_2026-10-28/figures/Figure1_age_sources_en.png",
-      "sha256": "6cef98e3c3f1d0cf4193e00cd22e7651f63abfa652eff0a475ec2cdadf8a0deb"
-    },
-    {
-      "path": "outputs/paper/revision_descriptiva_2026-10-28/figures/Figure2_trends_coding_en.png",
-      "sha256": "a40254dce929661641d3f25f12c4458c4e97e3edb2b9b4adfa9667c22602e745"
-    },
-    {
-      "path": "outputs/paper/revision_descriptiva_2026-10-28/figures/Figure4_centres_en.png",
-      "sha256": "56e0dfcc564b4a9fc41dea7c25766c93abf63cb2e2270bb39e40748e12b00714"
-    },
-    {
-      "path": "outputs/paper/revision_descriptiva_2026-10-28/figures/Figure5_maps_en.png",
-      "sha256": "0fe1df67e7cef1d28464f819d3e20c142252cc5bd843a093af928f59a980c73a"
-    },
-    {
-      "path": "outputs/publication_programme_2026-10-28/care_extension/care_balanced_panel.png",
-      "sha256": "0fadd155fb7780697ab03f513a57e0a04fdc227820cca8970881d909c6dfecde"
-    },
-    {
-      "path": "outputs/publication_programme_2026-10-28/figures/Figure1_reproductive_history.png",
-      "sha256": "56c6fb64f367f7440458139bec990db2569bc8796e0d7c3c521434a029e352fd"
-    },
-    {
-      "path": "outputs/publication_programme_2026-10-28/figures/Figure5_contextual_neurodegeneration.png",
-      "sha256": "31e203f85b042c4f465b2499bf7029fef27404613416912f40bfca892abaf161"
-    },
-    {
-      "path": "outputs/publication_programme_2026-10-28/paper3/Figure3_1_care_recording.png",
-      "sha256": "17c42887ff5e429c7b5bebaea1d5423c7ee0e13e58c9fc7728cf91b565e6f725"
-    },
-    {
-      "path": "outputs/publication_programme_2026-10-28/paper3/Figure3_2_care_geography.png",
-      "sha256": "4b18f0fda8e223fdd8abdb4e175652afca031ce70a3d14349469ae2e08cdd1c0"
-    },
-    {
-      "path": "outputs/publication_programme_2026-10-28/surgery_extension/figures/surgery_extension_activity_composition.png",
-      "sha256": "7002aee7c99adc85b500623559fd56de875e15605ad511ce3a433befc403af43"
-    },
-    {
-      "path": "outputs/publication_programme_2026-10-28/surgery_extension/figures/surgery_extension_denominator_sensitivity.png",
-      "sha256": "3c8390047b6296b9b740494ac8807a41181b172d9bd30af1fe3f204153bb90c7"
-    },
-    {
-      "path": "outputs/publication_programme_2026-10-28/survey_extension/figures/survey_age_profiles.png",
-      "sha256": "eabce58b46ef66b74d3468d01f8bba8ace4d0c1138c2acf75d242dd8125f7d69"
-    },
-    {
-      "path": "outputs/publication_programme_2026-10-28/survey_extension/figures/survey_casen_adjustment.png",
-      "sha256": "9ce4c2bfc51dd06c95f43879925c34fb367da7f703527a733c14835eb7e22439"
-    },
-    {
-      "path": "outputs/publication_programme_2026-10-28/survey_extension/figures/survey_encavi_separate.png",
-      "sha256": "2f53e9456698b2ad674058f955f34b111775e10aee6dc0b36ab5b145cbd6623a"
-    }
+  "schema_version": 2,
+  "scope": "English research index, three reviewed full reports, two slide decks, original aggregate figures, source tables, reviewed Word documents and public reconstruction packages.",
+  "repository": "https://github.com/AmaruSimonAgueroJimenez/Reproductive-hormones-cognitive-decline-women-Chile",
+  "scientific_sources": "Institutional references are given in the reports. This manifest records delivery integrity and is not an original scientific source.",
+  "delivery_changes": [
+    "Replace embedded PNG img src values with relative links to byte-identical original PNGs.",
+    "Add a public report navigation bar without changing report text, tables or code.",
+    "Omit the unpublished PowerPoint download anchor from the public HTML only."
   ],
+  "verification": {
+    "pages": [
+      {
+        "page": "docs/descriptive_methods_results.html",
+        "tables": 26,
+        "table_cells": 5785,
+        "figure_placements": 24,
+        "slides": 0,
+        "local_links_verified": 80,
+        "scientific_and_runtime_bytes_preserved": true
+      },
+      {
+        "page": "docs/reproductive_life_course.html",
+        "tables": 27,
+        "table_cells": 1687,
+        "figure_placements": 14,
+        "slides": 0,
+        "local_links_verified": 52,
+        "scientific_and_runtime_bytes_preserved": true
+      },
+      {
+        "page": "docs/access_diagnostic_recording_extension.html",
+        "tables": 26,
+        "table_cells": 2320,
+        "figure_placements": 10,
+        "slides": 0,
+        "local_links_verified": 66,
+        "scientific_and_runtime_bytes_preserved": true
+      },
+      {
+        "page": "docs/combined_project_key_results_slides.html",
+        "tables": 3,
+        "table_cells": 36,
+        "figure_placements": 24,
+        "slides": 29,
+        "local_links_verified": 17,
+        "scientific_and_runtime_bytes_preserved": true
+      },
+      {
+        "page": "docs/reproductive_key_results_slides.html",
+        "tables": 2,
+        "table_cells": 24,
+        "figure_placements": 11,
+        "slides": 18,
+        "local_links_verified": 24,
+        "scientific_and_runtime_bytes_preserved": true
+      }
+    ],
+    "reviewed_html_reports": 3,
+    "slide_decks": 2,
+    "index_local_links_verified": 9,
+    "original_png_hashes_verified": 48,
+    "all_local_links_resolve": true,
+    "powerpoint_excluded": true
+  },
+  "original_source_html_sha256": {
+    "docs/descriptive_methods_results.html": "feb96643fb5776897670fb4e3cbcdbd480da3cb4ae25d1857dd6f4824f89cb83",
+    "docs/reproductive_life_course.html": "8a7c26c3fab5d7a76a8229ea7423d8199ad11f5caf68ce16e05a9bb704fe400a",
+    "docs/access_diagnostic_recording_extension.html": "817cade10839739567562f8e6339f7943c439af968a0ff1d72b7fce72cfeeebc",
+    "docs/combined_project_key_results_slides.html": "3af09a431c40f2ad77b045662df7658a87623ee9365bd289fe514f5ea74a6479",
+    "docs/reproductive_key_results_slides.html": "115760f15f6e74c7d8c68da790f12fd10a1e9b4ccd30b2640cbf1a2537b63eb6"
+  },
   "files": [
     {
       "path": ".gitignore",
@@ -96,8 +83,23 @@
     },
     {
       "path": "README.md",
-      "bytes": 3150,
-      "sha256": "7400966a1dff9325534fc784f29bcae136e78457010d470f1c373bd57616c721"
+      "bytes": 4564,
+      "sha256": "e74e55ec442fd332e42c5effdf792c1301b2b352b58324b68dbad5e20a645ec0"
+    },
+    {
+      "path": "docs/access_diagnostic_recording_extension.html",
+      "bytes": 2782810,
+      "sha256": "d485d999519cebb97132dc62c7c3d62e11732ca4a44cc5b622195c07b5dfe4e8"
+    },
+    {
+      "path": "docs/access_diagnostic_recording_extension.qmd",
+      "bytes": 15407,
+      "sha256": "f87bb0d6a7019e65e7f6716512abf2d1e8e4f1882bf20c4fb9d92d23e9aa5ca6"
+    },
+    {
+      "path": "docs/access_diagnostic_recording_extension_source.txt",
+      "bytes": 15407,
+      "sha256": "f87bb0d6a7019e65e7f6716512abf2d1e8e4f1882bf20c4fb9d92d23e9aa5ca6"
     },
     {
       "path": "docs/combined_project_key_results_slides.css",
@@ -125,9 +127,474 @@
       "sha256": "847e98bdd8fa3bd0777b5d0fdb234402c1306bf6dc31b3abcd63afcfc19af665"
     },
     {
+      "path": "docs/descriptive_methods_results.css",
+      "bytes": 876,
+      "sha256": "e75c9590def9acec6e0cf9a055bec0b5d46acae0ca0ae2d0f16bd9a19441532d"
+    },
+    {
+      "path": "docs/descriptive_methods_results.html",
+      "bytes": 2681750,
+      "sha256": "34ee1ce6d1148ced8a2f8f98ecb739da80fa59a22391715a3a2f57f3a69c61da"
+    },
+    {
+      "path": "docs/descriptive_methods_results.qmd",
+      "bytes": 9120,
+      "sha256": "3d5b508898f165568dcd6ba2c3dda8ea45f3ee5599ee814e70b5ff5074426bed"
+    },
+    {
+      "path": "docs/descriptive_methods_results_source.txt",
+      "bytes": 9120,
+      "sha256": "3d5b508898f165568dcd6ba2c3dda8ea45f3ee5599ee814e70b5ff5074426bed"
+    },
+    {
+      "path": "docs/reproductive_key_results_slides.css",
+      "bytes": 4644,
+      "sha256": "050e362bb288144a1c85108c4eb6c8aed132b392d63c935aa5a608c4dcf743c3"
+    },
+    {
+      "path": "docs/reproductive_key_results_slides.html",
+      "bytes": 3941436,
+      "sha256": "03f87e6cab2b7fd3f9553aea9292ee3b880e49a20cc2f6facc4e3a325a35a235"
+    },
+    {
+      "path": "docs/reproductive_key_results_slides.qmd",
+      "bytes": 43516,
+      "sha256": "477df3edba4ea9bf2e8d7c1450c50f670f0fcb27e4fa06a006e0112d4c625dbf"
+    },
+    {
+      "path": "docs/reproductive_key_results_slides_source.txt",
+      "bytes": 43516,
+      "sha256": "477df3edba4ea9bf2e8d7c1450c50f670f0fcb27e4fa06a006e0112d4c625dbf"
+    },
+    {
+      "path": "docs/reproductive_life_course.css",
+      "bytes": 951,
+      "sha256": "d48b3f26f2c645cc2000e4014e74506ba2ce2b6ec0e97421997e8d2f32d5732e"
+    },
+    {
+      "path": "docs/reproductive_life_course.html",
+      "bytes": 2549387,
+      "sha256": "07f4fb10daabe7e9a403916232d09ed20b08b3da499ebdb13b46e38d664d226d"
+    },
+    {
+      "path": "docs/reproductive_life_course.qmd",
+      "bytes": 10150,
+      "sha256": "82e1c95b9ec8fc40044eba57809d6c68dc28e89972fa44dec2f6bb8128154748"
+    },
+    {
+      "path": "docs/reproductive_life_course_source.txt",
+      "bytes": 10150,
+      "sha256": "82e1c95b9ec8fc40044eba57809d6c68dc28e89972fa44dec2f6bb8128154748"
+    },
+    {
+      "path": "docs/reproductive_slides_references.bib",
+      "bytes": 6994,
+      "sha256": "9591c3136dfc3986f4a56331f79a0dda1c233c8536057c47fe98737e85107394"
+    },
+    {
+      "path": "docs/research_index.css",
+      "bytes": 7591,
+      "sha256": "d8f9ddd5de282f060f177ba94a8b8455a72e90182e011a9aa396f95e12f00a4b"
+    },
+    {
       "path": "index.html",
-      "bytes": 580,
-      "sha256": "944cb0a7f4afe543467e2cdaeb4b17c6e7e5703a64d3e17628e47b7d6cfa65f5"
+      "bytes": 2200310,
+      "sha256": "04e8952896e83da077967c75744077132bf12b00a03c27de920211d3b0d144cb"
+    },
+    {
+      "path": "index.qmd",
+      "bytes": 7360,
+      "sha256": "4efc6fa9cd11bae427e5e053e5f5b67093e3efd5272c4e88bb9b85b6c042befa"
+    },
+    {
+      "path": "manuscript/access_diagnostic_extension_2026-10-29/Methods_Results_EN.docx",
+      "bytes": 6423299,
+      "sha256": "ceaeb54b60a03a098324b36458d7f0d1d90f845017c07b71d7b8f8e1b11d18fc"
+    },
+    {
+      "path": "manuscript/publication_programme_2026-10-28/Connected_Reproductive_Neurodegenerative_Results_EN.docx",
+      "bytes": 6773819,
+      "sha256": "284520638209f08040c00ed663e20641ee04aa4d8e924f0ca98bc2d004dc4c74"
+    },
+    {
+      "path": "manuscript/revision_descriptiva_2026-10-28/Figure_Table_Bank_EN.docx",
+      "bytes": 20357066,
+      "sha256": "c828c158a8ce0e97020127419d3bb7054a69dea3ac4e32c31e6f85d778bf1ff7"
+    },
+    {
+      "path": "manuscript/revision_descriptiva_2026-10-28/Methods_Results_EN.docx",
+      "bytes": 6088305,
+      "sha256": "403e1ad8c4ad2284e94bfe4646749f80ce5a3b9d1e3a83608dd620075b1c048e"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/Access_Diagnostic_Recording_Assets_EN.zip",
+      "bytes": 24036998,
+      "sha256": "efa55628e64eb5bbb41f474bdf973ace802072438a504f2e8ed1370d3ad251ac"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/association/Figure_ASSOC1_recording_associations.pdf",
+      "bytes": 30678,
+      "sha256": "d45dfb9c2e69c23371a57cadad56b615521f3ec1d9f07358288be9cca1becb7b"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/association/Figure_ASSOC1_recording_associations.png",
+      "bytes": 647597,
+      "sha256": "4f827b7cef9fbdafb0d27790a019eceb651b9ce33c6e52f5ccb11ed705f03999"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/association/Figure_ASSOC1_recording_associations.svg",
+      "bytes": 67200,
+      "sha256": "e40837fbb337ce7a675282bee2051427526404437637eb32fe15b31a43f68aee"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/association/Figure_ASSOC2_sensitivities.pdf",
+      "bytes": 24385,
+      "sha256": "cd101aa7ab8c6aa7cf83af5f4d05c90ce6628fa79b057c455d1e6852a3be2ee9"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/association/Figure_ASSOC2_sensitivities.png",
+      "bytes": 621939,
+      "sha256": "6096943240643427e6927b3e2c53294b7719c66f89593c9f49126a03251f6449"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/association/Figure_ASSOC2_sensitivities.svg",
+      "bytes": 31854,
+      "sha256": "cf9b49b5bc047cbbfe1b44c8ba91e8f1491038f7310a2d937dea716ba41a7c53"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/association/association-table-flow.csv",
+      "bytes": 433,
+      "sha256": "c31d1c02ac40556f1d4aa38e90f15743d9e05a610267b719e2aef1487c7b624e"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/association/association-table-primary.csv",
+      "bytes": 334,
+      "sha256": "21a168f8999214fe4af62c89173bd806e08e4de5f674b635a64c6103061da4c2"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/association/association-table-quartiles.csv",
+      "bytes": 465,
+      "sha256": "61892feed8f4a5079dafaa65f878b2ade60f8782e87bc55d9aa7e2b0b99c3bfc"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/association/association-table-sensitivity-men.csv",
+      "bytes": 1465,
+      "sha256": "bc3bbe03c73415c1b75620087c72db580d6868b35a50bfef84303ce3ec3cd75b"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/association/association-table-sensitivity-women.csv",
+      "bytes": 1466,
+      "sha256": "57626fca9afe339a3aa0a279f7225be6cec40a820359cdc2f2c63ee2b4d58109"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/association/association-table-sex-contrast.csv",
+      "bytes": 191,
+      "sha256": "aaaef1fd261588cbb62ff03229332571e44366f429642a47ce0ad4caed72b1d3"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/association/association-table-spatial.csv",
+      "bytes": 229,
+      "sha256": "72252b93a5b3a55d754908226837447119eaaa0aac2018d2da5caa176f4aa8e1"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/hospital/figures/Hospital_Figure1_recording_sources.pdf",
+      "bytes": 46991,
+      "sha256": "3f6be4426966d0da52197c82e6c1fa4cb581862eca8a03c23abb52cda197a8cc"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/hospital/figures/Hospital_Figure1_recording_sources.png",
+      "bytes": 566928,
+      "sha256": "a168bb754913484536cfdf7911529c62fcd96983f02e3c6b846b2d412ee49148"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/hospital/figures/Hospital_Figure1_recording_sources.svg",
+      "bytes": 47506,
+      "sha256": "3bc87ac6ab269a496383fefe31239bd3c7e6ab2ec6da335db46cb696756a7c8a"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/hospital/figures/Hospital_Figure2_corecording.pdf",
+      "bytes": 43580,
+      "sha256": "b46d06a43d705a2a35b2bd0cca9a79fa8e4d15719fc25eb9894589c05a5e6bd7"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/hospital/figures/Hospital_Figure2_corecording.png",
+      "bytes": 494087,
+      "sha256": "622c1228fe593c9274300e1239e12eb5084767f3eafb7480f91e419b87c0193d"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/hospital/figures/Hospital_Figure2_corecording.svg",
+      "bytes": 35997,
+      "sha256": "48fa39083150638b9304db06bd542b315ad34b9aa9ef12b93de71113d952d2ef"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/hospital/figures/Hospital_Figure3_heterogeneity_qc.pdf",
+      "bytes": 48144,
+      "sha256": "204ea3935b3b031632d49d6521a7a4b3a536c0cb2e25129ac9ec186ea57b4bc0"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/hospital/figures/Hospital_Figure3_heterogeneity_qc.png",
+      "bytes": 602509,
+      "sha256": "0ff14f1286dca2dbe226a04ed329536a03f98e2e37bcd37a806d34c5bd1a2ba5"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/hospital/figures/Hospital_Figure3_heterogeneity_qc.svg",
+      "bytes": 44526,
+      "sha256": "f62933e41685212f1792c403be3405f1c3d005bffd821fd0e6cb6486b4da3ad5"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/hospital/hospital_table_1.csv",
+      "bytes": 430,
+      "sha256": "181f08b132039ee36df2684ecae0d8240eb5ad728e1806c0901920be8de3b649"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/hospital/hospital_table_2.csv",
+      "bytes": 291,
+      "sha256": "2d0d87f7100fb05fa11a1154d8a4211b4ea221596dbfe57334a667103f3d0393"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/hospital/hospital_table_3.csv",
+      "bytes": 270,
+      "sha256": "ccb909d8174c50993fc6b78039c101b2a207784a5ca35d09f902c9e18d2841d6"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/hospital/hospital_table_4.csv",
+      "bytes": 481,
+      "sha256": "fbbbd3e525a744336e1e334af25ba557611ba56eb04b79b1c59836ec3f148f28"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/hospital/hospital_table_5.csv",
+      "bytes": 473,
+      "sha256": "5f7af98d435c53c4498b699fe01522c0ed92982b39bc643e2ca908b6bf2817cc"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/neuro/figures/Neuro_Figure1_reporting_identification.pdf",
+      "bytes": 34665,
+      "sha256": "4a4a47b786e05837db3528921b65765f286435860bb0ff573746528a0b4a9381"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/neuro/figures/Neuro_Figure1_reporting_identification.png",
+      "bytes": 597729,
+      "sha256": "1c919fef11e8b4de91929b5b349fef568e7fe66167c4d09342021c17024e038d"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/neuro/figures/Neuro_Figure1_reporting_identification.svg",
+      "bytes": 130009,
+      "sha256": "7764eade3ba83502a3e5a87096b27f9ae76497f3c3de834069baf63168280d0b"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/neuro/figures/Neuro_Figure2_selected_caseload.pdf",
+      "bytes": 24202,
+      "sha256": "3c51f763b8e04e39de1aeb434cf76f0fee41fc2bb7b3697b9c2dfff73e1e190f"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/neuro/figures/Neuro_Figure2_selected_caseload.png",
+      "bytes": 719851,
+      "sha256": "176accb2ef5b9b23e06962bf20bda467eae14290252d6469edecf2af97100ca3"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/neuro/figures/Neuro_Figure2_selected_caseload.svg",
+      "bytes": 73691,
+      "sha256": "d4deb60b5160d07bb65f08882b668d41a7270e065c89bf450fdebd76b11838c3"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/neuro/neuro_table_1_annual_eligibility.csv",
+      "bytes": 353,
+      "sha256": "be9926a37b7f92b58dbedfa8f41eabb4e90c574088830811512f146bfc33712d"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/neuro/neuro_table_2_period_eligibility.csv",
+      "bytes": 243,
+      "sha256": "2ee326c604b5336ac9a8b764842bddae3a9349f194576559f657e2449d2f3548"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/neuro/neuro_table_3_reconciliation_summary.csv",
+      "bytes": 380,
+      "sha256": "a7edab32b5b4c4a94c63c5228e309911ea07c981a0dd21240c5b705313b8d1b8"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/neuro/neuro_table_4_selected_caseload.csv",
+      "bytes": 1066,
+      "sha256": "0d97c48fc0f6546d21ecbca8197ae5b58c6ae5796acc176754c714c1d50c4870"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/neuro/neuro_table_5_stage_composition.csv",
+      "bytes": 308,
+      "sha256": "794246672b871d31eb8ce8422b35e78ae4d23c8b738e750724290042d256a71e"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/rem/figures/Figure_REM1_activity_contexts.pdf",
+      "bytes": 28907,
+      "sha256": "f3bacbff77be691c645e3df8f3862e101999edf18cbd9452d498910bf1b9150e"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/rem/figures/Figure_REM1_activity_contexts.png",
+      "bytes": 598813,
+      "sha256": "c5db9dc5db23cb58eed4a3c9399bad1fe53a66a8a9d681d070faf8335b558bcd"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/rem/figures/Figure_REM1_activity_contexts.svg",
+      "bytes": 40217,
+      "sha256": "5b29142f63bbd9a9995ede063435ed3288cc9411692c7f47cb99022c9ac27f33"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/rem/figures/Figure_REM2_recording_visibility.pdf",
+      "bytes": 42747,
+      "sha256": "4759869851b66c845c9d3ab36f2262b90e759dc571bb3ae05a400e903ecd8997"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/rem/figures/Figure_REM2_recording_visibility.png",
+      "bytes": 524449,
+      "sha256": "f44aae9d7869821667cc85e596ee13c55272cbd90f27e49ea7402475c50b4b0b"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/rem/figures/Figure_REM2_recording_visibility.svg",
+      "bytes": 118089,
+      "sha256": "38873ffcf9e87e9179f46ec39346cae1438301279f37152f2767606ea6c5c815"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/rem/figures/Figure_REM3_geography_source_status.pdf",
+      "bytes": 640505,
+      "sha256": "97ef6004a7802530fb15fb93d747b6cac6caefc6cc1108c140fd86621e56e6e4"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/rem/figures/Figure_REM3_geography_source_status.png",
+      "bytes": 1800823,
+      "sha256": "139331c42b1922f315095302a90675ad252d0bff3ec03faa024e3ea5548205e0"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/rem/figures/Figure_REM3_geography_source_status.svg",
+      "bytes": 3329992,
+      "sha256": "4069daa491ce0054e0b691326afd8bd5c4064735a335d491f271ac437db6e765"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/rem/table_2025_p1_measures_en.csv",
+      "bytes": 759,
+      "sha256": "83d386057aacf1b805f87b52106b7ad31e20a1ebefacdabeb4dcc6bdb955e7b3"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/rem/table_activity_counts_en.csv",
+      "bytes": 1791,
+      "sha256": "59cf59ef5f7c6df9c436427d0e49fb54aed77d1ae0fcd5e69973516c6a390a62"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/rem/table_annual_mapping_en.csv",
+      "bytes": 845,
+      "sha256": "f741d595cf932345ccd1f59cb711c87409ba1d0a4853ee643f211421cc874bb2"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/rem/table_diagnostic_age_en.csv",
+      "bytes": 1258,
+      "sha256": "668b0bcb992521132e265ee3c1bc44e03f1ffdebcb721a8ef43c3b7bacdc1ccf"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/rem/table_diagnostic_qc_en.csv",
+      "bytes": 1122,
+      "sha256": "aef14dcb7730a4daf1bce83c374aa8e3fdcba94cdd1c30fbe9b596783a1150ee"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/rem/table_legacy_deduplication_en.csv",
+      "bytes": 237,
+      "sha256": "5c57e882a65aac49b4b3e22b5c11837a48e107886c12ecf6ce625a19d33c8512"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/rem/table_mrs_context_en.csv",
+      "bytes": 1525,
+      "sha256": "17ef2dc37235890de849a89c93b54d02f05716ae746ebff5742219ea91dc4d01"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/rem/table_p1_national_en.csv",
+      "bytes": 3623,
+      "sha256": "e7b422efa90445668c6e0b85a7f2b41fa146e9e2a993d92a70f7c293e48f9d65"
+    },
+    {
+      "path": "outputs/access_diagnostic_extension_2026-10-29/rem/table_source_status_en.csv",
+      "bytes": 1654,
+      "sha256": "8e2a03c5ba53ccf9b7e0f2f8a97a2687886971135bf1223961f7389e596ed78b"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/Figure_Table_Assets_EN.zip",
+      "bytes": 29065294,
+      "sha256": "a0462575b37c005d1cceae79c0f2262131cc692e4740fd3a9a1cf5b0e5a244c2"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS10_caseload_parkinson_en.pdf",
+      "bytes": 560000,
+      "sha256": "6bdf605d69405c810c4d7a79b45613488b68a8f076dff48c1c280609c37e2e99"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS10_caseload_parkinson_en.png",
+      "bytes": 1046519,
+      "sha256": "ccc347c85f9066144b9c380dcb6f87bd1bdc69e85de982d4d1840b564db52d99"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS10_caseload_parkinson_en.svg",
+      "bytes": 2413827,
+      "sha256": "ce50abb9c6e649e53bc81f79aff8034f389dc436975a6143a7364b56758c1fa2"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS11_relative_sex_registration_en.pdf",
+      "bytes": 820667,
+      "sha256": "a69aa9286fe7bf83c34f072951b2c7d3a352f002e0f8ce038938887c02bfd5c3"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS11_relative_sex_registration_en.png",
+      "bytes": 1421925,
+      "sha256": "200d5fb0fa1747919957101cfdc5fdffab12e062675e1d353aab7a7fca7c76e2"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS11_relative_sex_registration_en.svg",
+      "bytes": 3552969,
+      "sha256": "3b42374e59a8b978939eec9ca60c55e621fefc62445396143b2a556cc9eea226"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS12_moran_neighbour_sensitivity_en.pdf",
+      "bytes": 24439,
+      "sha256": "d62bd84d1059d18c860f756d2624e7ac3a7e0ef307b6e9d6a47e5f8ee7f0ee3e"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS12_moran_neighbour_sensitivity_en.png",
+      "bytes": 362912,
+      "sha256": "2db0307843c6996e2b2400f8d3a706be5d6cae494e1856d2c7b2eb5bb0216788"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS12_moran_neighbour_sensitivity_en.svg",
+      "bytes": 27611,
+      "sha256": "13d6c82904762a326520f6aa9a9cfaa5ac55405128c0b30c04f5ca1d933d3076"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS13_regional_oe_distributions_en.pdf",
+      "bytes": 64932,
+      "sha256": "152385ff33eaa03edaa119e79227183b8e249551d296beed2db421dddcc296ff"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS13_regional_oe_distributions_en.png",
+      "bytes": 616436,
+      "sha256": "ef50ea1398a654dd9e85bf8f059de45e50733063800aeaa6ce0fef9df59a61b5"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS13_regional_oe_distributions_en.svg",
+      "bytes": 368927,
+      "sha256": "29594cec18921212b567ba06bb0c80c48727d8a24ba9aeb2caa82cf3454139ae"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS14_geographic_selection_en.pdf",
+      "bytes": 246619,
+      "sha256": "34d437eeff6f7e4566d7be298065aa664678ff4045b80bb415cf8a4cf6078464"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS14_geographic_selection_en.png",
+      "bytes": 720063,
+      "sha256": "08e37d2735b449c72763e5bffe655a58cf0aa5f9ef0bfa24451be94ceebde177"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS14_geographic_selection_en.svg",
+      "bytes": 1031346,
+      "sha256": "855f6d1b5f380dca0df9f7755e7f6ebc832fba92c4639890c31f71f2a96a52db"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS15_unique_unadjusted_en.pdf",
+      "bytes": 39954,
+      "sha256": "db45834418342a01de87009c9df78f151af193969007b008b8a751a5b09271eb"
     },
     {
       "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS15_unique_unadjusted_en.png",
@@ -135,9 +602,209 @@
       "sha256": "af6e9c908ffbdb7a5062677572cb957da1b7e365dd53d2409a4d963b0df9df92"
     },
     {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS15_unique_unadjusted_en.svg",
+      "bytes": 160357,
+      "sha256": "451d9db1e6d1f0993ae5e94a94c131598cc76ea05f03d7fc4e0c9856b3616df4"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS16_unique_adjusted_en.pdf",
+      "bytes": 39680,
+      "sha256": "245aa8e3b039931dacd52ac45770ae23d0ea17bc77426a3370b8b5d94ef475ae"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS16_unique_adjusted_en.png",
+      "bytes": 1673067,
+      "sha256": "ec4b81affd10e3ae95ea4c0966350058af6c8e6035f9adb938bd68bb4075ea86"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS16_unique_adjusted_en.svg",
+      "bytes": 152851,
+      "sha256": "0ddbe4c67e5eb6ee18b6d371c49ccbae19ca7fd5e7e2e088cd8e7c6669a4afd4"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS17_prevalence_gap_en.pdf",
+      "bytes": 59133,
+      "sha256": "d6e8f1849a12f18e65013f227f403764901921d5d4b686a0d8fb1d02816c02a0"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS17_prevalence_gap_en.png",
+      "bytes": 550840,
+      "sha256": "a44da78a2d570aa98f7904869d1c553f37e10b0d9489f42e41cd88a895cc281c"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS17_prevalence_gap_en.svg",
+      "bytes": 68640,
+      "sha256": "4c959529972b7d2e1ad1c185cb890597f662106157e16ac57ad4cadf7bb27cbe"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS18_case_dropping_en.pdf",
+      "bytes": 35064,
+      "sha256": "ebc631673a1f33be3f5bdfb28e936a9f11b6273f26e498eda188e978b32b082d"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS18_case_dropping_en.png",
+      "bytes": 733593,
+      "sha256": "13320ca67a5e9de72d45f5b25fbc6b2063e87aa266e2ab03ec8dcb8fba4955c4"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS18_case_dropping_en.svg",
+      "bytes": 73343,
+      "sha256": "2528ea474a4f4538af1abf83833156edd64f418c0cde3bfefe2bf949b6ddca2f"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS1_mortality_multi_en.pdf",
+      "bytes": 35541,
+      "sha256": "6251a8fec597cf151fd9dcd22e871cfa9d5527167ba662d5885c157fcd861303"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS1_mortality_multi_en.png",
+      "bytes": 1002485,
+      "sha256": "6b0ecacd887a9f02d807b94de355eef77bfcc716ef5e5014f6df89cca935809f"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS1_mortality_multi_en.svg",
+      "bytes": 89973,
+      "sha256": "d0b6a6851aa9e8a32ccda4198bb38084263b8f7412764e829236b38e74634593"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS2_dementia_subtypes_en.pdf",
+      "bytes": 37966,
+      "sha256": "2ce209aeb13c546d76266bdba3d17728db0e7c96618c2ac623c7f9c9de2a55c3"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS2_dementia_subtypes_en.png",
+      "bytes": 752795,
+      "sha256": "3b90b37dc0cfe7ee74b02477c0532cb3820629a014cb5d5814df434d95ffd052"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS2_dementia_subtypes_en.svg",
+      "bytes": 137177,
+      "sha256": "d14997db09eae5d292c97593c5900ac0d96161fa17fdfc3e9985e515ff6d2092"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS3_discharges_diagnostic_position_en.pdf",
+      "bytes": 30578,
+      "sha256": "90d6f8ce45731a5dd5e44506d8b4b991325ae30f602b8e1258aa89ec877d1138"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS3_discharges_diagnostic_position_en.png",
+      "bytes": 706068,
+      "sha256": "15993f07b642bb1b8fb3440af371fafc4612ac7e06a5c44b7881f49b75751ec6"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS3_discharges_diagnostic_position_en.svg",
+      "bytes": 60205,
+      "sha256": "b478aae02a4b2d8cace92e4d8ef533d27afa5b9450834d42c49600c3dde9b4a7"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS4_recorded_age_en.pdf",
+      "bytes": 27973,
+      "sha256": "e66c115048f3311e41314eb111b1098c26590bacb13c5f5882b00321c3d1e170"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS4_recorded_age_en.png",
+      "bytes": 318667,
+      "sha256": "dd98feee79a30b0299e9b1813fbedf6fd67f7cc42b11080cdd79f3ce43ddb67a"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS4_recorded_age_en.svg",
+      "bytes": 54962,
+      "sha256": "5c43a242b5e48ee8c8e8378ebeddd1cefb57f3adc5547dfe5d69b16e1c411715"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS5_rem_stages_en.pdf",
+      "bytes": 27837,
+      "sha256": "32fa0c5c20ca278433d3ac6d64f7acd5988e1160bfd8da81bdb1ffbfec70a35b"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS5_rem_stages_en.png",
+      "bytes": 700036,
+      "sha256": "1795ecaa33aa5609b1f3c61c517a835b9770b781a61c778be9181bc8784e6927"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS5_rem_stages_en.svg",
+      "bytes": 62294,
+      "sha256": "eb53e70819d0ccc21119110af8981148f2c0e0f3824e7d2afb2d9eb63b3e272f"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS6_all_funnels_en.pdf",
+      "bytes": 192540,
+      "sha256": "d9ee63518be8edc3dc23b6c7862b880c369085d4d54f0c5486cc155710ac7526"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS6_all_funnels_en.png",
+      "bytes": 1587264,
+      "sha256": "92b70bd7465055c9740cea263014110750189f1097fe0d087d77de16ff13f0a0"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS6_all_funnels_en.svg",
+      "bytes": 1228734,
+      "sha256": "23a0331ad67b7aa87a842ff08abdb020b9f18e46fdea68782e96ed74424d9d99"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS7_regional_mortality_en.pdf",
+      "bytes": 34822,
+      "sha256": "c134d7ecd2122b17c725fa66f4958379d1631447f61573c84065328661e24f5f"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS7_regional_mortality_en.png",
+      "bytes": 485083,
+      "sha256": "2999ebddfef5c6618b4dd97946fc9a2dcd6891752f02666ee2fb4209bc343568"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS7_regional_mortality_en.svg",
+      "bytes": 94598,
+      "sha256": "a8d45cfb97e6aa5c769ded83237bd08f786b8811895d24930206ce41b45f1c28"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS8_regional_sex_ratios_en.pdf",
+      "bytes": 30694,
+      "sha256": "d6d50f01a6c3c7ec860244b28939f0185f8fd43614d1cccc11e829718882dbda"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS8_regional_sex_ratios_en.png",
+      "bytes": 287969,
+      "sha256": "895fff8ddeb0da9134a401e84b49dd1bc0eb6a7168007ecd0c5acf050cbd5ffa"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS8_regional_sex_ratios_en.svg",
+      "bytes": 65741,
+      "sha256": "09af607c48abdfe2349d7e4ab820e64c58e0d165e7098f006618d986331e6756"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS9_caseload_dementia_en.pdf",
+      "bytes": 557087,
+      "sha256": "a7dddaaa0db58c9ef1c1dc473513e03d99ffd2256f8ce489a7b7060163a0a90f"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS9_caseload_dementia_en.png",
+      "bytes": 1042509,
+      "sha256": "e7bac75b18f33b7bbfb364ee3be84e9e369132fdfc6c6a949a76d4df9b810870"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS9_caseload_dementia_en.svg",
+      "bytes": 2387463,
+      "sha256": "1ffef8b37a706ddccf2787630a8c0c09b8b0bda93ec5158cb803a3b9921822bd"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/figures/Figure1_age_sources_en.pdf",
+      "bytes": 37476,
+      "sha256": "8125faf84095d7142b521ec8f8818d5d20ec6a7597202426ecc81fc997086824"
+    },
+    {
       "path": "outputs/paper/revision_descriptiva_2026-10-28/figures/Figure1_age_sources_en.png",
       "bytes": 557171,
       "sha256": "6cef98e3c3f1d0cf4193e00cd22e7651f63abfa652eff0a475ec2cdadf8a0deb"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/figures/Figure1_age_sources_en.svg",
+      "bytes": 102481,
+      "sha256": "3accbabf159750eeeab00f7e08bb4a8ec3ede316b86da2d23a4fe92ee48c2de1"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/figures/Figure2_trends_coding_en.pdf",
+      "bytes": 34049,
+      "sha256": "9fbe20fb94e9741db2fb0e9991dd74c684d63ee69b20313e24efc92a33b57357"
     },
     {
       "path": "outputs/paper/revision_descriptiva_2026-10-28/figures/Figure2_trends_coding_en.png",
@@ -145,9 +812,44 @@
       "sha256": "a40254dce929661641d3f25f12c4458c4e97e3edb2b9b4adfa9667c22602e745"
     },
     {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/figures/Figure2_trends_coding_en.svg",
+      "bytes": 65291,
+      "sha256": "36a4408d99b4841d6fc732064e401bd05abbe5542d9be919ab5c497d37153d69"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/figures/Figure3_historical_networks_en.pdf",
+      "bytes": 40859,
+      "sha256": "b7bad9a0be4a0ad1cd2c96176403d95f544d2b080f23ee8e7601549e2cc21dbb"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/figures/Figure3_historical_networks_en.png",
+      "bytes": 1907639,
+      "sha256": "b8e4e818ef6b538344fc5be50634789cc706b632b4837a88fbb10c1e1e73ae0f"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/figures/Figure3_historical_networks_en.svg",
+      "bytes": 165673,
+      "sha256": "bce74e627cea32daceb0734671173c89afced250d52de721d48114ff5a875f8c"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/figures/Figure4_centres_en.pdf",
+      "bytes": 93441,
+      "sha256": "55c60f5bcd23cb00f4e6a90cb2006c944b1b15d4e61a080dcb5fe5629b6bb2c3"
+    },
+    {
       "path": "outputs/paper/revision_descriptiva_2026-10-28/figures/Figure4_centres_en.png",
       "bytes": 1126271,
       "sha256": "56e0dfcc564b4a9fc41dea7c25766c93abf63cb2e2270bb39e40748e12b00714"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/figures/Figure4_centres_en.svg",
+      "bytes": 521799,
+      "sha256": "ac3fed409241fc2878e017e583c226feca5f1573afd11c8eaedb73c236ec27d9"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/figures/Figure5_maps_en.pdf",
+      "bytes": 1045255,
+      "sha256": "6f3619e129cfd332fbdfa9d50234b39fc78096c8012f6d93f5ababbfa073a2c0"
     },
     {
       "path": "outputs/paper/revision_descriptiva_2026-10-28/figures/Figure5_maps_en.png",
@@ -155,9 +857,89 @@
       "sha256": "0fe1df67e7cef1d28464f819d3e20c142252cc5bd843a093af928f59a980c73a"
     },
     {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/figures/Figure5_maps_en.svg",
+      "bytes": 4484671,
+      "sha256": "859ca5d987ccc945e0a7bb5985d20995a5bc57d78bcf7d226f17caec8725e18c"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/figures/Figure6_unique_people_en.pdf",
+      "bytes": 37719,
+      "sha256": "316c7c11c23dc964aad3ee7af5bd3a4348481e470813c7ca7f20bf85c465fdf5"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/figures/Figure6_unique_people_en.png",
+      "bytes": 470790,
+      "sha256": "242e920aa3a5eed8688be88741810c51d6525194e7b7ec7c1dd933d8ed5281fc"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/figures/Figure6_unique_people_en.svg",
+      "bytes": 137565,
+      "sha256": "18d5a2f4db27ce9ce7bda1d91adda5d9c1c58d635f480e3cf0291e078b7bd05b"
+    },
+    {
+      "path": "outputs/publication_programme_2026-10-28/care_extension/care_balanced_panel.pdf",
+      "bytes": 34852,
+      "sha256": "008724291f7e8eb4dc1a7556228aedb00727db1503164e668651986c70ee6e0d"
+    },
+    {
       "path": "outputs/publication_programme_2026-10-28/care_extension/care_balanced_panel.png",
       "bytes": 466755,
       "sha256": "0fadd155fb7780697ab03f513a57e0a04fdc227820cca8970881d909c6dfecde"
+    },
+    {
+      "path": "outputs/publication_programme_2026-10-28/care_extension/care_balanced_panel.svg",
+      "bytes": 80441,
+      "sha256": "7359c716b8ee95c9b906c1c2e57243288ad2460a832c30b28e90bdbbc86621c6"
+    },
+    {
+      "path": "outputs/publication_programme_2026-10-28/care_extension/care_change_geography.pdf",
+      "bytes": 529211,
+      "sha256": "e7b756d15c8b36f7a4a3eb5b0408b4d7e5aba4a4507f792302e69323c596e214"
+    },
+    {
+      "path": "outputs/publication_programme_2026-10-28/care_extension/care_change_geography.png",
+      "bytes": 1012990,
+      "sha256": "7ffc6b179ff119eb14462bea745b467413c69fef13c3c77feabd57c974b167fd"
+    },
+    {
+      "path": "outputs/publication_programme_2026-10-28/care_extension/care_change_geography.svg",
+      "bytes": 2164393,
+      "sha256": "9acad1dd397a17d276775f3e21ddd4fadb9afcc7bef436ad1719a0d0e2592e36"
+    },
+    {
+      "path": "outputs/publication_programme_2026-10-28/care_extension/care_recording_sensitivity.pdf",
+      "bytes": 52871,
+      "sha256": "bf3af9982374fbb6408471bdf2b6622a8d8766e14158caec119332b318e3fb27"
+    },
+    {
+      "path": "outputs/publication_programme_2026-10-28/care_extension/care_recording_sensitivity.png",
+      "bytes": 443487,
+      "sha256": "e62ae8dcda17038173430555d83c3f6d7fa3dec8be2c75fb9b135ec9a4bcd462"
+    },
+    {
+      "path": "outputs/publication_programme_2026-10-28/care_extension/care_recording_sensitivity.svg",
+      "bytes": 82359,
+      "sha256": "32c789ef42d780be1adbebd496426f24d2cb1593425fd8a1dbb72320a2fb0145"
+    },
+    {
+      "path": "outputs/publication_programme_2026-10-28/care_extension/care_territorial_context.pdf",
+      "bytes": 45293,
+      "sha256": "e654f59a4f423cfbbc365eda1bdba38ec38d4212db540349e6ebc5041aa3812f"
+    },
+    {
+      "path": "outputs/publication_programme_2026-10-28/care_extension/care_territorial_context.png",
+      "bytes": 688986,
+      "sha256": "12cd2a89cbd61f5b71a9d711119b05aa37b99dcd307c9dec384119e9ff278b98"
+    },
+    {
+      "path": "outputs/publication_programme_2026-10-28/care_extension/care_territorial_context.svg",
+      "bytes": 283668,
+      "sha256": "79bf4141295945cbc36e250475e3830437c073f09b5e28a10bc872dee2c156aa"
+    },
+    {
+      "path": "outputs/publication_programme_2026-10-28/figures/Figure1_reproductive_history.pdf",
+      "bytes": 23215,
+      "sha256": "d47517ffa1fa12fcc8cc11bb6baaa04db8d52758ffb68d75d7ae6ee54a2e4fce"
     },
     {
       "path": "outputs/publication_programme_2026-10-28/figures/Figure1_reproductive_history.png",
@@ -165,9 +947,44 @@
       "sha256": "56c6fb64f367f7440458139bec990db2569bc8796e0d7c3c521434a029e352fd"
     },
     {
+      "path": "outputs/publication_programme_2026-10-28/figures/Figure1_reproductive_history.svg",
+      "bytes": 17294,
+      "sha256": "fa848b309b69230f1bb83b873bca7d5ff947f5ebc2a9800720183a5814c1a29b"
+    },
+    {
+      "path": "outputs/publication_programme_2026-10-28/figures/Figure5_contextual_neurodegeneration.pdf",
+      "bytes": 23267,
+      "sha256": "1dda73f914dcba20d05d7eecdbfa8623bccf18c233c61cdadc92eaa43ae2091b"
+    },
+    {
       "path": "outputs/publication_programme_2026-10-28/figures/Figure5_contextual_neurodegeneration.png",
       "bytes": 173783,
       "sha256": "31e203f85b042c4f465b2499bf7029fef27404613416912f40bfca892abaf161"
+    },
+    {
+      "path": "outputs/publication_programme_2026-10-28/figures/Figure5_contextual_neurodegeneration.svg",
+      "bytes": 20072,
+      "sha256": "57b01614b75bde1036bdeb973541601b7e7341702d0f51da1726811e34b6dbc9"
+    },
+    {
+      "path": "outputs/publication_programme_2026-10-28/paper2/figures/paper2_surgery_pilot.pdf",
+      "bytes": 19215,
+      "sha256": "299b6aae7d80fdd92a034949d02a3f97e44b27b2370ecf912e72f25f42ed0118"
+    },
+    {
+      "path": "outputs/publication_programme_2026-10-28/paper2/figures/paper2_surgery_pilot.png",
+      "bytes": 492663,
+      "sha256": "4ec1259a60a0af0a585ec2b4d0541107648eb45e9b3011fd041d158861984bcf"
+    },
+    {
+      "path": "outputs/publication_programme_2026-10-28/paper2/figures/paper2_surgery_pilot.svg",
+      "bytes": 46129,
+      "sha256": "486c489fe44ee465539b9d58b38be35b350c1c62ceaa45f12a827c5c2f9d281a"
+    },
+    {
+      "path": "outputs/publication_programme_2026-10-28/paper3/Figure3_1_care_recording.pdf",
+      "bytes": 28359,
+      "sha256": "faed6f8c9743f0ad4162d467da3ec58142791d83fbd16f466b2e2f9036e4cadf"
     },
     {
       "path": "outputs/publication_programme_2026-10-28/paper3/Figure3_1_care_recording.png",
@@ -175,9 +992,29 @@
       "sha256": "17c42887ff5e429c7b5bebaea1d5423c7ee0e13e58c9fc7728cf91b565e6f725"
     },
     {
+      "path": "outputs/publication_programme_2026-10-28/paper3/Figure3_1_care_recording.svg",
+      "bytes": 51706,
+      "sha256": "7ad181ba3777b496e9a13ec1daeaf9c1eb3d04554e000abaaa93235f005af67d"
+    },
+    {
+      "path": "outputs/publication_programme_2026-10-28/paper3/Figure3_2_care_geography.pdf",
+      "bytes": 625833,
+      "sha256": "bbc742f0aefa446c2cd1e5b53f32d56adb3eec080f6c4ee2f1a8e45b6daf34c4"
+    },
+    {
       "path": "outputs/publication_programme_2026-10-28/paper3/Figure3_2_care_geography.png",
       "bytes": 1652881,
       "sha256": "4b18f0fda8e223fdd8abdb4e175652afca031ce70a3d14349469ae2e08cdd1c0"
+    },
+    {
+      "path": "outputs/publication_programme_2026-10-28/paper3/Figure3_2_care_geography.svg",
+      "bytes": 3190425,
+      "sha256": "41ae869d920be84f1e437310bb0b342c44b56780b6020be69f657179bbe3ea9b"
+    },
+    {
+      "path": "outputs/publication_programme_2026-10-28/surgery_extension/figures/surgery_extension_activity_composition.pdf",
+      "bytes": 34577,
+      "sha256": "1597355329b299559e4ed06c03f5aa73c7902dec58f393ab00dca1430f4cd598"
     },
     {
       "path": "outputs/publication_programme_2026-10-28/surgery_extension/figures/surgery_extension_activity_composition.png",
@@ -185,9 +1022,29 @@
       "sha256": "7002aee7c99adc85b500623559fd56de875e15605ad511ce3a433befc403af43"
     },
     {
+      "path": "outputs/publication_programme_2026-10-28/surgery_extension/figures/surgery_extension_activity_composition.svg",
+      "bytes": 127293,
+      "sha256": "89f53cc6dd09254e2dae65f312996208dccc058392d0b71f521743c6601a028a"
+    },
+    {
+      "path": "outputs/publication_programme_2026-10-28/surgery_extension/figures/surgery_extension_denominator_sensitivity.pdf",
+      "bytes": 17986,
+      "sha256": "fc8c4f8fd0a2eb76707d74c6b07e31c5bde18c6b4ce6decfc63a7f305f24166c"
+    },
+    {
       "path": "outputs/publication_programme_2026-10-28/surgery_extension/figures/surgery_extension_denominator_sensitivity.png",
       "bytes": 370081,
       "sha256": "3c8390047b6296b9b740494ac8807a41181b172d9bd30af1fe3f204153bb90c7"
+    },
+    {
+      "path": "outputs/publication_programme_2026-10-28/surgery_extension/figures/surgery_extension_denominator_sensitivity.svg",
+      "bytes": 42874,
+      "sha256": "8f4fd798626975705a62bda7ce3e8f851badcbd9a1f5332a060b96c0591a4b2a"
+    },
+    {
+      "path": "outputs/publication_programme_2026-10-28/survey_extension/figures/survey_age_profiles.pdf",
+      "bytes": 26698,
+      "sha256": "4d2d093ec7f06981691a648ada6f265f2467a68d23936037d84dec09f9c07253"
     },
     {
       "path": "outputs/publication_programme_2026-10-28/survey_extension/figures/survey_age_profiles.png",
@@ -195,9 +1052,29 @@
       "sha256": "eabce58b46ef66b74d3468d01f8bba8ace4d0c1138c2acf75d242dd8125f7d69"
     },
     {
+      "path": "outputs/publication_programme_2026-10-28/survey_extension/figures/survey_age_profiles.svg",
+      "bytes": 36362,
+      "sha256": "117066bf613c592ac5031f8319702a3f3cfdbe7c7ba89656ae1c66f234d54dee"
+    },
+    {
+      "path": "outputs/publication_programme_2026-10-28/survey_extension/figures/survey_casen_adjustment.pdf",
+      "bytes": 26632,
+      "sha256": "598e20bf2e8178230452edbc8d17485567dad166000bbb29f562c2ccb5956574"
+    },
+    {
       "path": "outputs/publication_programme_2026-10-28/survey_extension/figures/survey_casen_adjustment.png",
       "bytes": 255621,
       "sha256": "9ce4c2bfc51dd06c95f43879925c34fb367da7f703527a733c14835eb7e22439"
+    },
+    {
+      "path": "outputs/publication_programme_2026-10-28/survey_extension/figures/survey_casen_adjustment.svg",
+      "bytes": 44461,
+      "sha256": "6da69b355a58fb22b5b9b28cea00b18d590cff94934e3adb23e2862057e3b476"
+    },
+    {
+      "path": "outputs/publication_programme_2026-10-28/survey_extension/figures/survey_encavi_separate.pdf",
+      "bytes": 27114,
+      "sha256": "e69becb81f454700a3066c7a343dd4e5e337d49b9e9fe7388a64c91a7d5e1d59"
     },
     {
       "path": "outputs/publication_programme_2026-10-28/survey_extension/figures/survey_encavi_separate.png",
@@ -205,9 +1082,19 @@
       "sha256": "2f53e9456698b2ad674058f955f34b111775e10aee6dc0b36ab5b145cbd6623a"
     },
     {
-      "path": "scripts/prepare_online.py",
-      "bytes": 10703,
-      "sha256": "c6cd670c2054f1e28990af1b65f895758057ea49b4e3a913c1c83b51d93fdc63"
+      "path": "outputs/publication_programme_2026-10-28/survey_extension/figures/survey_encavi_separate.svg",
+      "bytes": 53348,
+      "sha256": "db66d4d33528f8bd98c553efc7f5d2820294a4c5faa53cd156528ce6435f8153"
+    },
+    {
+      "path": "scripts/prepare_site.py",
+      "bytes": 15004,
+      "sha256": "c9ba0b9780a2935cb3c4e92bd26f961ba706fb5fbd15f084fbf55ec231714e05"
+    },
+    {
+      "path": "site_provenance.json",
+      "bytes": 18941,
+      "sha256": "feb1e91ebe4504454367436922dda33fa1e50fd54d262acbbea2fb6274d0b571"
     }
   ]
 }

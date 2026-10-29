@@ -1,0 +1,17 @@
+Measure,Age group,Observed recorded count,Numeric reporting facilities,Blank source cells,Explicit-zero facilities
+Climacteric care,45-64,183234.0,1610,12,4
+Climacteric care,<45,11326.0,1140,482,373
+MHT recorded,45-64,27779.0,1190,5,6
+MHT recorded,<45,1010.0,848,347,473
+MRS assessed,45-64,127000.0,1563,11,4
+MRS assessed,<45,4612.0,1094,480,362
+MRS at entry,45-64,87352.0,1473,7,3
+MRS at entry,<45,3563.0,1034,446,362
+MRS at follow-up,45-64,74832.0,1372,6,10
+MRS at follow-up,<45,1963.0,931,447,443
+Elevated MRS,45-64,64584.0,1467,8,3
+Elevated MRS,<45,2999.0,1016,459,392
+Improved / low follow-up MRS,45-64,25013.0,968,7,2
+Improved / low follow-up MRS,<45,529.0,665,310,438
+Educational workshop,45-64,4188.0,281,0,1
+Educational workshop,<45,223.0,213,68,131

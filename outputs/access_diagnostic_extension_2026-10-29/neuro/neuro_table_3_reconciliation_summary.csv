@@ -1,0 +1,7 @@
+Outcome,Sex,Checks,Max |raw − legacy|,Duplicate correction all ages,Duplicate correction age ≥60,Correction years
+Dementia caseload,Men,14,0.0,0.0,0.0,None
+Dementia caseload,Women,14,0.0,-3.0,-2.0,2021
+Dementia entries,Men,14,0.0,0.0,0.0,None
+Dementia entries,Women,14,0.0,0.0,0.0,None
+Parkinson caseload,Men,14,0.0,-2.0,-2.0,2021
+Parkinson caseload,Women,14,0.0,0.0,0.0,None

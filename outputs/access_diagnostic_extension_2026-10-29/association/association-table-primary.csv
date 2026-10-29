@@ -1,0 +1,5 @@
+Outcome,Sex,Facilities,Municipal clusters,Recording ratio (95% CI),Nominal P,Holm P,Dispersion
+Dementia,Women,97,61,1.027 (1.012–1.042),<0.001,,59.7
+Dementia,Men,97,61,1.022 (1.010–1.034),<0.001,0.001,30.8
+Parkinson,Women,231,109,1.012 (0.996–1.028),0.132,0.217,44.1
+Parkinson,Men,232,109,1.010 (0.998–1.023),0.108,0.217,15.5

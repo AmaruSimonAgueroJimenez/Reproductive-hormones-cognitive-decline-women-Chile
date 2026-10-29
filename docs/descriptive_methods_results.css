@@ -1,0 +1,15 @@
+
+:root { --bs-body-font-family: Georgia, "Times New Roman", serif; }
+main { max-width: 1120px; }
+h1,h2,h3 { color:#111; font-family:system-ui,sans-serif; }
+.paper-figure { display:block; width:100%; max-width:1100px; height:auto; margin:1.4rem auto; }
+table { font-size:.88rem; line-height:1.35; }
+th,td { border:1px solid #d9d9d9; padding:.45rem .6rem; vertical-align:middle; }
+thead { background:#e7eef4; }
+tbody tr:nth-child(even) { background:#f7f9fb; }
+.evidence-id { font: .75rem system-ui,sans-serif; overflow-wrap:anywhere; color:#555; margin:1rem 0; }
+.provenance { margin:1.2rem 0; border:1px solid #d9d9d9; padding:.8rem; overflow:auto; }
+.provenance summary { font-family:system-ui,sans-serif; cursor:pointer; }
+.provenance td { max-width:30rem; overflow-wrap:anywhere; }
+pre { font-size:.8rem; }
+@media print { .sourceCode, .code-tools-button { display:none; } }

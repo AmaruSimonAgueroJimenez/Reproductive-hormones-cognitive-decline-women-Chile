@@ -1,0 +1,5 @@
+Outcome,Sex,Municipalities,Moran I,Permutation P
+Dementia,Women,61,-0.02054201564399783,0.947
+Dementia,Men,61,-0.015528773994707173,0.989
+Parkinson,Women,109,-0.05952632272248045,0.356
+Parkinson,Men,109,0.00966641213560815,0.745

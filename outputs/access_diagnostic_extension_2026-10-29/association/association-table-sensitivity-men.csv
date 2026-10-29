@@ -1,0 +1,19 @@
+Outcome,Reporting rule,Specification,Facilities,Clusters,Recording ratio (95% CI),Nominal P
+Dementia,strict,Context adjusted,97,61,1.022 (1.010–1.034),<0.001
+Dementia,strict,Add climacteric care,97,61,1.005 (0.983–1.028),0.655
+Dementia,strict,Baseline subset before adjustment,39,30,1.002 (0.920–1.092),0.956
+Dementia,strict,Add baseline recording,39,30,0.976 (0.953–1.000),0.046
+Dementia,strict,Exclude pooled numerator flags,96,60,1.000 (0.921–1.086),0.995
+Dementia,strict,Exclude any-year flags post hoc,95,60,0.999 (0.920–1.085),0.982
+Dementia,strict,Raw numeric counts only,24,18,Not estimated,Cluster gate
+Dementia,relaxed,Context adjusted,244,125,1.012 (1.005–1.019),0.001
+Dementia,relaxed,Add climacteric care,244,125,1.008 (1.003–1.013),0.004
+Parkinson,strict,Context adjusted,232,109,1.010 (0.998–1.023),0.108
+Parkinson,strict,Add climacteric care,232,109,1.005 (0.992–1.019),0.451
+Parkinson,strict,Baseline subset before adjustment,190,98,1.001 (0.981–1.020),0.947
+Parkinson,strict,Add baseline recording,190,98,0.982 (0.973–0.991),<0.001
+Parkinson,strict,Exclude pooled numerator flags,227,109,1.008 (0.969–1.049),0.685
+Parkinson,strict,Exclude any-year flags post hoc,221,109,1.010 (0.967–1.055),0.659
+Parkinson,strict,Raw numeric counts only,120,64,0.975 (0.921–1.033),0.386
+Parkinson,relaxed,Context adjusted,453,176,1.002 (1.000–1.004),0.101
+Parkinson,relaxed,Add climacteric care,453,176,1.001 (0.998–1.003),0.505
