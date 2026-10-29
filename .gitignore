@@ -1,0 +1,13 @@
+# Keep PowerPoint files outside the public presentation repository.
+*.[pP][pP][tT]
+*.[pP][pP][tT][xX]
+*.[pP][pP][tT][mM]
+*.[pP][pP][sS]
+*.[pP][pP][sS][xX]
+*.[pP][pP][sS][mM]
+
+.DS_Store
+__pycache__/
+.quarto/
+*_files/
+*.quarto_ipynb
