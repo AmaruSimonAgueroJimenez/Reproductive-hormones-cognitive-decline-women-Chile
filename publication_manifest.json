@@ -4,7 +4,7 @@
   "repository": "https://github.com/AmaruSimonAgueroJimenez/Reproductive-hormones-cognitive-decline-women-Chile",
   "scientific_sources": "Institutional references are given in the reports. This manifest records delivery integrity and is not an original scientific source.",
   "delivery_changes": [
-    "Replace embedded PNG img src values with relative links to byte-identical original PNGs.",
+    "Replace embedded PNG img src values with relative links to byte-identical original PNGs and version each mapped image URL with its SHA256 prefix.",
     "Add a public report navigation bar without changing report text, tables or code.",
     "Omit the unpublished PowerPoint download anchor from the public HTML only."
   ],
@@ -34,7 +34,7 @@
         "table_cells": 2320,
         "figure_placements": 10,
         "slides": 0,
-        "local_links_verified": 66,
+        "local_links_verified": 76,
         "scientific_and_runtime_bytes_preserved": true
       },
       {
@@ -43,7 +43,7 @@
         "table_cells": 36,
         "figure_placements": 24,
         "slides": 29,
-        "local_links_verified": 18,
+        "local_links_verified": 33,
         "scientific_and_runtime_bytes_preserved": true
       },
       {
@@ -88,8 +88,8 @@
     },
     {
       "path": "docs/access_diagnostic_recording_extension.html",
-      "bytes": 2782810,
-      "sha256": "d485d999519cebb97132dc62c7c3d62e11732ca4a44cc5b622195c07b5dfe4e8"
+      "bytes": 2782960,
+      "sha256": "17a588432687bd6cdfbc52fc8e89617aef8ac456b2e6a5e1c8b21519fdc246d0"
     },
     {
       "path": "docs/access_diagnostic_recording_extension.qmd",
@@ -108,8 +108,8 @@
     },
     {
       "path": "docs/combined_project_key_results_slides.html",
-      "bytes": 4007489,
-      "sha256": "3e21cc2167d4ba52ab9f240ad5ff080e2598955c662081bcfe98f6ed23c89931"
+      "bytes": 4007849,
+      "sha256": "13400fa8fae57cb721d5fde066ddbfabf2538682fec8ef6451a17c0e3847b2a7"
     },
     {
       "path": "docs/combined_project_key_results_slides.qmd",
@@ -133,8 +133,8 @@
     },
     {
       "path": "docs/descriptive_methods_results.html",
-      "bytes": 2688989,
-      "sha256": "e9f05233135a9807c79149cbfe54e9325b06c1bdc9236e72a5b713555db3e184"
+      "bytes": 2689349,
+      "sha256": "ad79157172d91ba6cffb01bb69ef017d6d27f4da55f07284a0b75af8ff3fbed2"
     },
     {
       "path": "docs/descriptive_methods_results.qmd",
@@ -153,8 +153,8 @@
     },
     {
       "path": "docs/reproductive_key_results_slides.html",
-      "bytes": 3941436,
-      "sha256": "03f87e6cab2b7fd3f9553aea9292ee3b880e49a20cc2f6facc4e3a325a35a235"
+      "bytes": 3941601,
+      "sha256": "df0176750791913e29b113c64cba083357ddc62b8af6e6a3f1098f4dcf93e08f"
     },
     {
       "path": "docs/reproductive_key_results_slides.qmd",
@@ -173,8 +173,8 @@
     },
     {
       "path": "docs/reproductive_life_course.html",
-      "bytes": 2549387,
-      "sha256": "07f4fb10daabe7e9a403916232d09ed20b08b3da499ebdb13b46e38d664d226d"
+      "bytes": 2549597,
+      "sha256": "2db856ed650f476f89171fdb9d0792f57f26d5f1b7178ed3150cae5fce389a49"
     },
     {
       "path": "docs/reproductive_life_course.qmd",
@@ -1103,8 +1103,8 @@
     },
     {
       "path": "scripts/prepare_site.py",
-      "bytes": 15004,
-      "sha256": "c9ba0b9780a2935cb3c4e92bd26f961ba706fb5fbd15f084fbf55ec231714e05"
+      "bytes": 16165,
+      "sha256": "1d6c54dd02c45c2df84df2d426451a308b07eece278a4eb561f2c78108833782"
     },
     {
       "path": "site_provenance.json",

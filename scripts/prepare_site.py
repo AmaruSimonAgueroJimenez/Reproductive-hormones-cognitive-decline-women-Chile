@@ -2,7 +2,7 @@
 """Prepare and verify the public research site using Python's standard library.
 
 The publishing copy retains the complete report prose, numerical tables, folded
-code, original image bytes and Quarto runtime. Only embedded PNG src values,
+code, original image bytes and Quarto runtime. Only PNG delivery src values,
 a PowerPoint download anchor and an added report navigation bar may differ from
 the reviewed HTML. Canonical analytical sources are never modified by this tool.
 """
@@ -17,7 +17,7 @@ import json
 import os
 from pathlib import Path
 import re
-from urllib.parse import unquote, urlsplit
+from urllib.parse import parse_qsl, unquote, urlencode, urlsplit, urlunsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / 'publication_manifest.json'
@@ -170,14 +170,26 @@ def optimize_page(page: Path, record: dict, figures: dict[str, str]) -> dict:
         def replace_src(src: re.Match[bytes]) -> bytes:
             nonlocal image_replacements
             value = html.unescape(src[2].decode('utf-8'))
-            if not value.startswith('data:image/png;base64,'):
-                return src[0]
-            digest = sha(base64.b64decode(value.split(',', 1)[1], validate=True))
-            if digest not in figures:
-                raise ValueError(f'Embedded figure lacks a reviewed original: {page.name} {digest}')
-            relative = os.path.relpath(ROOT / figures[digest], page.parent).replace(os.sep, '/')
-            image_replacements += 1
-            return b'src=' + src[1] + html.escape(relative, quote=True).encode('utf-8') + src[1]
+            if value.startswith('data:image/png;base64,'):
+                digest = sha(base64.b64decode(value.split(',', 1)[1], validate=True))
+                if digest not in figures:
+                    raise ValueError(f'Embedded figure lacks a reviewed original: {page.name} {digest}')
+                relative = os.path.relpath(ROOT / figures[digest], page.parent).replace(os.sep, '/')
+            else:
+                parts = urlsplit(value)
+                if parts.scheme or parts.netloc or Path(parts.path).suffix.lower() != '.png':
+                    return src[0]
+                digest = image_hash(page, value)
+                if digest not in figures:
+                    return src[0]
+                relative = value
+            parts = urlsplit(relative)
+            query = [(key, item) for key, item in parse_qsl(parts.query, keep_blank_values=True) if key != 'v']
+            query.append(('v', digest[:12]))
+            relative = urlunsplit((parts.scheme, parts.netloc, parts.path, urlencode(query), parts.fragment))
+            replacement = b'src=' + src[1] + html.escape(relative, quote=True).encode('utf-8') + src[1]
+            image_replacements += replacement != src[0]
+            return replacement
         return SRC.sub(replace_src, tag[0])
     result = IMG.sub(replace_image, original)
     result = strip_powerpoint_links(result)
@@ -207,6 +219,11 @@ def verify_site(provenance: dict) -> dict:
         doc = parse(data)
         if any(value.startswith('data:') for value in doc.images):
             raise ValueError(f'Embedded scientific image copies remain in {name}')
+        for value, digest in zip(doc.images, structure['image_sha256_in_order']):
+            if digest in provenance['original_pngs']:
+                versions = [item for key, item in parse_qsl(urlsplit(value).query) if key == 'v']
+                if versions != [digest[:12]]:
+                    raise ValueError(f'Scientific image lacks its current content version: {name}')
         if record['type'] == 'report' and not doc.has_report_nav:
             raise ValueError(f'Missing site navigation in report {name}')
         for value in doc.local_links:
@@ -246,7 +263,7 @@ def write_manifest(provenance: dict, verification: dict) -> None:
         'scope': 'English research index, three reviewed full reports, two slide decks, original aggregate figures, source tables, reviewed Word documents and public reconstruction packages.',
         'repository': 'https://github.com/AmaruSimonAgueroJimenez/Reproductive-hormones-cognitive-decline-women-Chile',
         'scientific_sources': 'Institutional references are given in the reports. This manifest records delivery integrity and is not an original scientific source.',
-        'delivery_changes': ['Replace embedded PNG img src values with relative links to byte-identical original PNGs.',
+        'delivery_changes': ['Replace embedded PNG img src values with relative links to byte-identical original PNGs and version each mapped image URL with its SHA256 prefix.',
                              'Add a public report navigation bar without changing report text, tables or code.',
                              'Omit the unpublished PowerPoint download anchor from the public HTML only.'],
         'verification': verification,
