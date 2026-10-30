@@ -39,11 +39,11 @@
       },
       {
         "page": "docs/combined_project_key_results_slides.html",
-        "tables": 3,
-        "table_cells": 36,
-        "figure_placements": 24,
-        "slides": 29,
-        "local_links_verified": 33,
+        "tables": 7,
+        "table_cells": 100,
+        "figure_placements": 57,
+        "slides": 46,
+        "local_links_verified": 51,
         "scientific_and_runtime_bytes_preserved": true
       },
       {
@@ -67,7 +67,7 @@
     "docs/descriptive_methods_results.html": "0bd1b054b53575e2289e0ea934f41fafb0a2687bf101c10503791a0f871e429e",
     "docs/reproductive_life_course.html": "8a7c26c3fab5d7a76a8229ea7423d8199ad11f5caf68ce16e05a9bb704fe400a",
     "docs/access_diagnostic_recording_extension.html": "817cade10839739567562f8e6339f7943c439af968a0ff1d72b7fce72cfeeebc",
-    "docs/combined_project_key_results_slides.html": "c53f2ca131e5acbe776349b7ae6763c5cf10d8f1b779e73280872370649948f2",
+    "docs/combined_project_key_results_slides.html": "415970b566e61c528cb49414c7578ed08e58dee877504f0fd6d6b53c52fc09a2",
     "docs/reproductive_key_results_slides.html": "115760f15f6e74c7d8c68da790f12fd10a1e9b4ccd30b2640cbf1a2537b63eb6"
   },
   "files": [
@@ -84,7 +84,7 @@
     {
       "path": "README.md",
       "bytes": 4822,
-      "sha256": "6899fde33713351bff5eb07b131c6f996527a053b671254872582715702bef26"
+      "sha256": "2663255c75d366cb2f5504a0756273f85473ece628dab1c5317e7ede4d8e6d51"
     },
     {
       "path": "docs/access_diagnostic_recording_extension.html",
@@ -108,18 +108,18 @@
     },
     {
       "path": "docs/combined_project_key_results_slides.html",
-      "bytes": 4007849,
-      "sha256": "13400fa8fae57cb721d5fde066ddbfabf2538682fec8ef6451a17c0e3847b2a7"
+      "bytes": 4148398,
+      "sha256": "9c716e9c25dd2d388b9cdf0cc70b8ca4c9a729bdc3fc8d7b859d1a4a6558f3d7"
     },
     {
       "path": "docs/combined_project_key_results_slides.qmd",
-      "bytes": 90187,
-      "sha256": "59c180e23f84711d02d06b438213251e591d000f438199eeb6f38c430e3c4de9"
+      "bytes": 203495,
+      "sha256": "08dc28ac1b4fc5dce5b2d302b8db99855d0db85cf18644c10c9702377deab51c"
     },
     {
       "path": "docs/combined_project_key_results_slides_source.txt",
-      "bytes": 90187,
-      "sha256": "59c180e23f84711d02d06b438213251e591d000f438199eeb6f38c430e3c4de9"
+      "bytes": 203495,
+      "sha256": "08dc28ac1b4fc5dce5b2d302b8db99855d0db85cf18644c10c9702377deab51c"
     },
     {
       "path": "docs/combined_project_slides_references.bib",
@@ -198,13 +198,13 @@
     },
     {
       "path": "index.html",
-      "bytes": 2200310,
-      "sha256": "04e8952896e83da077967c75744077132bf12b00a03c27de920211d3b0d144cb"
+      "bytes": 2200314,
+      "sha256": "bc9ce2a97f67f16faacc31f01a2f8a89c14285478794a211b8b4cd956fd79339"
     },
     {
       "path": "index.qmd",
-      "bytes": 7360,
-      "sha256": "4efc6fa9cd11bae427e5e053e5f5b67093e3efd5272c4e88bb9b85b6c042befa"
+      "bytes": 7364,
+      "sha256": "54e317518d2dd854a0ff0449edc5997fa1420af4147cc602faf9528026852047"
     },
     {
       "path": "manuscript/access_diagnostic_extension_2026-10-29/Methods_Results_EN.docx",
@@ -1108,8 +1108,8 @@
     },
     {
       "path": "site_provenance.json",
-      "bytes": 18941,
-      "sha256": "e1f41b0bc05c7530b11c51cc189ecaceb26bea36cd0230795dbfd02cdad970fb"
+      "bytes": 21890,
+      "sha256": "1e8e802ad8df4606342322592c85b2ce9f91b93e778ccd75546ecd1b3180827a"
     }
   ]
 }

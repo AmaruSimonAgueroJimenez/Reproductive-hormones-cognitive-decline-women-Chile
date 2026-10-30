@@ -12,7 +12,7 @@ The analyses in the first two reports retain their reviewed 28 October 2026 snap
 
 ## Presentations
 
-- [Combined presentation of both parts: 29 slides](docs/combined_project_key_results_slides.html).
+- [Combined presentation of both parts: 46 slides](docs/combined_project_key_results_slides.html).
 - [Part II key results: 18 slides](docs/reproductive_key_results_slides.html).
 
 Arrow keys navigate between slides. **F** opens fullscreen and **O** opens the overview. Complete original figures and institutional source references remain linked from the slides. PowerPoint files stay outside this public repository through case-insensitive `.gitignore` rules.
