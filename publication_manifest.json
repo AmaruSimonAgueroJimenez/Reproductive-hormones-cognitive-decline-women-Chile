@@ -16,7 +16,7 @@
         "table_cells": 5785,
         "figure_placements": 24,
         "slides": 0,
-        "local_links_verified": 80,
+        "local_links_verified": 83,
         "scientific_and_runtime_bytes_preserved": true
       },
       {
@@ -43,7 +43,7 @@
         "table_cells": 36,
         "figure_placements": 24,
         "slides": 29,
-        "local_links_verified": 17,
+        "local_links_verified": 18,
         "scientific_and_runtime_bytes_preserved": true
       },
       {
@@ -64,10 +64,10 @@
     "powerpoint_excluded": true
   },
   "original_source_html_sha256": {
-    "docs/descriptive_methods_results.html": "feb96643fb5776897670fb4e3cbcdbd480da3cb4ae25d1857dd6f4824f89cb83",
+    "docs/descriptive_methods_results.html": "0bd1b054b53575e2289e0ea934f41fafb0a2687bf101c10503791a0f871e429e",
     "docs/reproductive_life_course.html": "8a7c26c3fab5d7a76a8229ea7423d8199ad11f5caf68ce16e05a9bb704fe400a",
     "docs/access_diagnostic_recording_extension.html": "817cade10839739567562f8e6339f7943c439af968a0ff1d72b7fce72cfeeebc",
-    "docs/combined_project_key_results_slides.html": "3af09a431c40f2ad77b045662df7658a87623ee9365bd289fe514f5ea74a6479",
+    "docs/combined_project_key_results_slides.html": "c53f2ca131e5acbe776349b7ae6763c5cf10d8f1b779e73280872370649948f2",
     "docs/reproductive_key_results_slides.html": "115760f15f6e74c7d8c68da790f12fd10a1e9b4ccd30b2640cbf1a2537b63eb6"
   },
   "files": [
@@ -83,8 +83,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4564,
-      "sha256": "e74e55ec442fd332e42c5effdf792c1301b2b352b58324b68dbad5e20a645ec0"
+      "bytes": 4822,
+      "sha256": "6899fde33713351bff5eb07b131c6f996527a053b671254872582715702bef26"
     },
     {
       "path": "docs/access_diagnostic_recording_extension.html",
@@ -108,18 +108,18 @@
     },
     {
       "path": "docs/combined_project_key_results_slides.html",
-      "bytes": 4006115,
-      "sha256": "fa1650404143e2ce3282be04934c443a68f117894663b338b7598b7e92e28c1b"
+      "bytes": 4007489,
+      "sha256": "3e21cc2167d4ba52ab9f240ad5ff080e2598955c662081bcfe98f6ed23c89931"
     },
     {
       "path": "docs/combined_project_key_results_slides.qmd",
-      "bytes": 88910,
-      "sha256": "42761a37a4081c761a6de5cf806d154f966427e6708409441dece4f7d59eb91a"
+      "bytes": 90187,
+      "sha256": "59c180e23f84711d02d06b438213251e591d000f438199eeb6f38c430e3c4de9"
     },
     {
       "path": "docs/combined_project_key_results_slides_source.txt",
-      "bytes": 88910,
-      "sha256": "42761a37a4081c761a6de5cf806d154f966427e6708409441dece4f7d59eb91a"
+      "bytes": 90187,
+      "sha256": "59c180e23f84711d02d06b438213251e591d000f438199eeb6f38c430e3c4de9"
     },
     {
       "path": "docs/combined_project_slides_references.bib",
@@ -133,18 +133,18 @@
     },
     {
       "path": "docs/descriptive_methods_results.html",
-      "bytes": 2681750,
-      "sha256": "34ee1ce6d1148ced8a2f8f98ecb739da80fa59a22391715a3a2f57f3a69c61da"
+      "bytes": 2688989,
+      "sha256": "e9f05233135a9807c79149cbfe54e9325b06c1bdc9236e72a5b713555db3e184"
     },
     {
       "path": "docs/descriptive_methods_results.qmd",
-      "bytes": 9120,
-      "sha256": "3d5b508898f165568dcd6ba2c3dda8ea45f3ee5599ee814e70b5ff5074426bed"
+      "bytes": 9448,
+      "sha256": "9ad2166797aa3d56fa0768ea95ffa23b9cb51f734590904b70267283dcfb671f"
     },
     {
       "path": "docs/descriptive_methods_results_source.txt",
-      "bytes": 9120,
-      "sha256": "3d5b508898f165568dcd6ba2c3dda8ea45f3ee5599ee814e70b5ff5074426bed"
+      "bytes": 9448,
+      "sha256": "9ad2166797aa3d56fa0768ea95ffa23b9cb51f734590904b70267283dcfb671f"
     },
     {
       "path": "docs/reproductive_key_results_slides.css",
@@ -218,13 +218,13 @@
     },
     {
       "path": "manuscript/revision_descriptiva_2026-10-28/Figure_Table_Bank_EN.docx",
-      "bytes": 20357066,
-      "sha256": "c828c158a8ce0e97020127419d3bb7054a69dea3ac4e32c31e6f85d778bf1ff7"
+      "bytes": 21430581,
+      "sha256": "498613982eb393dec945554e49301b8bc2532717bad42548bdabf15d8282c5e4"
     },
     {
       "path": "manuscript/revision_descriptiva_2026-10-28/Methods_Results_EN.docx",
-      "bytes": 6088305,
-      "sha256": "403e1ad8c4ad2284e94bfe4646749f80ce5a3b9d1e3a83608dd620075b1c048e"
+      "bytes": 6444807,
+      "sha256": "0e636fbcee6a18c46c5d6e2948c28131cd5a75f41674fa35800d352275b8e36f"
     },
     {
       "path": "outputs/access_diagnostic_extension_2026-10-29/Access_Diagnostic_Recording_Assets_EN.zip",
@@ -513,8 +513,8 @@
     },
     {
       "path": "outputs/paper/revision_descriptiva_2026-10-28/Figure_Table_Assets_EN.zip",
-      "bytes": 29065294,
-      "sha256": "a0462575b37c005d1cceae79c0f2262131cc692e4740fd3a9a1cf5b0e5a244c2"
+      "bytes": 30314432,
+      "sha256": "ce57b400a30abbd803ea963418dbc4ff1017c0eb9b880a29ccf8fd7ce16745f5"
     },
     {
       "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS10_caseload_parkinson_en.pdf",
@@ -593,33 +593,33 @@
     },
     {
       "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS15_unique_unadjusted_en.pdf",
-      "bytes": 39954,
-      "sha256": "db45834418342a01de87009c9df78f151af193969007b008b8a751a5b09271eb"
+      "bytes": 52708,
+      "sha256": "3d94b915449770fd1b71775de816abfcf9de5b205076d7635a1ade86cb3c11c3"
     },
     {
       "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS15_unique_unadjusted_en.png",
-      "bytes": 1759145,
-      "sha256": "af6e9c908ffbdb7a5062677572cb957da1b7e365dd53d2409a4d963b0df9df92"
+      "bytes": 2134259,
+      "sha256": "cb8e9b8c3d77add4a10480f38e0aa7bab8e3cc8f10fd7c5db88f3a9abe82f8ab"
     },
     {
       "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS15_unique_unadjusted_en.svg",
-      "bytes": 160357,
-      "sha256": "451d9db1e6d1f0993ae5e94a94c131598cc76ea05f03d7fc4e0c9856b3616df4"
+      "bytes": 223414,
+      "sha256": "ffbd898df5ac9a6ab779f7e6b147a917218a63803e60e377f2a54b476ebff475"
     },
     {
       "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS16_unique_adjusted_en.pdf",
-      "bytes": 39680,
-      "sha256": "245aa8e3b039931dacd52ac45770ae23d0ea17bc77426a3370b8b5d94ef475ae"
+      "bytes": 52326,
+      "sha256": "7e4cc624e482e86d01885574f9ec7c486000019d0c9cda58c4c6286cde689c99"
     },
     {
       "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS16_unique_adjusted_en.png",
-      "bytes": 1673067,
-      "sha256": "ec4b81affd10e3ae95ea4c0966350058af6c8e6035f9adb938bd68bb4075ea86"
+      "bytes": 2035170,
+      "sha256": "3f3515ec42ec823d839801e323f479c6e2e27c4ecaa95cc1e47620c422ac5b97"
     },
     {
       "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS16_unique_adjusted_en.svg",
-      "bytes": 152851,
-      "sha256": "0ddbe4c67e5eb6ee18b6d371c49ccbae19ca7fd5e7e2e088cd8e7c6669a4afd4"
+      "bytes": 215938,
+      "sha256": "f6068d1effca26232e541dd2ea538db91dd0e02d36332b33e607a7a1e6713ec4"
     },
     {
       "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/FigureS17_prevalence_gap_en.pdf",
@@ -787,6 +787,16 @@
       "sha256": "1ffef8b37a706ddccf2787630a8c0c09b8b0bda93ec5158cb803a3b9921822bd"
     },
     {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/source_data/FigureS15_unique_unadjusted_prevalence.csv",
+      "bytes": 17894,
+      "sha256": "62a1bd35a007107d3bc9da6315f80f5e48235f35e0053f25f2372deec341d04e"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/bank/figures/source_data/FigureS16_unique_adjusted_prevalence.csv",
+      "bytes": 17894,
+      "sha256": "62a1bd35a007107d3bc9da6315f80f5e48235f35e0053f25f2372deec341d04e"
+    },
+    {
       "path": "outputs/paper/revision_descriptiva_2026-10-28/figures/Figure1_age_sources_en.pdf",
       "bytes": 37476,
       "sha256": "8125faf84095d7142b521ec8f8818d5d20ec6a7597202426ecc81fc997086824"
@@ -818,18 +828,18 @@
     },
     {
       "path": "outputs/paper/revision_descriptiva_2026-10-28/figures/Figure3_historical_networks_en.pdf",
-      "bytes": 40859,
-      "sha256": "b7bad9a0be4a0ad1cd2c96176403d95f544d2b080f23ee8e7601549e2cc21dbb"
+      "bytes": 53515,
+      "sha256": "8bb7712306de0de8d616c226ae7da243fd63161c5323f24e6800fe5cf0120d7b"
     },
     {
       "path": "outputs/paper/revision_descriptiva_2026-10-28/figures/Figure3_historical_networks_en.png",
-      "bytes": 1907639,
-      "sha256": "b8e4e818ef6b538344fc5be50634789cc706b632b4837a88fbb10c1e1e73ae0f"
+      "bytes": 2272776,
+      "sha256": "be08f5ffa9ed801e69bf75f6e968cec5f7a36adccc5c2f9292b1cf990565348e"
     },
     {
       "path": "outputs/paper/revision_descriptiva_2026-10-28/figures/Figure3_historical_networks_en.svg",
-      "bytes": 165673,
-      "sha256": "bce74e627cea32daceb0734671173c89afced250d52de721d48114ff5a875f8c"
+      "bytes": 228564,
+      "sha256": "fc3cc896138a49f0f89c6eb2c94c01032fc2062e7f345ed4bfdedbb6cc57fcb8"
     },
     {
       "path": "outputs/paper/revision_descriptiva_2026-10-28/figures/Figure4_centres_en.pdf",
@@ -875,6 +885,11 @@
       "path": "outputs/paper/revision_descriptiva_2026-10-28/figures/Figure6_unique_people_en.svg",
       "bytes": 137565,
       "sha256": "18d5a2f4db27ce9ce7bda1d91adda5d9c1c58d635f480e3cf0291e078b7bd05b"
+    },
+    {
+      "path": "outputs/paper/revision_descriptiva_2026-10-28/figures/source_data/Figure3_historical_networks_prevalence_en.csv",
+      "bytes": 13587,
+      "sha256": "e84e678e3b28301345816ee5c56e41872d4b5f04dc0e9716db2e2fea5756b829"
     },
     {
       "path": "outputs/publication_programme_2026-10-28/care_extension/care_balanced_panel.pdf",
@@ -1094,7 +1109,7 @@
     {
       "path": "site_provenance.json",
       "bytes": 18941,
-      "sha256": "feb1e91ebe4504454367436922dda33fa1e50fd54d262acbbea2fb6274d0b571"
+      "sha256": "e1f41b0bc05c7530b11c51cc189ecaceb26bea36cd0230795dbfd02cdad970fb"
     }
   ]
 }

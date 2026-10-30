@@ -2,7 +2,7 @@
 title: "Dementia and neurodegenerative disease in Chile"
 subtitle: "Methods results and the extended figure and table bank"
 lang: en
-date-modified: 2026-10-28
+date-modified: 2026-10-30
 navbar: false
 sidebar: false
 format:
@@ -90,7 +90,13 @@ def render_figure(figure):
     display(markdown(figure["caption"]))
     svg = "../" + str(raster.with_suffix(".svg").relative_to(PROJECT))
     pdf = "../" + str(raster.with_suffix(".pdf").relative_to(PROJECT))
-    display(markdown(f'[Editable SVG]({svg}) · [Vector PDF]({pdf})'))
+    links = f'[Editable SVG]({svg}) · [Vector PDF]({pdf})'
+    if figure.get("prevalence_source_csv"):
+        source_table = PROJECT / figure["prevalence_source_csv"]
+        if not source_table.is_file():
+            raise FileNotFoundError(source_table)
+        links += ' · [Plotted comorbidity counts and percentages](../' + figure["prevalence_source_csv"] + ')'
+    display(markdown(links))
 ```
 
 The Word documents and this page share source-backed text, tables, captions and

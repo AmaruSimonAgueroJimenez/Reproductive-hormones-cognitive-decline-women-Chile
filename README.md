@@ -8,7 +8,7 @@ The [research website](https://amarusimonaguerojimenez.github.io/Reproductive-ho
 - [Part II: connected analyses](docs/reproductive_life_course.html): reproductive history, ovarian surgery and menopause-care context, including the survey, surgery and care extensions.
 - [Administrative extension](docs/access_diagnostic_recording_extension.html): the 29 October 2026 REM, DEIS and GRD update, with source-completeness checks, geographic analyses and sensitivity analyses for diagnostic recording.
 
-The first two reports preserve the reviewed 28 October snapshots. The later administrative extension documents corrected source handling and definitions; its facility associations remain exploratory and sensitive to denominators and programme intensity.
+The analyses in the first two reports retain their reviewed 28 October 2026 snapshots, and the administrative extension remains dated 29 October 2026. On 30 October 2026, the comorbidity figures were updated with adjacent bar panels showing raw coded prevalence; this presentation revision did not refit the analyses or networks. The administrative extension documents corrected source handling and definitions; its facility associations remain exploratory and sensitive to denominators and programme intensity.
 
 ## Presentations
 

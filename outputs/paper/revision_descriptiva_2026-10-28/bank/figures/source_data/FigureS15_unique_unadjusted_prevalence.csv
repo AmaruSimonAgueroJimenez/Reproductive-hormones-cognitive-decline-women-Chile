@@ -1,0 +1,127 @@
+disease,disease_code,sex,group,node,node_label,abbreviation,n_coded,N,pct,observation_unit,period,prevalence_adjusted
+Alzheimer disease,AD,Women,Mujer,PARK,Parkinsonism,PARK,467,12565,3.716673298846001,unique people at first eligible year,2021–2024,False
+Alzheimer disease,AD,Women,Mujer,HTN,Hypertension,HTN,8842,12565,70.37007560684441,unique people at first eligible year,2021–2024,False
+Alzheimer disease,AD,Women,Mujer,DM,Diabetes,DM,3886,12565,30.92717867091126,unique people at first eligible year,2021–2024,False
+Alzheimer disease,AD,Women,Mujer,DLP,Dyslipidaemia,DLP,1621,12565,12.900915240748107,unique people at first eligible year,2021–2024,False
+Alzheimer disease,AD,Women,Mujer,IHD,Ischaemic heart disease,IHD,827,12565,6.581774771189814,unique people at first eligible year,2021–2024,False
+Alzheimer disease,AD,Women,Mujer,HF,Heart failure,HF,1427,12565,11.356943891762834,unique people at first eligible year,2021–2024,False
+Alzheimer disease,AD,Women,Mujer,AF,Atrial fibrillation or flutter,AF,1268,12565,10.091524074810982,unique people at first eligible year,2021–2024,False
+Alzheimer disease,AD,Women,Mujer,CVD,Cerebrovascular disease,CVD,1823,12565,14.508555511341026,unique people at first eligible year,2021–2024,False
+Alzheimer disease,AD,Women,Mujer,CKD,Chronic kidney disease,CKD,1782,12565,14.182252288101871,unique people at first eligible year,2021–2024,False
+Alzheimer disease,AD,Women,Mujer,HYPOT,Hypothyroidism,THYR,2479,12565,19.72940708316753,unique people at first eligible year,2021–2024,False
+Alzheimer disease,AD,Women,Mujer,CLRD,Chronic lower respiratory disease,CLRD,1511,12565,12.025467568643055,unique people at first eligible year,2021–2024,False
+Alzheimer disease,AD,Women,Mujer,OA,Osteoarthritis,OA,1550,12565,12.335853561480302,unique people at first eligible year,2021–2024,False
+Alzheimer disease,AD,Women,Mujer,CANC,Cancer,CANC,732,12565,5.825706327099085,unique people at first eligible year,2021–2024,False
+Alzheimer disease,AD,Women,Mujer,HEAR,Hearing loss,HEAR,897,12565,7.1388778352566655,unique people at first eligible year,2021–2024,False
+Alzheimer disease,AD,Women,Mujer,EPI,Epilepsy,EPI,468,12565,3.724631914046956,unique people at first eligible year,2021–2024,False
+Alzheimer disease,AD,Women,Mujer,DEPR,Depression,DEPR,504,12565,4.011142061281337,unique people at first eligible year,2021–2024,False
+Alzheimer disease,AD,Women,Mujer,ANEM,Anaemia (non-acute),ANEM,2371,12565,18.869876641464387,unique people at first eligible year,2021–2024,False
+Alzheimer disease,AD,Women,Mujer,DEL,Delirium,DEL,1687,12565,13.426183844011142,unique people at first eligible year,2021–2024,False
+Alzheimer disease,AD,Women,Mujer,PU,Pressure ulcer,PU,3010,12565,23.955431754874652,unique people at first eligible year,2021–2024,False
+Alzheimer disease,AD,Women,Mujer,DYSPH,Dysphagia,DYS,1232,12565,9.8050139275766,unique people at first eligible year,2021–2024,False
+Alzheimer disease,AD,Women,Mujer,MALN,Malnutrition,MALN,1086,12565,8.643056108237166,unique people at first eligible year,2021–2024,False
+Alzheimer disease,AD,Men,Hombre,PARK,Parkinsonism,PARK,496,6721,7.379854188364826,unique people at first eligible year,2021–2024,False
+Alzheimer disease,AD,Men,Hombre,HTN,Hypertension,HTN,4634,6721,68.94807320339235,unique people at first eligible year,2021–2024,False
+Alzheimer disease,AD,Men,Hombre,DM,Diabetes,DM,2251,6721,33.4920398750186,unique people at first eligible year,2021–2024,False
+Alzheimer disease,AD,Men,Hombre,DLP,Dyslipidaemia,DLP,846,6721,12.587412587412588,unique people at first eligible year,2021–2024,False
+Alzheimer disease,AD,Men,Hombre,IHD,Ischaemic heart disease,IHD,782,6721,11.635173337300998,unique people at first eligible year,2021–2024,False
+Alzheimer disease,AD,Men,Hombre,HF,Heart failure,HF,712,6721,10.593661657491444,unique people at first eligible year,2021–2024,False
+Alzheimer disease,AD,Men,Hombre,AF,Atrial fibrillation or flutter,AF,798,6721,11.873233149828897,unique people at first eligible year,2021–2024,False
+Alzheimer disease,AD,Men,Hombre,CVD,Cerebrovascular disease,CVD,1215,6721,18.077667013837225,unique people at first eligible year,2021–2024,False
+Alzheimer disease,AD,Men,Hombre,CKD,Chronic kidney disease,CKD,1126,6721,16.753459306650793,unique people at first eligible year,2021–2024,False
+Alzheimer disease,AD,Men,Hombre,HYPOT,Hypothyroidism,THYR,755,6721,11.23344740366017,unique people at first eligible year,2021–2024,False
+Alzheimer disease,AD,Men,Hombre,CLRD,Chronic lower respiratory disease,CLRD,951,6721,14.149680107126915,unique people at first eligible year,2021–2024,False
+Alzheimer disease,AD,Men,Hombre,OA,Osteoarthritis,OA,461,6721,6.8590983484600505,unique people at first eligible year,2021–2024,False
+Alzheimer disease,AD,Men,Hombre,CANC,Cancer,CANC,657,6721,9.775331051926797,unique people at first eligible year,2021–2024,False
+Alzheimer disease,AD,Men,Hombre,HEAR,Hearing loss,HEAR,620,6721,9.224817735456034,unique people at first eligible year,2021–2024,False
+Alzheimer disease,AD,Men,Hombre,EPI,Epilepsy,EPI,267,6721,3.972623121559292,unique people at first eligible year,2021–2024,False
+Alzheimer disease,AD,Men,Hombre,DEPR,Depression,DEPR,154,6721,2.2913256955810146,unique people at first eligible year,2021–2024,False
+Alzheimer disease,AD,Men,Hombre,ANEM,Anaemia (non-acute),ANEM,1091,6721,16.23270346674602,unique people at first eligible year,2021–2024,False
+Alzheimer disease,AD,Men,Hombre,DEL,Delirium,DEL,940,6721,13.986013986013988,unique people at first eligible year,2021–2024,False
+Alzheimer disease,AD,Men,Hombre,PU,Pressure ulcer,PU,1618,6721,24.073798541883647,unique people at first eligible year,2021–2024,False
+Alzheimer disease,AD,Men,Hombre,DYSPH,Dysphagia,DYS,837,6721,12.453503942865645,unique people at first eligible year,2021–2024,False
+Alzheimer disease,AD,Men,Hombre,MALN,Malnutrition,MALN,614,6721,9.135545305758072,unique people at first eligible year,2021–2024,False
+Unspecified dementia,UD,Women,Mujer,PARK,Parkinsonism,PARK,549,12210,4.496314496314496,unique people at first eligible year,2021–2024,False
+Unspecified dementia,UD,Women,Mujer,HTN,Hypertension,HTN,9280,12210,76.003276003276,unique people at first eligible year,2021–2024,False
+Unspecified dementia,UD,Women,Mujer,DM,Diabetes,DM,4197,12210,34.37346437346437,unique people at first eligible year,2021–2024,False
+Unspecified dementia,UD,Women,Mujer,DLP,Dyslipidaemia,DLP,1634,12210,13.382473382473384,unique people at first eligible year,2021–2024,False
+Unspecified dementia,UD,Women,Mujer,IHD,Ischaemic heart disease,IHD,964,12210,7.895167895167895,unique people at first eligible year,2021–2024,False
+Unspecified dementia,UD,Women,Mujer,HF,Heart failure,HF,1958,12210,16.036036036036037,unique people at first eligible year,2021–2024,False
+Unspecified dementia,UD,Women,Mujer,AF,Atrial fibrillation or flutter,AF,1619,12210,13.25962325962326,unique people at first eligible year,2021–2024,False
+Unspecified dementia,UD,Women,Mujer,CVD,Cerebrovascular disease,CVD,2119,12210,17.354627354627354,unique people at first eligible year,2021–2024,False
+Unspecified dementia,UD,Women,Mujer,CKD,Chronic kidney disease,CKD,1966,12210,16.101556101556103,unique people at first eligible year,2021–2024,False
+Unspecified dementia,UD,Women,Mujer,HYPOT,Hypothyroidism,THYR,2437,12210,19.95904995904996,unique people at first eligible year,2021–2024,False
+Unspecified dementia,UD,Women,Mujer,CLRD,Chronic lower respiratory disease,CLRD,1847,12210,15.126945126945127,unique people at first eligible year,2021–2024,False
+Unspecified dementia,UD,Women,Mujer,OA,Osteoarthritis,OA,1837,12210,15.045045045045043,unique people at first eligible year,2021–2024,False
+Unspecified dementia,UD,Women,Mujer,CANC,Cancer,CANC,800,12210,6.552006552006552,unique people at first eligible year,2021–2024,False
+Unspecified dementia,UD,Women,Mujer,HEAR,Hearing loss,HEAR,1261,12210,10.327600327600328,unique people at first eligible year,2021–2024,False
+Unspecified dementia,UD,Women,Mujer,EPI,Epilepsy,EPI,488,12210,3.996723996723997,unique people at first eligible year,2021–2024,False
+Unspecified dementia,UD,Women,Mujer,DEPR,Depression,DEPR,768,12210,6.2899262899262895,unique people at first eligible year,2021–2024,False
+Unspecified dementia,UD,Women,Mujer,ANEM,Anaemia (non-acute),ANEM,2574,12210,21.08108108108108,unique people at first eligible year,2021–2024,False
+Unspecified dementia,UD,Women,Mujer,DEL,Delirium,DEL,1614,12210,13.21867321867322,unique people at first eligible year,2021–2024,False
+Unspecified dementia,UD,Women,Mujer,PU,Pressure ulcer,PU,2593,12210,21.23669123669124,unique people at first eligible year,2021–2024,False
+Unspecified dementia,UD,Women,Mujer,DYSPH,Dysphagia,DYS,990,12210,8.108108108108109,unique people at first eligible year,2021–2024,False
+Unspecified dementia,UD,Women,Mujer,MALN,Malnutrition,MALN,981,12210,8.034398034398034,unique people at first eligible year,2021–2024,False
+Unspecified dementia,UD,Men,Hombre,PARK,Parkinsonism,PARK,587,8106,7.241549469528744,unique people at first eligible year,2021–2024,False
+Unspecified dementia,UD,Men,Hombre,HTN,Hypertension,HTN,5861,8106,72.3044658277819,unique people at first eligible year,2021–2024,False
+Unspecified dementia,UD,Men,Hombre,DM,Diabetes,DM,2968,8106,36.61485319516407,unique people at first eligible year,2021–2024,False
+Unspecified dementia,UD,Men,Hombre,DLP,Dyslipidaemia,DLP,1035,8106,12.768319763138416,unique people at first eligible year,2021–2024,False
+Unspecified dementia,UD,Men,Hombre,IHD,Ischaemic heart disease,IHD,945,8106,11.658031088082902,unique people at first eligible year,2021–2024,False
+Unspecified dementia,UD,Men,Hombre,HF,Heart failure,HF,1135,8106,14.001973846533431,unique people at first eligible year,2021–2024,False
+Unspecified dementia,UD,Men,Hombre,AF,Atrial fibrillation or flutter,AF,1127,8106,13.903281519861832,unique people at first eligible year,2021–2024,False
+Unspecified dementia,UD,Men,Hombre,CVD,Cerebrovascular disease,CVD,1852,8106,22.847273624475697,unique people at first eligible year,2021–2024,False
+Unspecified dementia,UD,Men,Hombre,CKD,Chronic kidney disease,CKD,1625,8106,20.046878855169012,unique people at first eligible year,2021–2024,False
+Unspecified dementia,UD,Men,Hombre,HYPOT,Hypothyroidism,THYR,885,8106,10.917838638045891,unique people at first eligible year,2021–2024,False
+Unspecified dementia,UD,Men,Hombre,CLRD,Chronic lower respiratory disease,CLRD,1351,8106,16.666666666666664,unique people at first eligible year,2021–2024,False
+Unspecified dementia,UD,Men,Hombre,OA,Osteoarthritis,OA,673,8106,8.302491981248458,unique people at first eligible year,2021–2024,False
+Unspecified dementia,UD,Men,Hombre,CANC,Cancer,CANC,840,8106,10.362694300518134,unique people at first eligible year,2021–2024,False
+Unspecified dementia,UD,Men,Hombre,HEAR,Hearing loss,HEAR,1076,8106,13.274117937330374,unique people at first eligible year,2021–2024,False
+Unspecified dementia,UD,Men,Hombre,EPI,Epilepsy,EPI,504,8106,6.217616580310881,unique people at first eligible year,2021–2024,False
+Unspecified dementia,UD,Men,Hombre,DEPR,Depression,DEPR,321,8106,3.9600296076980017,unique people at first eligible year,2021–2024,False
+Unspecified dementia,UD,Men,Hombre,ANEM,Anaemia (non-acute),ANEM,1591,8106,19.627436466814704,unique people at first eligible year,2021–2024,False
+Unspecified dementia,UD,Men,Hombre,DEL,Delirium,DEL,1256,8106,15.4946952874414,unique people at first eligible year,2021–2024,False
+Unspecified dementia,UD,Men,Hombre,PU,Pressure ulcer,PU,1875,8106,23.13101406365655,unique people at first eligible year,2021–2024,False
+Unspecified dementia,UD,Men,Hombre,DYSPH,Dysphagia,DYS,859,8106,10.597088576363188,unique people at first eligible year,2021–2024,False
+Unspecified dementia,UD,Men,Hombre,MALN,Malnutrition,MALN,785,8106,9.684184554650876,unique people at first eligible year,2021–2024,False
+Parkinson disease,PD,Women,Mujer,DEM,Dementia,DEM,1229,6204,19.809800128949064,unique people at first eligible year,2021–2024,False
+Parkinson disease,PD,Women,Mujer,HTN,Hypertension,HTN,4394,6204,70.82527401676337,unique people at first eligible year,2021–2024,False
+Parkinson disease,PD,Women,Mujer,DM,Diabetes,DM,2148,6204,34.622823984526114,unique people at first eligible year,2021–2024,False
+Parkinson disease,PD,Women,Mujer,DLP,Dyslipidaemia,DLP,891,6204,14.361702127659576,unique people at first eligible year,2021–2024,False
+Parkinson disease,PD,Women,Mujer,IHD,Ischaemic heart disease,IHD,412,6204,6.640876853642812,unique people at first eligible year,2021–2024,False
+Parkinson disease,PD,Women,Mujer,HF,Heart failure,HF,751,6204,12.105093488072212,unique people at first eligible year,2021–2024,False
+Parkinson disease,PD,Women,Mujer,AF,Atrial fibrillation or flutter,AF,559,6204,9.01031592520954,unique people at first eligible year,2021–2024,False
+Parkinson disease,PD,Women,Mujer,CVD,Cerebrovascular disease,CVD,776,6204,12.508059316569955,unique people at first eligible year,2021–2024,False
+Parkinson disease,PD,Women,Mujer,CKD,Chronic kidney disease,CKD,716,6204,11.540941328175371,unique people at first eligible year,2021–2024,False
+Parkinson disease,PD,Women,Mujer,HYPOT,Hypothyroidism,THYR,1424,6204,22.952933591231464,unique people at first eligible year,2021–2024,False
+Parkinson disease,PD,Women,Mujer,CLRD,Chronic lower respiratory disease,CLRD,894,6204,14.410058027079303,unique people at first eligible year,2021–2024,False
+Parkinson disease,PD,Women,Mujer,OA,Osteoarthritis,OA,1166,6204,18.79432624113475,unique people at first eligible year,2021–2024,False
+Parkinson disease,PD,Women,Mujer,CANC,Cancer,CANC,568,6204,9.15538362346873,unique people at first eligible year,2021–2024,False
+Parkinson disease,PD,Women,Mujer,HEAR,Hearing loss,HEAR,368,6204,5.931656995486783,unique people at first eligible year,2021–2024,False
+Parkinson disease,PD,Women,Mujer,EPI,Epilepsy,EPI,221,6204,3.5622179239200515,unique people at first eligible year,2021–2024,False
+Parkinson disease,PD,Women,Mujer,DEPR,Depression,DEPR,474,6204,7.640232108317215,unique people at first eligible year,2021–2024,False
+Parkinson disease,PD,Women,Mujer,ANEM,Anaemia (non-acute),ANEM,1010,6204,16.279819471308834,unique people at first eligible year,2021–2024,False
+Parkinson disease,PD,Women,Mujer,DEL,Delirium,DEL,552,6204,8.897485493230175,unique people at first eligible year,2021–2024,False
+Parkinson disease,PD,Women,Mujer,PU,Pressure ulcer,PU,1030,6204,16.602192134107028,unique people at first eligible year,2021–2024,False
+Parkinson disease,PD,Women,Mujer,DYSPH,Dysphagia,DYS,481,6204,7.753062540296583,unique people at first eligible year,2021–2024,False
+Parkinson disease,PD,Women,Mujer,MALN,Malnutrition,MALN,377,6204,6.0767246937459705,unique people at first eligible year,2021–2024,False
+Parkinson disease,PD,Men,Hombre,DEM,Dementia,DEM,1370,7784,17.60020554984584,unique people at first eligible year,2021–2024,False
+Parkinson disease,PD,Men,Hombre,HTN,Hypertension,HTN,5313,7784,68.25539568345323,unique people at first eligible year,2021–2024,False
+Parkinson disease,PD,Men,Hombre,DM,Diabetes,DM,2653,7784,34.08273381294964,unique people at first eligible year,2021–2024,False
+Parkinson disease,PD,Men,Hombre,DLP,Dyslipidaemia,DLP,1043,7784,13.399280575539567,unique people at first eligible year,2021–2024,False
+Parkinson disease,PD,Men,Hombre,IHD,Ischaemic heart disease,IHD,881,7784,11.31808838643371,unique people at first eligible year,2021–2024,False
+Parkinson disease,PD,Men,Hombre,HF,Heart failure,HF,874,7784,11.228160328879753,unique people at first eligible year,2021–2024,False
+Parkinson disease,PD,Men,Hombre,AF,Atrial fibrillation or flutter,AF,894,7784,11.485097636176771,unique people at first eligible year,2021–2024,False
+Parkinson disease,PD,Men,Hombre,CVD,Cerebrovascular disease,CVD,1192,7784,15.313463514902365,unique people at first eligible year,2021–2024,False
+Parkinson disease,PD,Men,Hombre,CKD,Chronic kidney disease,CKD,1093,7784,14.041623843782116,unique people at first eligible year,2021–2024,False
+Parkinson disease,PD,Men,Hombre,HYPOT,Hypothyroidism,THYR,785,7784,10.084789311408016,unique people at first eligible year,2021–2024,False
+Parkinson disease,PD,Men,Hombre,CLRD,Chronic lower respiratory disease,CLRD,984,7784,12.64131551901336,unique people at first eligible year,2021–2024,False
+Parkinson disease,PD,Men,Hombre,OA,Osteoarthritis,OA,690,7784,8.864337101747173,unique people at first eligible year,2021–2024,False
+Parkinson disease,PD,Men,Hombre,CANC,Cancer,CANC,894,7784,11.485097636176771,unique people at first eligible year,2021–2024,False
+Parkinson disease,PD,Men,Hombre,HEAR,Hearing loss,HEAR,580,7784,7.451181911613566,unique people at first eligible year,2021–2024,False
+Parkinson disease,PD,Men,Hombre,EPI,Epilepsy,EPI,278,7784,3.571428571428571,unique people at first eligible year,2021–2024,False
+Parkinson disease,PD,Men,Hombre,DEPR,Depression,DEPR,319,7784,4.098150051387462,unique people at first eligible year,2021–2024,False
+Parkinson disease,PD,Men,Hombre,ANEM,Anaemia (non-acute),ANEM,1072,7784,13.771839671120247,unique people at first eligible year,2021–2024,False
+Parkinson disease,PD,Men,Hombre,DEL,Delirium,DEL,689,7784,8.851490236382324,unique people at first eligible year,2021–2024,False
+Parkinson disease,PD,Men,Hombre,PU,Pressure ulcer,PU,1302,7784,16.72661870503597,unique people at first eligible year,2021–2024,False
+Parkinson disease,PD,Men,Hombre,DYSPH,Dysphagia,DYS,727,7784,9.33967112024666,unique people at first eligible year,2021–2024,False
+Parkinson disease,PD,Men,Hombre,MALN,Malnutrition,MALN,440,7784,5.65262076053443,unique people at first eligible year,2021–2024,False

@@ -1,0 +1,127 @@
+disease,disease_label,sex,period,observation_unit,node_order,node,display_abbreviation,condition,n_coded,N,pct
+AD,Alzheimer disease,Women,2019–2021,person-year,0,PARK,PARK,Parkinsonism,401,9373,4.2782460258188415
+AD,Alzheimer disease,Women,2019–2021,person-year,1,HTN,HTN,Hypertension,6381,9373,68.07852341832924
+AD,Alzheimer disease,Women,2019–2021,person-year,2,DM,DM,Diabetes,2754,9373,29.382268217219675
+AD,Alzheimer disease,Women,2019–2021,person-year,3,DLP,DLP,Dyslipidaemia,832,9373,8.876560332871012
+AD,Alzheimer disease,Women,2019–2021,person-year,4,IHD,IHD,Ischaemic heart disease,547,9373,5.8359116611543795
+AD,Alzheimer disease,Women,2019–2021,person-year,5,HF,HF,Heart failure,950,9373,10.135495572388775
+AD,Alzheimer disease,Women,2019–2021,person-year,6,AF,AF,Atrial fibrillation or flutter,894,9373,9.538034780753229
+AD,Alzheimer disease,Women,2019–2021,person-year,7,CVD,CVD,Cerebrovascular disease,1469,9373,15.672676837725383
+AD,Alzheimer disease,Women,2019–2021,person-year,8,CKD,CKD,Chronic kidney disease,1288,9373,13.741598207617626
+AD,Alzheimer disease,Women,2019–2021,person-year,9,HYPOT,THYR,Hypothyroidism,1506,9373,16.067427717913155
+AD,Alzheimer disease,Women,2019–2021,person-year,10,CLRD,CLRD,Chronic lower respiratory disease,936,9373,9.986130374479888
+AD,Alzheimer disease,Women,2019–2021,person-year,11,OA,OA,Osteoarthritis,708,9373,7.553611437106583
+AD,Alzheimer disease,Women,2019–2021,person-year,12,CANC,CANC,Cancer,433,9373,4.6196521924677265
+AD,Alzheimer disease,Women,2019–2021,person-year,13,HEAR,HEAR,Hearing loss,427,9373,4.5556385362210605
+AD,Alzheimer disease,Women,2019–2021,person-year,14,EPI,EPI,Epilepsy,357,9373,3.808812546676625
+AD,Alzheimer disease,Women,2019–2021,person-year,15,DEPR,DEPR,Depression,266,9373,2.8379387602688575
+AD,Alzheimer disease,Women,2019–2021,person-year,16,ANEM,ANEM,Anaemia (non-acute),1462,9373,15.597994238770935
+AD,Alzheimer disease,Women,2019–2021,person-year,17,DEL,DEL,Delirium,824,9373,8.791208791208792
+AD,Alzheimer disease,Women,2019–2021,person-year,18,PU,PU,Pressure ulcer,2137,9373,22.799530566520858
+AD,Alzheimer disease,Women,2019–2021,person-year,19,DYSPH,DYS,Dysphagia,851,9373,9.079270244318788
+AD,Alzheimer disease,Women,2019–2021,person-year,20,MALN,MALN,Malnutrition,723,9373,7.713645577723248
+AD,Alzheimer disease,Women,2022–2024,person-year,0,PARK,PARK,Parkinsonism,446,11265,3.959165557035064
+AD,Alzheimer disease,Women,2022–2024,person-year,1,HTN,HTN,Hypertension,8005,11265,71.06080781180648
+AD,Alzheimer disease,Women,2022–2024,person-year,2,DM,DM,Diabetes,3603,11265,31.984021304926763
+AD,Alzheimer disease,Women,2022–2024,person-year,3,DLP,DLP,Dyslipidaemia,1513,11265,13.43098091433644
+AD,Alzheimer disease,Women,2022–2024,person-year,4,IHD,IHD,Ischaemic heart disease,784,11265,6.959609409675988
+AD,Alzheimer disease,Women,2022–2024,person-year,5,HF,HF,Heart failure,1370,11265,12.161562361296047
+AD,Alzheimer disease,Women,2022–2024,person-year,6,AF,AF,Atrial fibrillation or flutter,1168,11265,10.368397691966267
+AD,Alzheimer disease,Women,2022–2024,person-year,7,CVD,CVD,Cerebrovascular disease,1627,11265,14.442964935641369
+AD,Alzheimer disease,Women,2022–2024,person-year,8,CKD,CKD,Chronic kidney disease,1615,11265,14.336440301819794
+AD,Alzheimer disease,Women,2022–2024,person-year,9,HYPOT,THYR,Hypothyroidism,2316,11265,20.55925432756325
+AD,Alzheimer disease,Women,2022–2024,person-year,10,CLRD,CLRD,Chronic lower respiratory disease,1505,11265,13.359964491788723
+AD,Alzheimer disease,Women,2022–2024,person-year,11,OA,OA,Osteoarthritis,1477,11265,13.111407012871728
+AD,Alzheimer disease,Women,2022–2024,person-year,12,CANC,CANC,Cancer,710,11265,6.302707501109632
+AD,Alzheimer disease,Women,2022–2024,person-year,13,HEAR,HEAR,Hearing loss,837,11265,7.4300932090545935
+AD,Alzheimer disease,Women,2022–2024,person-year,14,EPI,EPI,Epilepsy,442,11265,3.923657345761207
+AD,Alzheimer disease,Women,2022–2024,person-year,15,DEPR,DEPR,Depression,479,11265,4.252108300044386
+AD,Alzheimer disease,Women,2022–2024,person-year,16,ANEM,ANEM,Anaemia (non-acute),2245,11265,19.92898357745229
+AD,Alzheimer disease,Women,2022–2024,person-year,17,DEL,DEL,Delirium,1551,11265,13.768308921438082
+AD,Alzheimer disease,Women,2022–2024,person-year,18,PU,PU,Pressure ulcer,2819,11265,25.024411895250775
+AD,Alzheimer disease,Women,2022–2024,person-year,19,DYSPH,DYS,Dysphagia,1192,11265,10.58144695960941
+AD,Alzheimer disease,Women,2022–2024,person-year,20,MALN,MALN,Malnutrition,1025,11265,9.098979138925875
+UD,Unspecified dementia,Women,2019–2021,person-year,0,PARK,PARK,Parkinsonism,353,8638,4.08659411900903
+UD,Unspecified dementia,Women,2019–2021,person-year,1,HTN,HTN,Hypertension,6356,8638,73.58184764991897
+UD,Unspecified dementia,Women,2019–2021,person-year,2,DM,DM,Diabetes,2787,8638,32.26441305857837
+UD,Unspecified dementia,Women,2019–2021,person-year,3,DLP,DLP,Dyslipidaemia,767,8638,8.879370224589026
+UD,Unspecified dementia,Women,2019–2021,person-year,4,IHD,IHD,Ischaemic heart disease,653,8638,7.559620282472794
+UD,Unspecified dementia,Women,2019–2021,person-year,5,HF,HF,Heart failure,1306,8638,15.119240564945589
+UD,Unspecified dementia,Women,2019–2021,person-year,6,AF,AF,Atrial fibrillation or flutter,1106,8638,12.80388978930308
+UD,Unspecified dementia,Women,2019–2021,person-year,7,CVD,CVD,Cerebrovascular disease,1605,8638,18.580689974531143
+UD,Unspecified dementia,Women,2019–2021,person-year,8,CKD,CKD,Chronic kidney disease,1352,8638,15.651771243343363
+UD,Unspecified dementia,Women,2019–2021,person-year,9,HYPOT,THYR,Hypothyroidism,1440,8638,16.67052558462607
+UD,Unspecified dementia,Women,2019–2021,person-year,10,CLRD,CLRD,Chronic lower respiratory disease,1133,8638,13.116462144014818
+UD,Unspecified dementia,Women,2019–2021,person-year,11,OA,OA,Osteoarthritis,838,8638,9.701319749942115
+UD,Unspecified dementia,Women,2019–2021,person-year,12,CANC,CANC,Cancer,517,8638,5.985181755035888
+UD,Unspecified dementia,Women,2019–2021,person-year,13,HEAR,HEAR,Hearing loss,656,8638,7.594350544107432
+UD,Unspecified dementia,Women,2019–2021,person-year,14,EPI,EPI,Epilepsy,335,8638,3.878212549201204
+UD,Unspecified dementia,Women,2019–2021,person-year,15,DEPR,DEPR,Depression,419,8638,4.8506598749710585
+UD,Unspecified dementia,Women,2019–2021,person-year,16,ANEM,ANEM,Anaemia (non-acute),1506,8638,17.4345913405881
+UD,Unspecified dementia,Women,2019–2021,person-year,17,DEL,DEL,Delirium,803,8638,9.296133364204676
+UD,Unspecified dementia,Women,2019–2021,person-year,18,PU,PU,Pressure ulcer,1698,8638,19.65732808520491
+UD,Unspecified dementia,Women,2019–2021,person-year,19,DYSPH,DYS,Dysphagia,612,8638,7.08497337346608
+UD,Unspecified dementia,Women,2019–2021,person-year,20,MALN,MALN,Malnutrition,664,8638,7.686964575133133
+UD,Unspecified dementia,Women,2022–2024,person-year,0,PARK,PARK,Parkinsonism,509,10373,4.906970018316784
+UD,Unspecified dementia,Women,2022–2024,person-year,1,HTN,HTN,Hypertension,7915,10373,76.30386580545647
+UD,Unspecified dementia,Women,2022–2024,person-year,2,DM,DM,Diabetes,3660,10373,35.28391015135448
+UD,Unspecified dementia,Women,2022–2024,person-year,3,DLP,DLP,Dyslipidaemia,1485,10373,14.316012725344644
+UD,Unspecified dementia,Women,2022–2024,person-year,4,IHD,IHD,Ischaemic heart disease,799,10373,7.702689675118095
+UD,Unspecified dementia,Women,2022–2024,person-year,5,HF,HF,Heart failure,1678,10373,16.176612359008967
+UD,Unspecified dementia,Women,2022–2024,person-year,6,AF,AF,Atrial fibrillation or flutter,1404,10373,13.53513930396221
+UD,Unspecified dementia,Women,2022–2024,person-year,7,CVD,CVD,Cerebrovascular disease,1800,10373,17.35274269738745
+UD,Unspecified dementia,Women,2022–2024,person-year,8,CKD,CKD,Chronic kidney disease,1697,10373,16.3597801985925
+UD,Unspecified dementia,Women,2022–2024,person-year,9,HYPOT,THYR,Hypothyroidism,2113,10373,20.370191844210932
+UD,Unspecified dementia,Women,2022–2024,person-year,10,CLRD,CLRD,Chronic lower respiratory disease,1611,10373,15.530704714161766
+UD,Unspecified dementia,Women,2022–2024,person-year,11,OA,OA,Osteoarthritis,1629,10373,15.70423214113564
+UD,Unspecified dementia,Women,2022–2024,person-year,12,CANC,CANC,Cancer,698,10373,6.729008001542466
+UD,Unspecified dementia,Women,2022–2024,person-year,13,HEAR,HEAR,Hearing loss,1091,10373,10.517690157138729
+UD,Unspecified dementia,Women,2022–2024,person-year,14,EPI,EPI,Epilepsy,451,10373,4.3478260869565215
+UD,Unspecified dementia,Women,2022–2024,person-year,15,DEPR,DEPR,Depression,650,10373,6.266268196278801
+UD,Unspecified dementia,Women,2022–2024,person-year,16,ANEM,ANEM,Anaemia (non-acute),2273,10373,21.91265786175648
+UD,Unspecified dementia,Women,2022–2024,person-year,17,DEL,DEL,Delirium,1404,10373,13.53513930396221
+UD,Unspecified dementia,Women,2022–2024,person-year,18,PU,PU,Pressure ulcer,2331,10373,22.471801793116743
+UD,Unspecified dementia,Women,2022–2024,person-year,19,DYSPH,DYS,Dysphagia,877,10373,8.45464185867155
+UD,Unspecified dementia,Women,2022–2024,person-year,20,MALN,MALN,Malnutrition,866,10373,8.348597319965295
+PD,Parkinson disease,Women,2019–2021,person-year,0,DEM,DEM,Dementia,962,4831,19.913061477954873
+PD,Parkinson disease,Women,2019–2021,person-year,1,HTN,HTN,Hypertension,3392,4831,70.21320637549162
+PD,Parkinson disease,Women,2019–2021,person-year,2,DM,DM,Diabetes,1562,4831,32.332850341544194
+PD,Parkinson disease,Women,2019–2021,person-year,3,DLP,DLP,Dyslipidaemia,489,4831,10.122127923825296
+PD,Parkinson disease,Women,2019–2021,person-year,4,IHD,IHD,Ischaemic heart disease,331,4831,6.851583523080107
+PD,Parkinson disease,Women,2019–2021,person-year,5,HF,HF,Heart failure,590,4831,12.212792382529496
+PD,Parkinson disease,Women,2019–2021,person-year,6,AF,AF,Atrial fibrillation or flutter,428,4831,8.859449389360382
+PD,Parkinson disease,Women,2019–2021,person-year,7,CVD,CVD,Cerebrovascular disease,631,4831,13.061477954874768
+PD,Parkinson disease,Women,2019–2021,person-year,8,CKD,CKD,Chronic kidney disease,544,4831,11.260608569654316
+PD,Parkinson disease,Women,2019–2021,person-year,9,HYPOT,THYR,Hypothyroidism,952,4831,19.706064996895055
+PD,Parkinson disease,Women,2019–2021,person-year,10,CLRD,CLRD,Chronic lower respiratory disease,592,4831,12.254191678741462
+PD,Parkinson disease,Women,2019–2021,person-year,11,OA,OA,Osteoarthritis,653,4831,13.516870213206374
+PD,Parkinson disease,Women,2019–2021,person-year,12,CANC,CANC,Cancer,410,4831,8.4868557234527
+PD,Parkinson disease,Women,2019–2021,person-year,13,HEAR,HEAR,Hearing loss,213,4831,4.409025046574208
+PD,Parkinson disease,Women,2019–2021,person-year,14,EPI,EPI,Epilepsy,160,4831,3.3119436969571514
+PD,Parkinson disease,Women,2019–2021,person-year,15,DEPR,DEPR,Depression,320,4831,6.623887393914303
+PD,Parkinson disease,Women,2019–2021,person-year,16,ANEM,ANEM,Anaemia (non-acute),671,4831,13.889463879114055
+PD,Parkinson disease,Women,2019–2021,person-year,17,DEL,DEL,Delirium,298,4831,6.168495135582695
+PD,Parkinson disease,Women,2019–2021,person-year,18,PU,PU,Pressure ulcer,794,4831,16.435520596149868
+PD,Parkinson disease,Women,2019–2021,person-year,19,DYSPH,DYS,Dysphagia,336,4831,6.955081763610019
+PD,Parkinson disease,Women,2019–2021,person-year,20,MALN,MALN,Malnutrition,246,4831,5.092113434071621
+PD,Parkinson disease,Women,2022–2024,person-year,0,DEM,DEM,Dementia,1153,5782,19.941196817710136
+PD,Parkinson disease,Women,2022–2024,person-year,1,HTN,HTN,Hypertension,4118,5782,71.22103078519544
+PD,Parkinson disease,Women,2022–2024,person-year,2,DM,DM,Diabetes,2044,5782,35.351089588377725
+PD,Parkinson disease,Women,2022–2024,person-year,3,DLP,DLP,Dyslipidaemia,883,5782,15.27153234175026
+PD,Parkinson disease,Women,2022–2024,person-year,4,IHD,IHD,Ischaemic heart disease,401,5782,6.935316499481148
+PD,Parkinson disease,Women,2022–2024,person-year,5,HF,HF,Heart failure,757,5782,13.092355586302318
+PD,Parkinson disease,Women,2022–2024,person-year,6,AF,AF,Atrial fibrillation or flutter,563,5782,9.737115185057077
+PD,Parkinson disease,Women,2022–2024,person-year,7,CVD,CVD,Cerebrovascular disease,731,5782,12.642684192320996
+PD,Parkinson disease,Women,2022–2024,person-year,8,CKD,CKD,Chronic kidney disease,696,5782,12.03735731580768
+PD,Parkinson disease,Women,2022–2024,person-year,9,HYPOT,THYR,Hypothyroidism,1403,5782,24.26496022137669
+PD,Parkinson disease,Women,2022–2024,person-year,10,CLRD,CLRD,Chronic lower respiratory disease,898,5782,15.530958145970253
+PD,Parkinson disease,Women,2022–2024,person-year,11,OA,OA,Osteoarthritis,1156,5782,19.993081978554137
+PD,Parkinson disease,Women,2022–2024,person-year,12,CANC,CANC,Cancer,561,5782,9.70252507782774
+PD,Parkinson disease,Women,2022–2024,person-year,13,HEAR,HEAR,Hearing loss,361,5782,6.2435143548945
+PD,Parkinson disease,Women,2022–2024,person-year,14,EPI,EPI,Epilepsy,223,5782,3.856796956070564
+PD,Parkinson disease,Women,2022–2024,person-year,15,DEPR,DEPR,Depression,468,5782,8.094085091663784
+PD,Parkinson disease,Women,2022–2024,person-year,16,ANEM,ANEM,Anaemia (non-acute),1007,5782,17.41611898996887
+PD,Parkinson disease,Women,2022–2024,person-year,17,DEL,DEL,Delirium,538,5782,9.30473884469042
+PD,Parkinson disease,Women,2022–2024,person-year,18,PU,PU,Pressure ulcer,972,5782,16.810792113455552
+PD,Parkinson disease,Women,2022–2024,person-year,19,DYSPH,DYS,Dysphagia,454,5782,7.851954341058458
+PD,Parkinson disease,Women,2022–2024,person-year,20,MALN,MALN,Malnutrition,367,5782,6.347284676582497
