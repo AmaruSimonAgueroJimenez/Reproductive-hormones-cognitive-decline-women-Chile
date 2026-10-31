@@ -2,6 +2,7 @@
 title: "Hormonal care and neurodegenerative diagnostic recording in Chile"
 subtitle: "Executed Methods and Results across REM DEIS and FONASA GRD"
 lang: en
+date-modified: 2026-10-30
 date: 2026-10-29
 navbar: false
 sidebar: false
@@ -59,6 +60,20 @@ def figure(index):
     base=str(Path(f['path']).with_suffix(''))
     display(Markdown('[Editable SVG](../'+base+'.svg) · [Vector PDF](../'+base+'.pdf) · [600 dpi PNG](../'+base+'.png)'))
 ```
+
+<!-- BEGIN REM INSTRUMENT LOAD -->
+```{python}
+#| label: load-rem-instrument-evidence
+#| output: asis
+# Rendering uses portable aggregate evidence; it does not read the external disk.
+sys.path.insert(0, str(PROJECT / 'scripts/rem_neuro_instruments'))
+from report_render import (load_instrument_bundle, validate_arithmetic_checks,
+                           InstrumentRenderer)
+instrument_evidence = load_instrument_bundle(PROJECT)
+instrument_arithmetic_checks = validate_arithmetic_checks(PROJECT, instrument_evidence)
+instrument_report = InstrumentRenderer(PROJECT, instrument_evidence)
+```
+<!-- END REM INSTRUMENT LOAD -->
 
 ## Methods
 
@@ -189,6 +204,16 @@ section('methods', 14)
 #| output: asis
 section('methods', 15)
 ```
+
+<!-- BEGIN REM INSTRUMENT METHODS -->
+### Additional REM functional and dementia instrument methods
+
+```{python}
+#| label: ni-instrument-methods
+#| output: asis
+instrument_report.methods()
+```
+<!-- END REM INSTRUMENT METHODS -->
 
 ## Results
 
@@ -595,6 +620,49 @@ figure(8)
 #| output: asis
 figure(9)
 ```
+
+<!-- BEGIN REM INSTRUMENT RESULTS -->
+## Additional REM instrument results
+
+```{python}
+#| label: ni-instrument-results
+#| output: asis
+instrument_report.results(context='access')
+```
+
+### Reproducing the instrument analyses
+
+The instrument figures, table cells and scientific Methods and Results text are
+shared with the Word reports. This page verifies the saved evidence files and
+recalculates the explicitly declared aggregate checks at render time. Source
+record extraction and original analytical processing are separate operations;
+they are not silently repeated when a reader renders this page. The aggregate
+inputs and analysis code allow the instrument outputs to be reconstructed
+without the external data volume. Original-source refresh additionally requires
+the same authorised REM releases and annual coded templates.
+
+The commands below are displayed for inspection and are not executed during
+rendering. Use the scientific and document environments recorded by the runner.
+
+```{python}
+#| label: ni-instrument-explicit-rebuild-commands
+#| eval: false
+#| code-fold: true
+import subprocess
+
+# Rebuild the new instrument evidence and its matching Word and HTML reports
+# from retained aggregate inputs.
+subprocess.run(['python3', 'scripts/run_rem_instrument_extension.py', '--word', '--html'],
+               cwd=PROJECT, check=True)
+
+# Refresh source-record extraction only with the authorised data volume mounted.
+subprocess.run(['python3', 'scripts/run_rem_instrument_extension.py', '--refresh-raw',
+                '--word', '--html'], cwd=PROJECT, check=True)
+```
+
+[Download the instrument aggregate data and reproducible sources](../outputs/rem_neuro_instruments_2026-10-30/REM_Instrument_Assets_EN.zip)
+· <a href="access_diagnostic_recording_extension_source.txt" download="access_diagnostic_recording_extension.qmd">Download this executable report source</a>
+<!-- END REM INSTRUMENT RESULTS -->
 
 ## Original data and classification sources
 

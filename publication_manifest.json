@@ -12,29 +12,29 @@
     "pages": [
       {
         "page": "docs/descriptive_methods_results.html",
-        "tables": 26,
-        "table_cells": 5785,
-        "figure_placements": 24,
+        "tables": 42,
+        "table_cells": 9839,
+        "figure_placements": 30,
         "slides": 0,
-        "local_links_verified": 83,
+        "local_links_verified": 131,
         "scientific_and_runtime_bytes_preserved": true
       },
       {
         "page": "docs/reproductive_life_course.html",
-        "tables": 27,
-        "table_cells": 1687,
-        "figure_placements": 14,
+        "tables": 43,
+        "table_cells": 5741,
+        "figure_placements": 20,
         "slides": 0,
-        "local_links_verified": 52,
+        "local_links_verified": 100,
         "scientific_and_runtime_bytes_preserved": true
       },
       {
         "page": "docs/access_diagnostic_recording_extension.html",
-        "tables": 26,
-        "table_cells": 2320,
-        "figure_placements": 10,
+        "tables": 42,
+        "table_cells": 6374,
+        "figure_placements": 16,
         "slides": 0,
-        "local_links_verified": 76,
+        "local_links_verified": 123,
         "scientific_and_runtime_bytes_preserved": true
       },
       {
@@ -59,14 +59,14 @@
     "reviewed_html_reports": 3,
     "slide_decks": 2,
     "index_local_links_verified": 9,
-    "original_png_hashes_verified": 48,
+    "original_png_hashes_verified": 54,
     "all_local_links_resolve": true,
     "powerpoint_excluded": true
   },
   "original_source_html_sha256": {
-    "docs/descriptive_methods_results.html": "0bd1b054b53575e2289e0ea934f41fafb0a2687bf101c10503791a0f871e429e",
-    "docs/reproductive_life_course.html": "8a7c26c3fab5d7a76a8229ea7423d8199ad11f5caf68ce16e05a9bb704fe400a",
-    "docs/access_diagnostic_recording_extension.html": "817cade10839739567562f8e6339f7943c439af968a0ff1d72b7fce72cfeeebc",
+    "docs/descriptive_methods_results.html": "b5f2bbbb8937a66b133d4631fe5c1d1910990f4274d1a73978ea01e0d8f72ecc",
+    "docs/reproductive_life_course.html": "6a9cc1c919ccac2c702081c440b343f15db10e6e2bc58b62a4002bf844362b7d",
+    "docs/access_diagnostic_recording_extension.html": "2cf1ebb0f47766688a9f7035a059a7ae087b387d5db19d6da97c7534daf613a3",
     "docs/combined_project_key_results_slides.html": "415970b566e61c528cb49414c7578ed08e58dee877504f0fd6d6b53c52fc09a2",
     "docs/reproductive_key_results_slides.html": "115760f15f6e74c7d8c68da790f12fd10a1e9b4ccd30b2640cbf1a2537b63eb6"
   },
@@ -83,23 +83,23 @@
     },
     {
       "path": "README.md",
-      "bytes": 4822,
-      "sha256": "2663255c75d366cb2f5504a0756273f85473ece628dab1c5317e7ede4d8e6d51"
+      "bytes": 5823,
+      "sha256": "2043f9a8f9d29e045e4d26f68b1a96ec0236e92073ad8146fe0995712d26e0ea"
     },
     {
       "path": "docs/access_diagnostic_recording_extension.html",
-      "bytes": 2782960,
-      "sha256": "17a588432687bd6cdfbc52fc8e89617aef8ac456b2e6a5e1c8b21519fdc246d0"
+      "bytes": 2944214,
+      "sha256": "390527473edf0f2535dd8b6c0a305ed099858bd60d7a7e4835853a8b71255f08"
     },
     {
       "path": "docs/access_diagnostic_recording_extension.qmd",
-      "bytes": 15407,
-      "sha256": "f87bb0d6a7019e65e7f6716512abf2d1e8e4f1882bf20c4fb9d92d23e9aa5ca6"
+      "bytes": 18207,
+      "sha256": "fdb96247c96ce6645e64b67455c6e7982a050552a9fd584898a052a00aff639b"
     },
     {
       "path": "docs/access_diagnostic_recording_extension_source.txt",
-      "bytes": 15407,
-      "sha256": "f87bb0d6a7019e65e7f6716512abf2d1e8e4f1882bf20c4fb9d92d23e9aa5ca6"
+      "bytes": 18207,
+      "sha256": "fdb96247c96ce6645e64b67455c6e7982a050552a9fd584898a052a00aff639b"
     },
     {
       "path": "docs/combined_project_key_results_slides.css",
@@ -133,18 +133,18 @@
     },
     {
       "path": "docs/descriptive_methods_results.html",
-      "bytes": 2689349,
-      "sha256": "ad79157172d91ba6cffb01bb69ef017d6d27f4da55f07284a0b75af8ff3fbed2"
+      "bytes": 2850210,
+      "sha256": "8bb1486afdd4a4c3c384d70e6a9f9b9c55af7dddd9d50cbd6d8171e218bdd647"
     },
     {
       "path": "docs/descriptive_methods_results.qmd",
-      "bytes": 9448,
-      "sha256": "9ad2166797aa3d56fa0768ea95ffa23b9cb51f734590904b70267283dcfb671f"
+      "bytes": 12207,
+      "sha256": "a74767b595e7100e63949e487b4868de8fa027f174a869010fa38044abddcc7d"
     },
     {
       "path": "docs/descriptive_methods_results_source.txt",
-      "bytes": 9448,
-      "sha256": "9ad2166797aa3d56fa0768ea95ffa23b9cb51f734590904b70267283dcfb671f"
+      "bytes": 12207,
+      "sha256": "a74767b595e7100e63949e487b4868de8fa027f174a869010fa38044abddcc7d"
     },
     {
       "path": "docs/reproductive_key_results_slides.css",
@@ -173,18 +173,18 @@
     },
     {
       "path": "docs/reproductive_life_course.html",
-      "bytes": 2549597,
-      "sha256": "2db856ed650f476f89171fdb9d0792f57f26d5f1b7178ed3150cae5fce389a49"
+      "bytes": 2710462,
+      "sha256": "f69b35ee9eb77e9cf6d1828dc7795d04ff8dcb7b301791edf77987c65a94e163"
     },
     {
       "path": "docs/reproductive_life_course.qmd",
-      "bytes": 10150,
-      "sha256": "82e1c95b9ec8fc40044eba57809d6c68dc28e89972fa44dec2f6bb8128154748"
+      "bytes": 12901,
+      "sha256": "0b89217b0f8ba735f886a948add532dd69fd2adf681654d8f7c1f2ed9a4dfa00"
     },
     {
       "path": "docs/reproductive_life_course_source.txt",
-      "bytes": 10150,
-      "sha256": "82e1c95b9ec8fc40044eba57809d6c68dc28e89972fa44dec2f6bb8128154748"
+      "bytes": 12901,
+      "sha256": "0b89217b0f8ba735f886a948add532dd69fd2adf681654d8f7c1f2ed9a4dfa00"
     },
     {
       "path": "docs/reproductive_slides_references.bib",
@@ -198,23 +198,23 @@
     },
     {
       "path": "index.html",
-      "bytes": 2200314,
-      "sha256": "bc9ce2a97f67f16faacc31f01a2f8a89c14285478794a211b8b4cd956fd79339"
+      "bytes": 2200628,
+      "sha256": "1c1eadeb7bcfec44f9cb47b27be282483400eaef1acb06880950a4fb2941a628"
     },
     {
       "path": "index.qmd",
-      "bytes": 7364,
-      "sha256": "54e317518d2dd854a0ff0449edc5997fa1420af4147cc602faf9528026852047"
+      "bytes": 7682,
+      "sha256": "0ba46f278814bd99b6eaec4c44e24a3b6230cfe8b804617b18291687fdc9f1f1"
     },
     {
       "path": "manuscript/access_diagnostic_extension_2026-10-29/Methods_Results_EN.docx",
-      "bytes": 6423299,
-      "sha256": "ceaeb54b60a03a098324b36458d7f0d1d90f845017c07b71d7b8f8e1b11d18fc"
+      "bytes": 10878254,
+      "sha256": "8f212113377b268600fff9ca0941e22c52089c975e3a1162d28e068e906ea44d"
     },
     {
       "path": "manuscript/publication_programme_2026-10-28/Connected_Reproductive_Neurodegenerative_Results_EN.docx",
-      "bytes": 6773819,
-      "sha256": "284520638209f08040c00ed663e20641ee04aa4d8e924f0ca98bc2d004dc4c74"
+      "bytes": 11228874,
+      "sha256": "8fdb4237175eff77330cb0456bbb001d6f7296b525817784f6f6ae85980641d1"
     },
     {
       "path": "manuscript/revision_descriptiva_2026-10-28/Figure_Table_Bank_EN.docx",
@@ -223,8 +223,8 @@
     },
     {
       "path": "manuscript/revision_descriptiva_2026-10-28/Methods_Results_EN.docx",
-      "bytes": 6444807,
-      "sha256": "0e636fbcee6a18c46c5d6e2948c28131cd5a75f41674fa35800d352275b8e36f"
+      "bytes": 10898802,
+      "sha256": "c0064770c48bbff93c98a4e717475443be0b1b7cb438c7548109cb9edbe49f4d"
     },
     {
       "path": "outputs/access_diagnostic_extension_2026-10-29/Access_Diagnostic_Recording_Assets_EN.zip",
@@ -1102,14 +1102,219 @@
       "sha256": "db66d4d33528f8bd98c553efc7f5d2820294a4c5faa53cd156528ce6435f8153"
     },
     {
+      "path": "outputs/rem_neuro_instruments_2026-10-30/REM_Instrument_Assets_EN.zip",
+      "bytes": 12142498,
+      "sha256": "416ecd6d8ee7e92524cde3708fdf4c4c14d6bb88916cf5497215be493abe19d1"
+    },
+    {
+      "path": "outputs/rem_neuro_instruments_2026-10-30/analysis_a/figures/NI-A-F1_dementia_evaluation_changes.pdf",
+      "bytes": 63414,
+      "sha256": "5d480babe561e2ef5705aad02a42f2bd0801b94b7d99a65dded2b62b8600be49"
+    },
+    {
+      "path": "outputs/rem_neuro_instruments_2026-10-30/analysis_a/figures/NI-A-F1_dementia_evaluation_changes.png",
+      "bytes": 940561,
+      "sha256": "83702cbaf52269df293bf33dea729d1fb419c8f75318512f75a906ef15b01844"
+    },
+    {
+      "path": "outputs/rem_neuro_instruments_2026-10-30/analysis_a/figures/NI-A-F1_dementia_evaluation_changes.svg",
+      "bytes": 128739,
+      "sha256": "67922da933921a23dfaa1d0382b3930295b398843a6b7003e7c5d7e92acfad26"
+    },
+    {
+      "path": "outputs/rem_neuro_instruments_2026-10-30/analysis_a/figures/NI-A-F2_recording_coverage_anomaly.pdf",
+      "bytes": 49255,
+      "sha256": "f237cbfcdefd0169dc81568e23f734f5a902e2cdc5dcc194747f464164cfb25d"
+    },
+    {
+      "path": "outputs/rem_neuro_instruments_2026-10-30/analysis_a/figures/NI-A-F2_recording_coverage_anomaly.png",
+      "bytes": 637527,
+      "sha256": "cb56c75f311655b12f5d9f8abb7294fa72734d9408153ab9aaf7a88761c75db6"
+    },
+    {
+      "path": "outputs/rem_neuro_instruments_2026-10-30/analysis_a/figures/NI-A-F2_recording_coverage_anomaly.svg",
+      "bytes": 45985,
+      "sha256": "0f5d5b17fbdea84f2ec4f165657fa760ce8df231b012c40447ad67213140ba1f"
+    },
+    {
+      "path": "outputs/rem_neuro_instruments_2026-10-30/analysis_a/figures/NI-A-F3_caregiver_functional_context.pdf",
+      "bytes": 77028,
+      "sha256": "bcf2c76cbece6cb1ab28a34bccbc44e76b7004c6a7f9d1bc4d32b4eb5a659bd9"
+    },
+    {
+      "path": "outputs/rem_neuro_instruments_2026-10-30/analysis_a/figures/NI-A-F3_caregiver_functional_context.png",
+      "bytes": 816730,
+      "sha256": "274e8d8e0347b7075092fac0377e0f48f5548acea2824b3ebb49cc6f8361bd97"
+    },
+    {
+      "path": "outputs/rem_neuro_instruments_2026-10-30/analysis_a/figures/NI-A-F3_caregiver_functional_context.svg",
+      "bytes": 201226,
+      "sha256": "905f8ac61f1241c8512e848cca15ce60bf2cd2c1d0814db47c46f1409fef5e84"
+    },
+    {
+      "path": "outputs/rem_neuro_instruments_2026-10-30/analysis_a/source_data/NI-A-F1_source.csv",
+      "bytes": 8734,
+      "sha256": "d65269f91e2c9dafaaa44beab4cd10c6aa86d8f302dc0b6955d6a9b7443cd7ac"
+    },
+    {
+      "path": "outputs/rem_neuro_instruments_2026-10-30/analysis_a/source_data/NI-A-F2_source.csv",
+      "bytes": 5505,
+      "sha256": "498bd217a97cf67a8556d8d031fd36062bc49456714eca74a1202d762fd2648d"
+    },
+    {
+      "path": "outputs/rem_neuro_instruments_2026-10-30/analysis_a/source_data/NI-A-F3_source.csv",
+      "bytes": 8352,
+      "sha256": "3e7b666fe59bc3d91ab04b3250fe8e2744282f8d074d55becf74ff8f42854a25"
+    },
+    {
+      "path": "outputs/rem_neuro_instruments_2026-10-30/analysis_a/tables/NI-A-T1.csv",
+      "bytes": 1340,
+      "sha256": "8aa12ba7de66820a96f2742f6e717d027929bec6161d44971ca8804c249de74e"
+    },
+    {
+      "path": "outputs/rem_neuro_instruments_2026-10-30/analysis_a/tables/NI-A-T2.csv",
+      "bytes": 547,
+      "sha256": "1940cd1ee8e104c6f674c8f4d2b16996f56c7ddb6f6f0bf1e282558e5e358055"
+    },
+    {
+      "path": "outputs/rem_neuro_instruments_2026-10-30/analysis_a/tables/NI-A-T3.csv",
+      "bytes": 234,
+      "sha256": "579ced98b2a079e4332ff7464e60a9fda8acbbe39f58109c55ab8902008301f0"
+    },
+    {
+      "path": "outputs/rem_neuro_instruments_2026-10-30/analysis_a/tables/NI-A-T4.csv",
+      "bytes": 921,
+      "sha256": "8b2be67444c8f4cee44692c3cc5a63033576504942b88816c605fc1995c9a971"
+    },
+    {
+      "path": "outputs/rem_neuro_instruments_2026-10-30/analysis_a/tables/NI-A-T5.csv",
+      "bytes": 689,
+      "sha256": "a88ea5eade5b73505fac48a7d8a81aa31871b5597c79da3cf131d31f7b43ebd0"
+    },
+    {
+      "path": "outputs/rem_neuro_instruments_2026-10-30/analysis_a/tables/NI-A-T6.csv",
+      "bytes": 1602,
+      "sha256": "703601145df1cc51eead860ea3fdc16b3a1b74a87df1e0cfa33f7be800e9c02c"
+    },
+    {
+      "path": "outputs/rem_neuro_instruments_2026-10-30/analysis_a/tables/NI-A-T7.csv",
+      "bytes": 301,
+      "sha256": "9c575df1921fcb7674b800690331ae68388b5f2614b69e475e9a88072f93be5e"
+    },
+    {
+      "path": "outputs/rem_neuro_instruments_2026-10-30/analysis_a/tables/NI-A-T8.csv",
+      "bytes": 373,
+      "sha256": "7fad85dc0aec8447849e0745d79e9e542085714ed3a59e7eb1298b897de421fb"
+    },
+    {
+      "path": "outputs/rem_neuro_instruments_2026-10-30/analysis_p/NI-P-T1_table.csv",
+      "bytes": 1061,
+      "sha256": "c4fe0ae2167d3d4be0f36bbf843baac47da5ba4fd5e25ba0f73506bb5586a9be"
+    },
+    {
+      "path": "outputs/rem_neuro_instruments_2026-10-30/analysis_p/NI-P-T2_table.csv",
+      "bytes": 5266,
+      "sha256": "3c2e083d6de6f3433c35ea57e4da141febfabddb7bf61609afff53ad2a364754"
+    },
+    {
+      "path": "outputs/rem_neuro_instruments_2026-10-30/analysis_p/NI-P-T3_table.csv",
+      "bytes": 4451,
+      "sha256": "61199958f6709445ba6d5b1fe7344d5699b122fa8274e715d4a16b1b33921a5d"
+    },
+    {
+      "path": "outputs/rem_neuro_instruments_2026-10-30/analysis_p/NI-P-T4_table.csv",
+      "bytes": 7625,
+      "sha256": "3a8460fd1633dbbd388c929eb23fba08cd128ae94a05e2c7942af7c9d3feea35"
+    },
+    {
+      "path": "outputs/rem_neuro_instruments_2026-10-30/analysis_p/NI-P-T5_table.csv",
+      "bytes": 6992,
+      "sha256": "d90ab9882707023f8119d3be40022e6488ddcc341ac13abf4c82c7b09abb4aca"
+    },
+    {
+      "path": "outputs/rem_neuro_instruments_2026-10-30/analysis_p/NI-P-T6_table.csv",
+      "bytes": 5748,
+      "sha256": "3e17145c65eeb15c4a317db16daedee3b69c2d4c8e6edef966f1b955cd940340"
+    },
+    {
+      "path": "outputs/rem_neuro_instruments_2026-10-30/analysis_p/NI-P-T7_table.csv",
+      "bytes": 605,
+      "sha256": "aed73348c7aa8de158785220d66ac04f38f0148c986be99cf2e174e5fb0789dd"
+    },
+    {
+      "path": "outputs/rem_neuro_instruments_2026-10-30/analysis_p/NI-P-T8_table.csv",
+      "bytes": 292,
+      "sha256": "2cbb87e6db47eebe4971bf27107af25e56c2eb620668bd9497e874dad8f4fddf"
+    },
+    {
+      "path": "outputs/rem_neuro_instruments_2026-10-30/analysis_p/figures/Figure_NI_P1_classification_trends.pdf",
+      "bytes": 48502,
+      "sha256": "83508fea4b303f88a738e4b743125031c1f734914d46d330e135243cb0e0c200"
+    },
+    {
+      "path": "outputs/rem_neuro_instruments_2026-10-30/analysis_p/figures/Figure_NI_P1_classification_trends.png",
+      "bytes": 713912,
+      "sha256": "424ba7ecda810eae6cf69d95fd3dd30cef406c285c6c3f7627250a2390b0f799"
+    },
+    {
+      "path": "outputs/rem_neuro_instruments_2026-10-30/analysis_p/figures/Figure_NI_P1_classification_trends.svg",
+      "bytes": 52573,
+      "sha256": "a5170dcee7e700e4a631a0d26af84e666d73524648c136afd7761943558b8110"
+    },
+    {
+      "path": "outputs/rem_neuro_instruments_2026-10-30/analysis_p/figures/Figure_NI_P2_age_sex_classifications.pdf",
+      "bytes": 73243,
+      "sha256": "03880932e2a2edc8b824854ddf8040ce8edc43a97af7339e87170410d37ec12c"
+    },
+    {
+      "path": "outputs/rem_neuro_instruments_2026-10-30/analysis_p/figures/Figure_NI_P2_age_sex_classifications.png",
+      "bytes": 907152,
+      "sha256": "b4d95f6806c14fd982dfef79aaa064a24511146c716d25035410b097756ebb87"
+    },
+    {
+      "path": "outputs/rem_neuro_instruments_2026-10-30/analysis_p/figures/Figure_NI_P2_age_sex_classifications.svg",
+      "bytes": 95546,
+      "sha256": "be6af797e450eb897b2bdc713163942659eee3333bbdf97ecd5773b9e4522e24"
+    },
+    {
+      "path": "outputs/rem_neuro_instruments_2026-10-30/analysis_p/figures/Figure_NI_P3_standardised_chile_maps.pdf",
+      "bytes": 2564298,
+      "sha256": "000fedd470ce98837f11588c04607ff351793502e7e69fa2c7eb398406299429"
+    },
+    {
+      "path": "outputs/rem_neuro_instruments_2026-10-30/analysis_p/figures/Figure_NI_P3_standardised_chile_maps.png",
+      "bytes": 938040,
+      "sha256": "9b940bc1189f4c5e05353dcd5ffb038ac7001c303532f08b728569b2684f9d00"
+    },
+    {
+      "path": "outputs/rem_neuro_instruments_2026-10-30/analysis_p/figures/Figure_NI_P3_standardised_chile_maps.svg",
+      "bytes": 10612870,
+      "sha256": "77401817d6a82fb6d162ee6e3ee54b1c307005ed386f5d876332284c49358f1d"
+    },
+    {
+      "path": "outputs/rem_neuro_instruments_2026-10-30/analysis_p/figures/NI-P-F1_source.csv",
+      "bytes": 9918,
+      "sha256": "7106c82951127c6e2a9815d735f8e5b5b0ad47adfe6b315af5d21984d8a44283"
+    },
+    {
+      "path": "outputs/rem_neuro_instruments_2026-10-30/analysis_p/figures/NI-P-F2_source.csv",
+      "bytes": 7251,
+      "sha256": "662ca8542eedf6375a3fab08c6f9c85e4658ae758ee6bcc127982edfcd30930d"
+    },
+    {
+      "path": "outputs/rem_neuro_instruments_2026-10-30/analysis_p/figures/NI-P-F3_source.csv",
+      "bytes": 8064,
+      "sha256": "a560b9a216f5d2d730f58fff84af437a50637f14b383ec33fabbd2d87b799fbe"
+    },
+    {
       "path": "scripts/prepare_site.py",
       "bytes": 16165,
       "sha256": "1d6c54dd02c45c2df84df2d426451a308b07eece278a4eb561f2c78108833782"
     },
     {
       "path": "site_provenance.json",
-      "bytes": 21890,
-      "sha256": "1e8e802ad8df4606342322592c85b2ce9f91b93e778ccd75546ecd1b3180827a"
+      "bytes": 24346,
+      "sha256": "03c60ec548c37f1bb9c79b3cd4d4b412156e1992e0a1bf0cac556de6580c7b4d"
     }
   ]
 }

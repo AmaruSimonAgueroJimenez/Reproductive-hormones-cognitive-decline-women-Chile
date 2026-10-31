@@ -1,0 +1,85 @@
+year,instrument,sex,numerator,denominator,facilities,percent,measure,sample,any_represented_facilities,complete_facilities
+2019,balance,Men,110121,268947,1692,40.94524199935303,Altered balance,Annual complete providers,1742,1695
+2019,balance,Women,199287,412442,1690,48.31879391526566,Altered balance,Annual complete providers,1742,1695
+2019,functional,Men,78364,295780,809,26.49401582257083,Dependency risk or dependency,Annual complete providers,1998,809
+2019,functional,Women,149550,483296,809,30.94376944977819,Dependency risk or dependency,Annual complete providers,1998,809
+2019,tug,Men,71618,224913,1433,31.842534668960887,Mild or high fall risk,Annual complete providers,1681,1433
+2019,tug,Women,132407,344850,1432,38.39553429027113,Mild or high fall risk,Annual complete providers,1681,1433
+2020,balance,Men,66287,161774,1500,40.975063978142344,Altered balance,Annual complete providers,1573,1507
+2020,balance,Women,118480,249123,1503,47.55883639808448,Altered balance,Annual complete providers,1573,1507
+2020,functional,Men,51806,190590,661,27.18190880948633,Dependency risk or dependency,Annual complete providers,1890,661
+2020,functional,Women,98941,312473,661,31.663855757137416,Dependency risk or dependency,Annual complete providers,1890,661
+2020,tug,Men,43967,136735,1182,32.15489816067576,Mild or high fall risk,Annual complete providers,1505,1183
+2020,tug,Women,81977,208973,1183,39.22851277437755,Mild or high fall risk,Annual complete providers,1505,1183
+2021,balance,Men,58516,133419,1641,43.85882070769531,Altered balance,Annual complete providers,1718,1645
+2021,balance,Women,104164,205581,1642,50.66810648844008,Altered balance,Annual complete providers,1718,1645
+2021,functional,Men,40716,129594,654,31.418121209315245,Dependency risk or dependency,Annual complete providers,1966,654
+2021,functional,Women,77930,215245,654,36.20525447745592,Dependency risk or dependency,Annual complete providers,1966,654
+2021,tug,Men,31263,100428,1285,31.129764607479984,Mild or high fall risk,Annual complete providers,1648,1285
+2021,tug,Women,58345,154298,1285,37.813192653177616,Mild or high fall risk,Annual complete providers,1648,1285
+2022,balance,Men,90181,220468,1779,40.904348930457026,Altered balance,Annual complete providers,1826,1779
+2022,balance,Women,163498,342607,1779,47.721733648174144,Altered balance,Annual complete providers,1826,1779
+2022,functional,Men,65493,229090,784,28.588327731459252,Dependency risk or dependency,Annual complete providers,1995,784
+2022,functional,Women,124615,379751,784,32.814923463006025,Dependency risk or dependency,Annual complete providers,1995,784
+2022,tug,Men,58625,190124,1491,30.835139172329637,Mild or high fall risk,Annual complete providers,1768,1491
+2022,tug,Women,110984,294817,1491,37.64504760580292,Mild or high fall risk,Annual complete providers,1768,1491
+2023,balance,Men,110153,284498,1835,38.718374118622975,Altered balance,Annual complete providers,1873,1835
+2023,balance,Women,198477,420956,1834,47.149108220336565,Altered balance,Annual complete providers,1873,1835
+2023,functional,Men,74787,282066,864,26.51400735997958,Dependency risk or dependency,Annual complete providers,2012,864
+2023,functional,Women,142330,460490,864,30.908380203696066,Dependency risk or dependency,Annual complete providers,2012,864
+2023,tug,Men,75398,245080,1593,30.76464827811327,Mild or high fall risk,Annual complete providers,1832,1593
+2023,tug,Women,142306,374746,1593,37.973987714345185,Mild or high fall risk,Annual complete providers,1832,1593
+2024,balance,Men,126676,311266,1895,40.69702440999017,Altered balance,Annual complete providers,1932,1897
+2024,balance,Women,222882,467711,1896,47.65378620558422,Altered balance,Annual complete providers,1932,1897
+2024,functional,Men,84336,323573,941,26.063979380232592,Dependency risk or dependency,Annual complete providers,2043,941
+2024,functional,Women,156733,517126,941,30.308474143632303,Dependency risk or dependency,Annual complete providers,2043,941
+2024,tug,Men,84910,278600,1668,30.477386934673365,Mild or high fall risk,Annual complete providers,1900,1669
+2024,tug,Women,157922,419791,1669,37.61919621907092,Mild or high fall risk,Annual complete providers,1900,1669
+2025,balance,Men,141664,348699,1935,40.62644286332912,Altered balance,Annual complete providers,1972,1944
+2025,balance,Women,247722,520441,1931,47.59847898224775,Altered balance,Annual complete providers,1972,1944
+2025,functional,Men,93773,368430,965,25.452053307276824,Dependency risk or dependency,Annual complete providers,2054,965
+2025,functional,Women,176197,585129,965,30.112505105711733,Dependency risk or dependency,Annual complete providers,2054,965
+2025,tug,Men,93668,314747,1685,29.759775311599476,Mild or high fall risk,Annual complete providers,1935,1685
+2025,tug,Women,172916,467846,1684,36.960025307472975,Mild or high fall risk,Annual complete providers,1935,1685
+2019,balance,Men,90006,220019,1170,40.908285193551464,Altered balance,"Balanced providers, 2019–2025",1742,1695
+2019,balance,Women,164546,338811,1169,48.56571953094793,Altered balance,"Balanced providers, 2019–2025",1742,1695
+2019,functional,Men,45274,174098,280,26.00489379544854,Dependency risk or dependency,"Balanced providers, 2019–2025",1998,809
+2019,functional,Women,89960,291808,280,30.828489966005044,Dependency risk or dependency,"Balanced providers, 2019–2025",1998,809
+2019,tug,Men,50332,164686,699,30.562403604435108,Mild or high fall risk,"Balanced providers, 2019–2025",1681,1433
+2019,tug,Women,96304,257980,699,37.33002558337856,Mild or high fall risk,"Balanced providers, 2019–2025",1681,1433
+2020,balance,Men,59496,143570,1166,41.44041234241137,Altered balance,"Balanced providers, 2019–2025",1573,1507
+2020,balance,Women,106762,222078,1169,48.074100090959035,Altered balance,"Balanced providers, 2019–2025",1573,1507
+2020,functional,Men,32344,123692,280,26.148821265724543,Dependency risk or dependency,"Balanced providers, 2019–2025",1890,661
+2020,functional,Women,64091,207401,280,30.90197250736496,Dependency risk or dependency,"Balanced providers, 2019–2025",1890,661
+2020,tug,Men,34767,109539,699,31.739380494618356,Mild or high fall risk,"Balanced providers, 2019–2025",1505,1183
+2020,tug,Women,67394,173214,699,38.90794046670592,Mild or high fall risk,"Balanced providers, 2019–2025",1505,1183
+2021,balance,Men,48026,107902,1167,44.508906229726975,Altered balance,"Balanced providers, 2019–2025",1718,1645
+2021,balance,Women,85891,166657,1168,51.53758918017245,Altered balance,"Balanced providers, 2019–2025",1718,1645
+2021,functional,Men,26440,83577,280,31.635497804419877,Dependency risk or dependency,"Balanced providers, 2019–2025",1966,654
+2021,functional,Women,52662,144108,280,36.54342576401032,Dependency risk or dependency,"Balanced providers, 2019–2025",1966,654
+2021,tug,Men,23068,73889,699,31.219802676988454,Mild or high fall risk,"Balanced providers, 2019–2025",1648,1285
+2021,tug,Women,44545,116717,699,38.16496311591285,Mild or high fall risk,"Balanced providers, 2019–2025",1648,1285
+2022,balance,Men,68713,168892,1170,40.684579494588256,Altered balance,"Balanced providers, 2019–2025",1826,1779
+2022,balance,Women,125454,263792,1170,47.55792442530478,Altered balance,"Balanced providers, 2019–2025",1826,1779
+2022,functional,Men,37858,129675,280,29.194524773472143,Dependency risk or dependency,"Balanced providers, 2019–2025",1995,784
+2022,functional,Women,75662,221619,280,34.140574589723805,Dependency risk or dependency,"Balanced providers, 2019–2025",1995,784
+2022,tug,Men,39589,128040,699,30.919243986254298,Mild or high fall risk,"Balanced providers, 2019–2025",1768,1491
+2022,tug,Women,77173,202826,699,38.04886947432775,Mild or high fall risk,"Balanced providers, 2019–2025",1768,1491
+2023,balance,Men,81002,210866,1170,38.4139690609202,Altered balance,"Balanced providers, 2019–2025",1873,1835
+2023,balance,Women,146422,310027,1170,47.22878975057011,Altered balance,"Balanced providers, 2019–2025",1873,1835
+2023,functional,Men,41165,151738,280,27.12899866875799,Dependency risk or dependency,"Balanced providers, 2019–2025",2012,864
+2023,functional,Women,81324,255746,280,31.79873781017103,Dependency risk or dependency,"Balanced providers, 2019–2025",2012,864
+2023,tug,Men,47844,157581,699,30.36152835684505,Mild or high fall risk,"Balanced providers, 2019–2025",1832,1593
+2023,tug,Women,93814,247131,699,37.96124322727622,Mild or high fall risk,"Balanced providers, 2019–2025",1832,1593
+2024,balance,Men,89603,223713,1169,40.05265675217802,Altered balance,"Balanced providers, 2019–2025",1932,1897
+2024,balance,Women,158520,336321,1169,47.133542062493866,Altered balance,"Balanced providers, 2019–2025",1932,1897
+2024,functional,Men,43295,164632,280,26.29804655231061,Dependency risk or dependency,"Balanced providers, 2019–2025",2043,941
+2024,functional,Women,85277,274181,280,31.10244692374745,Dependency risk or dependency,"Balanced providers, 2019–2025",2043,941
+2024,tug,Men,52068,171436,699,30.37168389369794,Mild or high fall risk,"Balanced providers, 2019–2025",1900,1669
+2024,tug,Women,99932,264479,699,37.78447438170895,Mild or high fall risk,"Balanced providers, 2019–2025",1900,1669
+2025,balance,Men,102225,252901,1170,40.42095523544786,Altered balance,"Balanced providers, 2019–2025",1972,1944
+2025,balance,Women,179981,379533,1169,47.421699825838594,Altered balance,"Balanced providers, 2019–2025",1972,1944
+2025,functional,Men,46865,180911,280,25.905003012531026,Dependency risk or dependency,"Balanced providers, 2019–2025",2054,965
+2025,functional,Women,93094,298763,280,31.15981563982153,Dependency risk or dependency,"Balanced providers, 2019–2025",2054,965
+2025,tug,Men,58558,195492,699,29.954166922431607,Mild or high fall risk,"Balanced providers, 2019–2025",1935,1685
+2025,tug,Women,111187,297475,699,37.37692243045634,Mild or high fall risk,"Balanced providers, 2019–2025",1935,1685

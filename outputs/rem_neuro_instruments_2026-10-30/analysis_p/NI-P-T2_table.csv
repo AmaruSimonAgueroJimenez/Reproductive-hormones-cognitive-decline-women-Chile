@@ -1,0 +1,99 @@
+Year,Sex,Category,Recorded n,Classified N,Share (%)
+2019,Men,Autonomous with risk,"77,452","295,780",26.19
+2019,Men,Autonomous without risk,"139,964","295,780",47.32
+2019,Men,Dependency risk,"35,487","295,780",12.00
+2019,Men,Mild dependency,"25,578","295,780",8.65
+2019,Men,Moderate dependency,"5,700","295,780",1.93
+2019,Men,Severe dependency,"5,371","295,780",1.82
+2019,Men,Total dependency,"6,228","295,780",2.11
+2019,Women,Autonomous with risk,"129,134","483,296",26.72
+2019,Women,Autonomous without risk,"204,612","483,296",42.34
+2019,Women,Dependency risk,"66,037","483,296",13.66
+2019,Women,Mild dependency,"49,123","483,296",10.16
+2019,Women,Moderate dependency,"10,967","483,296",2.27
+2019,Women,Severe dependency,"10,097","483,296",2.09
+2019,Women,Total dependency,"13,326","483,296",2.76
+2020,Men,Autonomous with risk,"48,613","190,590",25.51
+2020,Men,Autonomous without risk,"90,171","190,590",47.31
+2020,Men,Dependency risk,"22,658","190,590",11.89
+2020,Men,Mild dependency,"16,188","190,590",8.49
+2020,Men,Moderate dependency,"3,951","190,590",2.07
+2020,Men,Severe dependency,"4,320","190,590",2.27
+2020,Men,Total dependency,"4,689","190,590",2.46
+2020,Women,Autonomous with risk,"80,838","312,473",25.87
+2020,Women,Autonomous without risk,"132,694","312,473",42.47
+2020,Women,Dependency risk,"42,376","312,473",13.56
+2020,Women,Mild dependency,"31,092","312,473",9.95
+2020,Women,Moderate dependency,"7,809","312,473",2.50
+2020,Women,Severe dependency,"8,109","312,473",2.60
+2020,Women,Total dependency,"9,555","312,473",3.06
+2021,Men,Autonomous with risk,"36,059","129,594",27.82
+2021,Men,Autonomous without risk,"52,819","129,594",40.76
+2021,Men,Dependency risk,"15,609","129,594",12.04
+2021,Men,Mild dependency,"12,936","129,594",9.98
+2021,Men,Moderate dependency,"3,619","129,594",2.79
+2021,Men,Severe dependency,"4,218","129,594",3.25
+2021,Men,Total dependency,"4,334","129,594",3.34
+2021,Women,Autonomous with risk,"59,708","215,245",27.74
+2021,Women,Autonomous without risk,"77,607","215,245",36.06
+2021,Women,Dependency risk,"29,127","215,245",13.53
+2021,Women,Mild dependency,"24,761","215,245",11.50
+2021,Women,Moderate dependency,"6,590","215,245",3.06
+2021,Women,Severe dependency,"7,914","215,245",3.68
+2021,Women,Total dependency,"9,538","215,245",4.43
+2022,Men,Autonomous with risk,"69,954","229,090",30.54
+2022,Men,Autonomous without risk,"93,643","229,090",40.88
+2022,Men,Dependency risk,"27,264","229,090",11.90
+2022,Men,Mild dependency,"21,935","229,090",9.57
+2022,Men,Moderate dependency,"5,200","229,090",2.27
+2022,Men,Severe dependency,"5,419","229,090",2.37
+2022,Men,Total dependency,"5,675","229,090",2.48
+2022,Women,Autonomous with risk,"116,834","379,751",30.77
+2022,Women,Autonomous without risk,"138,302","379,751",36.42
+2022,Women,Dependency risk,"49,013","379,751",12.91
+2022,Women,Mild dependency,"42,803","379,751",11.27
+2022,Women,Moderate dependency,"10,045","379,751",2.65
+2022,Women,Severe dependency,"10,588","379,751",2.79
+2022,Women,Total dependency,"12,166","379,751",3.20
+2023,Men,Autonomous with risk,"86,806","282,066",30.78
+2023,Men,Autonomous without risk,"120,473","282,066",42.71
+2023,Men,Dependency risk,"27,964","282,066",9.91
+2023,Men,Mild dependency,"27,539","282,066",9.76
+2023,Men,Moderate dependency,"6,421","282,066",2.28
+2023,Men,Severe dependency,"6,353","282,066",2.25
+2023,Men,Total dependency,"6,510","282,066",2.31
+2023,Women,Autonomous with risk,"139,474","460,490",30.29
+2023,Women,Autonomous without risk,"178,686","460,490",38.80
+2023,Women,Dependency risk,"50,386","460,490",10.94
+2023,Women,Mild dependency,"54,038","460,490",11.73
+2023,Women,Moderate dependency,"12,235","460,490",2.66
+2023,Women,Severe dependency,"12,413","460,490",2.70
+2023,Women,Total dependency,"13,258","460,490",2.88
+2024,Men,Autonomous with risk,"96,319","323,573",29.77
+2024,Men,Autonomous without risk,"142,918","323,573",44.17
+2024,Men,Dependency risk,"30,742","323,573",9.50
+2024,Men,Mild dependency,"32,292","323,573",9.98
+2024,Men,Moderate dependency,"7,144","323,573",2.21
+2024,Men,Severe dependency,"7,118","323,573",2.20
+2024,Men,Total dependency,"7,040","323,573",2.18
+2024,Women,Autonomous with risk,"152,177","517,126",29.43
+2024,Women,Autonomous without risk,"208,216","517,126",40.26
+2024,Women,Dependency risk,"53,739","517,126",10.39
+2024,Women,Mild dependency,"61,664","517,126",11.92
+2024,Women,Moderate dependency,"13,341","517,126",2.58
+2024,Women,Severe dependency,"13,244","517,126",2.56
+2024,Women,Total dependency,"14,745","517,126",2.85
+2025,Men,Autonomous with risk,"107,460","368,430",29.17
+2025,Men,Autonomous without risk,"167,197","368,430",45.38
+2025,Men,Dependency risk,"34,415","368,430",9.34
+2025,Men,Mild dependency,"36,248","368,430",9.84
+2025,Men,Moderate dependency,"7,734","368,430",2.10
+2025,Men,Severe dependency,"7,714","368,430",2.09
+2025,Men,Total dependency,"7,662","368,430",2.08
+2025,Women,Autonomous with risk,"165,117","585,129",28.22
+2025,Women,Autonomous without risk,"243,815","585,129",41.67
+2025,Women,Dependency risk,"58,732","585,129",10.04
+2025,Women,Mild dependency,"71,541","585,129",12.23
+2025,Women,Moderate dependency,"15,029","585,129",2.57
+2025,Women,Severe dependency,"14,925","585,129",2.55
+2025,Women,Total dependency,"15,970","585,129",2.73

@@ -1,0 +1,85 @@
+Year,Instrument,Sex,Provider sample,Facilities,Adverse n,Classified N,Share (%)
+2019,Single-leg stance,Men,Annual complete providers,1692,"110,121","268,947",40.95
+2019,Single-leg stance,Women,Annual complete providers,1690,"199,287","412,442",48.32
+2019,Functional classification,Men,Annual complete providers,809,"78,364","295,780",26.49
+2019,Functional classification,Women,Annual complete providers,809,"149,550","483,296",30.94
+2019,Timed Up and Go,Men,Annual complete providers,1433,"71,618","224,913",31.84
+2019,Timed Up and Go,Women,Annual complete providers,1432,"132,407","344,850",38.40
+2020,Single-leg stance,Men,Annual complete providers,1500,"66,287","161,774",40.98
+2020,Single-leg stance,Women,Annual complete providers,1503,"118,480","249,123",47.56
+2020,Functional classification,Men,Annual complete providers,661,"51,806","190,590",27.18
+2020,Functional classification,Women,Annual complete providers,661,"98,941","312,473",31.66
+2020,Timed Up and Go,Men,Annual complete providers,1182,"43,967","136,735",32.15
+2020,Timed Up and Go,Women,Annual complete providers,1183,"81,977","208,973",39.23
+2021,Single-leg stance,Men,Annual complete providers,1641,"58,516","133,419",43.86
+2021,Single-leg stance,Women,Annual complete providers,1642,"104,164","205,581",50.67
+2021,Functional classification,Men,Annual complete providers,654,"40,716","129,594",31.42
+2021,Functional classification,Women,Annual complete providers,654,"77,930","215,245",36.21
+2021,Timed Up and Go,Men,Annual complete providers,1285,"31,263","100,428",31.13
+2021,Timed Up and Go,Women,Annual complete providers,1285,"58,345","154,298",37.81
+2022,Single-leg stance,Men,Annual complete providers,1779,"90,181","220,468",40.90
+2022,Single-leg stance,Women,Annual complete providers,1779,"163,498","342,607",47.72
+2022,Functional classification,Men,Annual complete providers,784,"65,493","229,090",28.59
+2022,Functional classification,Women,Annual complete providers,784,"124,615","379,751",32.81
+2022,Timed Up and Go,Men,Annual complete providers,1491,"58,625","190,124",30.84
+2022,Timed Up and Go,Women,Annual complete providers,1491,"110,984","294,817",37.65
+2023,Single-leg stance,Men,Annual complete providers,1835,"110,153","284,498",38.72
+2023,Single-leg stance,Women,Annual complete providers,1834,"198,477","420,956",47.15
+2023,Functional classification,Men,Annual complete providers,864,"74,787","282,066",26.51
+2023,Functional classification,Women,Annual complete providers,864,"142,330","460,490",30.91
+2023,Timed Up and Go,Men,Annual complete providers,1593,"75,398","245,080",30.76
+2023,Timed Up and Go,Women,Annual complete providers,1593,"142,306","374,746",37.97
+2024,Single-leg stance,Men,Annual complete providers,1895,"126,676","311,266",40.70
+2024,Single-leg stance,Women,Annual complete providers,1896,"222,882","467,711",47.65
+2024,Functional classification,Men,Annual complete providers,941,"84,336","323,573",26.06
+2024,Functional classification,Women,Annual complete providers,941,"156,733","517,126",30.31
+2024,Timed Up and Go,Men,Annual complete providers,1668,"84,910","278,600",30.48
+2024,Timed Up and Go,Women,Annual complete providers,1669,"157,922","419,791",37.62
+2025,Single-leg stance,Men,Annual complete providers,1935,"141,664","348,699",40.63
+2025,Single-leg stance,Women,Annual complete providers,1931,"247,722","520,441",47.60
+2025,Functional classification,Men,Annual complete providers,965,"93,773","368,430",25.45
+2025,Functional classification,Women,Annual complete providers,965,"176,197","585,129",30.11
+2025,Timed Up and Go,Men,Annual complete providers,1685,"93,668","314,747",29.76
+2025,Timed Up and Go,Women,Annual complete providers,1684,"172,916","467,846",36.96
+2019,Single-leg stance,Men,"Balanced providers, 2019–2025",1170,"90,006","220,019",40.91
+2019,Single-leg stance,Women,"Balanced providers, 2019–2025",1169,"164,546","338,811",48.57
+2019,Functional classification,Men,"Balanced providers, 2019–2025",280,"45,274","174,098",26.00
+2019,Functional classification,Women,"Balanced providers, 2019–2025",280,"89,960","291,808",30.83
+2019,Timed Up and Go,Men,"Balanced providers, 2019–2025",699,"50,332","164,686",30.56
+2019,Timed Up and Go,Women,"Balanced providers, 2019–2025",699,"96,304","257,980",37.33
+2020,Single-leg stance,Men,"Balanced providers, 2019–2025",1166,"59,496","143,570",41.44
+2020,Single-leg stance,Women,"Balanced providers, 2019–2025",1169,"106,762","222,078",48.07
+2020,Functional classification,Men,"Balanced providers, 2019–2025",280,"32,344","123,692",26.15
+2020,Functional classification,Women,"Balanced providers, 2019–2025",280,"64,091","207,401",30.90
+2020,Timed Up and Go,Men,"Balanced providers, 2019–2025",699,"34,767","109,539",31.74
+2020,Timed Up and Go,Women,"Balanced providers, 2019–2025",699,"67,394","173,214",38.91
+2021,Single-leg stance,Men,"Balanced providers, 2019–2025",1167,"48,026","107,902",44.51
+2021,Single-leg stance,Women,"Balanced providers, 2019–2025",1168,"85,891","166,657",51.54
+2021,Functional classification,Men,"Balanced providers, 2019–2025",280,"26,440","83,577",31.64
+2021,Functional classification,Women,"Balanced providers, 2019–2025",280,"52,662","144,108",36.54
+2021,Timed Up and Go,Men,"Balanced providers, 2019–2025",699,"23,068","73,889",31.22
+2021,Timed Up and Go,Women,"Balanced providers, 2019–2025",699,"44,545","116,717",38.16
+2022,Single-leg stance,Men,"Balanced providers, 2019–2025",1170,"68,713","168,892",40.68
+2022,Single-leg stance,Women,"Balanced providers, 2019–2025",1170,"125,454","263,792",47.56
+2022,Functional classification,Men,"Balanced providers, 2019–2025",280,"37,858","129,675",29.19
+2022,Functional classification,Women,"Balanced providers, 2019–2025",280,"75,662","221,619",34.14
+2022,Timed Up and Go,Men,"Balanced providers, 2019–2025",699,"39,589","128,040",30.92
+2022,Timed Up and Go,Women,"Balanced providers, 2019–2025",699,"77,173","202,826",38.05
+2023,Single-leg stance,Men,"Balanced providers, 2019–2025",1170,"81,002","210,866",38.41
+2023,Single-leg stance,Women,"Balanced providers, 2019–2025",1170,"146,422","310,027",47.23
+2023,Functional classification,Men,"Balanced providers, 2019–2025",280,"41,165","151,738",27.13
+2023,Functional classification,Women,"Balanced providers, 2019–2025",280,"81,324","255,746",31.80
+2023,Timed Up and Go,Men,"Balanced providers, 2019–2025",699,"47,844","157,581",30.36
+2023,Timed Up and Go,Women,"Balanced providers, 2019–2025",699,"93,814","247,131",37.96
+2024,Single-leg stance,Men,"Balanced providers, 2019–2025",1169,"89,603","223,713",40.05
+2024,Single-leg stance,Women,"Balanced providers, 2019–2025",1169,"158,520","336,321",47.13
+2024,Functional classification,Men,"Balanced providers, 2019–2025",280,"43,295","164,632",26.30
+2024,Functional classification,Women,"Balanced providers, 2019–2025",280,"85,277","274,181",31.10
+2024,Timed Up and Go,Men,"Balanced providers, 2019–2025",699,"52,068","171,436",30.37
+2024,Timed Up and Go,Women,"Balanced providers, 2019–2025",699,"99,932","264,479",37.78
+2025,Single-leg stance,Men,"Balanced providers, 2019–2025",1170,"102,225","252,901",40.42
+2025,Single-leg stance,Women,"Balanced providers, 2019–2025",1169,"179,981","379,533",47.42
+2025,Functional classification,Men,"Balanced providers, 2019–2025",280,"46,865","180,911",25.91
+2025,Functional classification,Women,"Balanced providers, 2019–2025",280,"93,094","298,763",31.16
+2025,Timed Up and Go,Men,"Balanced providers, 2019–2025",699,"58,558","195,492",29.95
+2025,Timed Up and Go,Women,"Balanced providers, 2019–2025",699,"111,187","297,475",37.38

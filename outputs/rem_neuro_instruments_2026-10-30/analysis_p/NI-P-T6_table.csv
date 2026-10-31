@@ -1,0 +1,97 @@
+Source region,Instrument,Sex,Age-complete providers,Classified N,Crude share (%),Age-standardised share (%)
+Tarapacá,Single-leg stance,Men,15,"6,296",45.35,46.17
+Antofagasta,Single-leg stance,Men,17,"4,193",36.04,36.94
+Atacama,Single-leg stance,Men,16,"3,481",39.33,39.53
+Coquimbo,Single-leg stance,Men,33,"8,959",38.15,37.61
+Valparaíso,Single-leg stance,Men,119,"35,539",41.06,40.23
+O’Higgins,Single-leg stance,Men,46,"12,238",41.33,41.94
+Maule,Single-leg stance,Men,83,"18,347",36.49,38.01
+Biobío,Single-leg stance,Men,67,"17,488",33.30,34.05
+La Araucanía,Single-leg stance,Men,105,"15,072",39.28,40.25
+Los Lagos,Single-leg stance,Men,121,"13,537",44.05,44.56
+Aysén,Single-leg stance,Men,12,525,39.24,42.04
+Magallanes,Single-leg stance,Men,7,"1,692",70.15,70.44
+Metropolitana,Single-leg stance,Men,196,"91,841",44.29,44.15
+Los Ríos,Single-leg stance,Men,24,"2,917",53.86,53.39
+Arica y Parinacota,Single-leg stance,Men,10,"5,640",34.38,33.38
+Ñuble,Single-leg stance,Men,28,"6,111",43.68,43.37
+Tarapacá,Single-leg stance,Women,15,"8,879",53.77,53.76
+Antofagasta,Single-leg stance,Women,17,"6,639",45.04,46.06
+Atacama,Single-leg stance,Women,16,"4,870",47.64,47.76
+Coquimbo,Single-leg stance,Women,33,"13,748",43.62,43.31
+Valparaíso,Single-leg stance,Women,118,"53,191",48.14,47.00
+O’Higgins,Single-leg stance,Women,46,"17,117",47.71,48.99
+Maule,Single-leg stance,Women,83,"24,815",42.63,45.14
+Biobío,Single-leg stance,Women,67,"26,345",40.51,41.37
+La Araucanía,Single-leg stance,Women,104,"20,961",47.07,47.91
+Los Lagos,Single-leg stance,Women,121,"20,282",51.20,51.45
+Aysén,Single-leg stance,Women,12,744,43.82,45.20
+Magallanes,Single-leg stance,Women,7,"2,609",78.15,77.63
+Metropolitana,Single-leg stance,Women,196,"152,594",50.54,50.01
+Los Ríos,Single-leg stance,Women,24,"4,534",60.41,59.66
+Arica y Parinacota,Single-leg stance,Women,10,"7,458",39.13,38.76
+Ñuble,Single-leg stance,Women,28,"9,038",50.85,50.92
+Tarapacá,Functional classification,Men,11,"6,976",23.28,25.12
+Antofagasta,Functional classification,Men,10,"3,757",26.80,27.10
+Atacama,Functional classification,Men,9,"3,292",24.18,26.78
+Coquimbo,Functional classification,Men,16,"9,880",27.58,27.02
+Valparaíso,Functional classification,Men,74,"35,165",23.13,23.09
+O’Higgins,Functional classification,Men,23,"10,366",24.63,26.22
+Maule,Functional classification,Men,41,"15,749",25.98,27.88
+Biobío,Functional classification,Men,54,"22,211",25.74,27.13
+La Araucanía,Functional classification,Men,45,"17,458",30.88,30.83
+Los Lagos,Functional classification,Men,39,"11,296",28.50,29.15
+Aysén,Functional classification,Men,1,14,42.86,36.95
+Magallanes,Functional classification,Men,6,"2,872",26.18,27.12
+Metropolitana,Functional classification,Men,131,"82,476",24.17,24.64
+Los Ríos,Functional classification,Men,9,"1,576",27.92,27.74
+Arica y Parinacota,Functional classification,Men,4,"4,534",21.31,20.78
+Ñuble,Functional classification,Men,19,"4,467",30.76,31.21
+Tarapacá,Functional classification,Women,11,"9,974",31.14,31.62
+Antofagasta,Functional classification,Women,10,"6,477",35.28,32.99
+Atacama,Functional classification,Women,9,"4,757",30.61,32.81
+Coquimbo,Functional classification,Women,16,"16,014",32.43,31.02
+Valparaíso,Functional classification,Women,74,"56,403",28.37,27.20
+O’Higgins,Functional classification,Women,23,"15,725",27.18,28.62
+Maule,Functional classification,Women,41,"23,187",30.38,32.02
+Biobío,Functional classification,Women,54,"35,228",30.56,31.20
+La Araucanía,Functional classification,Women,45,"26,612",35.88,34.60
+Los Lagos,Functional classification,Women,39,"17,890",32.96,32.62
+Aysén,Functional classification,Women,1,18,38.89,22.57
+Magallanes,Functional classification,Women,6,"4,604",35.43,32.60
+Metropolitana,Functional classification,Women,131,"141,732",29.05,28.38
+Los Ríos,Functional classification,Women,9,"2,566",35.58,34.32
+Arica y Parinacota,Functional classification,Women,4,"6,620",28.60,27.26
+Ñuble,Functional classification,Women,19,"6,849",33.41,33.25
+Tarapacá,Timed Up and Go,Men,15,"4,975",27.44,28.76
+Antofagasta,Timed Up and Go,Men,18,"4,151",32.50,33.20
+Atacama,Timed Up and Go,Men,15,"2,934",29.04,28.99
+Coquimbo,Timed Up and Go,Men,27,"8,373",31.43,30.91
+Valparaíso,Timed Up and Go,Men,111,"32,795",30.65,29.88
+O’Higgins,Timed Up and Go,Men,45,"13,182",33.40,33.85
+Maule,Timed Up and Go,Men,76,"17,456",26.87,28.23
+Biobío,Timed Up and Go,Men,67,"15,481",26.45,27.25
+La Araucanía,Timed Up and Go,Men,84,"14,550",30.17,30.58
+Los Lagos,Timed Up and Go,Men,109,"13,272",32.12,32.65
+Aysén,Timed Up and Go,Men,11,494,29.76,31.80
+Magallanes,Timed Up and Go,Men,7,862,20.07,20.96
+Metropolitana,Timed Up and Go,Men,187,"82,332",31.75,31.54
+Los Ríos,Timed Up and Go,Men,20,"2,269",30.72,30.36
+Arica y Parinacota,Timed Up and Go,Men,8,"5,631",23.16,22.42
+Ñuble,Timed Up and Go,Men,24,"3,908",26.23,26.52
+Tarapacá,Timed Up and Go,Women,15,"6,653",39.17,39.86
+Antofagasta,Timed Up and Go,Women,18,"6,536",43.56,44.05
+Atacama,Timed Up and Go,Women,15,"4,141",35.40,36.23
+Coquimbo,Timed Up and Go,Women,27,"12,848",39.03,38.94
+Valparaíso,Timed Up and Go,Women,110,"49,005",37.70,36.50
+O’Higgins,Timed Up and Go,Women,45,"18,373",39.65,40.83
+Maule,Timed Up and Go,Women,76,"23,708",31.34,33.73
+Biobío,Timed Up and Go,Women,67,"23,327",33.20,34.33
+La Araucanía,Timed Up and Go,Women,84,"20,990",38.33,38.60
+Los Lagos,Timed Up and Go,Women,109,"19,942",40.55,40.91
+Aysén,Timed Up and Go,Women,11,684,36.70,37.58
+Magallanes,Timed Up and Go,Women,7,"1,358",28.94,28.04
+Metropolitana,Timed Up and Go,Women,187,"135,091",39.34,38.67
+Los Ríos,Timed Up and Go,Women,20,"3,381",34.96,35.36
+Arica y Parinacota,Timed Up and Go,Women,8,"7,448",28.36,27.96
+Ñuble,Timed Up and Go,Women,24,"5,676",33.74,34.95

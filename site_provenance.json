@@ -4,13 +4,13 @@
   "reviewed_pages": {
     "docs/descriptive_methods_results.html": {
       "type": "report",
-      "source_html_sha256": "0bd1b054b53575e2289e0ea934f41fafb0a2687bf101c10503791a0f871e429e",
-      "normalized_non_delivery_bytes_sha256": "b9ee36d26e55c59695555418ce4dd97d82acc94135e3297072a1e44144c2eb80",
-      "qmd_sha256": "9ad2166797aa3d56fa0768ea95ffa23b9cb51f734590904b70267283dcfb671f",
+      "source_html_sha256": "b5f2bbbb8937a66b133d4631fe5c1d1910990f4274d1a73978ea01e0d8f72ecc",
+      "normalized_non_delivery_bytes_sha256": "383d93ba79b971f0cd2bb2c14181ce119cb0cb4511f85b37bc0152498d051ae1",
+      "qmd_sha256": "a74767b595e7100e63949e487b4868de8fa027f174a869010fa38044abddcc7d",
       "structure": {
         "slides": 0,
         "slide_ids": [],
-        "image_placements": 24,
+        "image_placements": 30,
         "image_sha256_in_order": [
           "6cef98e3c3f1d0cf4193e00cd22e7651f63abfa652eff0a475ec2cdadf8a0deb",
           "a40254dce929661641d3f25f12c4458c4e97e3edb2b9b4adfa9667c22602e745",
@@ -35,23 +35,29 @@
           "cb8e9b8c3d77add4a10480f38e0aa7bab8e3cc8f10fd7c5db88f3a9abe82f8ab",
           "3f3515ec42ec823d839801e323f479c6e2e27c4ecaa95cc1e47620c422ac5b97",
           "a44da78a2d570aa98f7904869d1c553f37e10b0d9489f42e41cd88a895cc281c",
-          "13320ca67a5e9de72d45f5b25fbc6b2063e87aa266e2ab03ec8dcb8fba4955c4"
+          "13320ca67a5e9de72d45f5b25fbc6b2063e87aa266e2ab03ec8dcb8fba4955c4",
+          "424ba7ecda810eae6cf69d95fd3dd30cef406c285c6c3f7627250a2390b0f799",
+          "b4d95f6806c14fd982dfef79aaa064a24511146c716d25035410b097756ebb87",
+          "9b940bc1189f4c5e05353dcd5ffb038ac7001c303532f08b728569b2684f9d00",
+          "83702cbaf52269df293bf33dea729d1fb419c8f75318512f75a906ef15b01844",
+          "cb56c75f311655b12f5d9f8abb7294fa72734d9408153ab9aaf7a88761c75db6",
+          "274e8d8e0347b7075092fac0377e0f48f5548acea2824b3ebb49cc6f8361bd97"
         ],
-        "tables": 26,
-        "table_cells": 5785,
-        "details_elements": 31,
-        "folded_code_elements": 10
+        "tables": 42,
+        "table_cells": 9839,
+        "details_elements": 36,
+        "folded_code_elements": 14
       }
     },
     "docs/reproductive_life_course.html": {
       "type": "report",
-      "source_html_sha256": "8a7c26c3fab5d7a76a8229ea7423d8199ad11f5caf68ce16e05a9bb704fe400a",
-      "normalized_non_delivery_bytes_sha256": "18a038d77a7109da75509aa092c759103d769d80582086653de4ab0328939461",
-      "qmd_sha256": "82e1c95b9ec8fc40044eba57809d6c68dc28e89972fa44dec2f6bb8128154748",
+      "source_html_sha256": "6a9cc1c919ccac2c702081c440b343f15db10e6e2bc58b62a4002bf844362b7d",
+      "normalized_non_delivery_bytes_sha256": "77829873bfa3a1af4e4a3fa931f8bf83a3ba60f7e7c8b673b7c60cfcc1fabffb",
+      "qmd_sha256": "0b89217b0f8ba735f886a948add532dd69fd2adf681654d8f7c1f2ed9a4dfa00",
       "structure": {
         "slides": 0,
         "slide_ids": [],
-        "image_placements": 14,
+        "image_placements": 20,
         "image_sha256_in_order": [
           "56c6fb64f367f7440458139bec990db2569bc8796e0d7c3c521434a029e352fd",
           "eabce58b46ef66b74d3468d01f8bba8ace4d0c1138c2acf75d242dd8125f7d69",
@@ -66,23 +72,29 @@
           "7ffc6b179ff119eb14462bea745b467413c69fef13c3c77feabd57c974b167fd",
           "12cd2a89cbd61f5b71a9d711119b05aa37b99dcd307c9dec384119e9ff278b98",
           "e62ae8dcda17038173430555d83c3f6d7fa3dec8be2c75fb9b135ec9a4bcd462",
-          "31e203f85b042c4f465b2499bf7029fef27404613416912f40bfca892abaf161"
+          "31e203f85b042c4f465b2499bf7029fef27404613416912f40bfca892abaf161",
+          "424ba7ecda810eae6cf69d95fd3dd30cef406c285c6c3f7627250a2390b0f799",
+          "b4d95f6806c14fd982dfef79aaa064a24511146c716d25035410b097756ebb87",
+          "9b940bc1189f4c5e05353dcd5ffb038ac7001c303532f08b728569b2684f9d00",
+          "83702cbaf52269df293bf33dea729d1fb419c8f75318512f75a906ef15b01844",
+          "cb56c75f311655b12f5d9f8abb7294fa72734d9408153ab9aaf7a88761c75db6",
+          "274e8d8e0347b7075092fac0377e0f48f5548acea2824b3ebb49cc6f8361bd97"
         ],
-        "tables": 27,
-        "table_cells": 1687,
-        "details_elements": 15,
-        "folded_code_elements": 9
+        "tables": 43,
+        "table_cells": 5741,
+        "details_elements": 20,
+        "folded_code_elements": 13
       }
     },
     "docs/access_diagnostic_recording_extension.html": {
       "type": "report",
-      "source_html_sha256": "817cade10839739567562f8e6339f7943c439af968a0ff1d72b7fce72cfeeebc",
-      "normalized_non_delivery_bytes_sha256": "e9fc6297756f93fb2e6a233a6e7dd842cc85918e20916e19827b0099a529f10d",
-      "qmd_sha256": "f87bb0d6a7019e65e7f6716512abf2d1e8e4f1882bf20c4fb9d92d23e9aa5ca6",
+      "source_html_sha256": "2cf1ebb0f47766688a9f7035a059a7ae087b387d5db19d6da97c7534daf613a3",
+      "normalized_non_delivery_bytes_sha256": "761217455e5c18e26f1faa0a5d9975e5f1fd6e9a5d7474b1f6814c47d98513b7",
+      "qmd_sha256": "fdb96247c96ce6645e64b67455c6e7982a050552a9fd584898a052a00aff639b",
       "structure": {
         "slides": 0,
         "slide_ids": [],
-        "image_placements": 10,
+        "image_placements": 16,
         "image_sha256_in_order": [
           "c5db9dc5db23cb58eed4a3c9399bad1fe53a66a8a9d681d070faf8335b558bcd",
           "f44aae9d7869821667cc85e596ee13c55272cbd90f27e49ea7402475c50b4b0b",
@@ -93,12 +105,18 @@
           "622c1228fe593c9274300e1239e12eb5084767f3eafb7480f91e419b87c0193d",
           "0ff14f1286dca2dbe226a04ed329536a03f98e2e37bcd37a806d34c5bd1a2ba5",
           "4f827b7cef9fbdafb0d27790a019eceb651b9ce33c6e52f5ccb11ed705f03999",
-          "6096943240643427e6927b3e2c53294b7719c66f89593c9f49126a03251f6449"
+          "6096943240643427e6927b3e2c53294b7719c66f89593c9f49126a03251f6449",
+          "424ba7ecda810eae6cf69d95fd3dd30cef406c285c6c3f7627250a2390b0f799",
+          "b4d95f6806c14fd982dfef79aaa064a24511146c716d25035410b097756ebb87",
+          "9b940bc1189f4c5e05353dcd5ffb038ac7001c303532f08b728569b2684f9d00",
+          "83702cbaf52269df293bf33dea729d1fb419c8f75318512f75a906ef15b01844",
+          "cb56c75f311655b12f5d9f8abb7294fa72734d9408153ab9aaf7a88761c75db6",
+          "274e8d8e0347b7075092fac0377e0f48f5548acea2824b3ebb49cc6f8361bd97"
         ],
-        "tables": 26,
-        "table_cells": 2320,
-        "details_elements": 74,
-        "folded_code_elements": 68
+        "tables": 42,
+        "table_cells": 6374,
+        "details_elements": 79,
+        "folded_code_elements": 72
       }
     },
     "docs/combined_project_key_results_slides.html": {
@@ -318,6 +336,12 @@
     "3c8390047b6296b9b740494ac8807a41181b172d9bd30af1fe3f204153bb90c7": "outputs/publication_programme_2026-10-28/surgery_extension/figures/surgery_extension_denominator_sensitivity.png",
     "eabce58b46ef66b74d3468d01f8bba8ace4d0c1138c2acf75d242dd8125f7d69": "outputs/publication_programme_2026-10-28/survey_extension/figures/survey_age_profiles.png",
     "9ce4c2bfc51dd06c95f43879925c34fb367da7f703527a733c14835eb7e22439": "outputs/publication_programme_2026-10-28/survey_extension/figures/survey_casen_adjustment.png",
-    "2f53e9456698b2ad674058f955f34b111775e10aee6dc0b36ab5b145cbd6623a": "outputs/publication_programme_2026-10-28/survey_extension/figures/survey_encavi_separate.png"
+    "2f53e9456698b2ad674058f955f34b111775e10aee6dc0b36ab5b145cbd6623a": "outputs/publication_programme_2026-10-28/survey_extension/figures/survey_encavi_separate.png",
+    "83702cbaf52269df293bf33dea729d1fb419c8f75318512f75a906ef15b01844": "outputs/rem_neuro_instruments_2026-10-30/analysis_a/figures/NI-A-F1_dementia_evaluation_changes.png",
+    "cb56c75f311655b12f5d9f8abb7294fa72734d9408153ab9aaf7a88761c75db6": "outputs/rem_neuro_instruments_2026-10-30/analysis_a/figures/NI-A-F2_recording_coverage_anomaly.png",
+    "274e8d8e0347b7075092fac0377e0f48f5548acea2824b3ebb49cc6f8361bd97": "outputs/rem_neuro_instruments_2026-10-30/analysis_a/figures/NI-A-F3_caregiver_functional_context.png",
+    "424ba7ecda810eae6cf69d95fd3dd30cef406c285c6c3f7627250a2390b0f799": "outputs/rem_neuro_instruments_2026-10-30/analysis_p/figures/Figure_NI_P1_classification_trends.png",
+    "b4d95f6806c14fd982dfef79aaa064a24511146c716d25035410b097756ebb87": "outputs/rem_neuro_instruments_2026-10-30/analysis_p/figures/Figure_NI_P2_age_sex_classifications.png",
+    "9b940bc1189f4c5e05353dcd5ffb038ac7001c303532f08b728569b2684f9d00": "outputs/rem_neuro_instruments_2026-10-30/analysis_p/figures/Figure_NI_P3_standardised_chile_maps.png"
   }
 }

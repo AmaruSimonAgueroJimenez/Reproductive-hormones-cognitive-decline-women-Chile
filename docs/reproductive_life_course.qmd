@@ -2,7 +2,7 @@
 title: "Reproductive factors and neurodegenerative outcomes in Chile"
 subtitle: "One connected analysis of cognitive difficulties, ovarian surgery and care context"
 lang: en
-date-modified: 2026-10-28
+date-modified: 2026-10-30
 navbar: false
 sidebar: false
 format:
@@ -90,6 +90,20 @@ def extension(group):
 display(raw(f'<details class="provenance evidence-id" data-evidence-id="{evidence["content_sha256"]}"><summary>Reproducibility record</summary><p>Shared evidence identifier: <code>{evidence["content_sha256"]}</code></p></details>'))
 ```
 
+<!-- BEGIN REM INSTRUMENT LOAD -->
+```{python}
+#| label: load-rem-instrument-evidence
+#| output: asis
+# Rendering uses portable aggregate evidence; it does not read the external disk.
+sys.path.insert(0, str(PROJECT / 'scripts/rem_neuro_instruments'))
+from report_render import (load_instrument_bundle, validate_arithmetic_checks,
+                           InstrumentRenderer)
+instrument_evidence = load_instrument_bundle(PROJECT)
+instrument_arithmetic_checks = validate_arithmetic_checks(PROJECT, instrument_evidence)
+instrument_report = InstrumentRenderer(PROJECT, instrument_evidence)
+```
+<!-- END REM INSTRUMENT LOAD -->
+
 ## Methods
 
 ```{python}
@@ -99,6 +113,16 @@ for item in evidence['methods']:
     display(md('### ' + item['title']))
     for paragraph in item['paragraphs']:display(md(paragraph))
 ```
+
+<!-- BEGIN REM INSTRUMENT METHODS -->
+### Additional REM functional and dementia instrument methods
+
+```{python}
+#| label: ni-instrument-methods
+#| output: asis
+instrument_report.methods()
+```
+<!-- END REM INSTRUMENT METHODS -->
 
 ## Results
 
@@ -174,6 +198,49 @@ else:
 section('joint-reading')
 table('roadmap')
 ```
+
+<!-- BEGIN REM INSTRUMENT RESULTS -->
+## Additional REM instrument results
+
+```{python}
+#| label: ni-instrument-results
+#| output: asis
+instrument_report.results(context='connected')
+```
+
+### Reproducing the instrument analyses
+
+The instrument figures, table cells and scientific Methods and Results text are
+shared with the Word reports. This page verifies the saved evidence files and
+recalculates the explicitly declared aggregate checks at render time. Source
+record extraction and original analytical processing are separate operations;
+they are not silently repeated when a reader renders this page. The aggregate
+inputs and analysis code allow the instrument outputs to be reconstructed
+without the external data volume. Original-source refresh additionally requires
+the same authorised REM releases and annual coded templates.
+
+The commands below are displayed for inspection and are not executed during
+rendering. Use the scientific and document environments recorded by the runner.
+
+```{python}
+#| label: ni-instrument-explicit-rebuild-commands
+#| eval: false
+#| code-fold: true
+import subprocess
+
+# Rebuild the new instrument evidence and its matching Word and HTML reports
+# from retained aggregate inputs.
+subprocess.run(['python3', 'scripts/run_rem_instrument_extension.py', '--word', '--html'],
+               cwd=PROJECT, check=True)
+
+# Refresh source-record extraction only with the authorised data volume mounted.
+subprocess.run(['python3', 'scripts/run_rem_instrument_extension.py', '--refresh-raw',
+                '--word', '--html'], cwd=PROJECT, check=True)
+```
+
+[Download the instrument aggregate data and reproducible sources](../outputs/rem_neuro_instruments_2026-10-30/REM_Instrument_Assets_EN.zip)
+· <a href="reproductive_life_course_source.txt" download="reproductive_life_course.qmd">Download this executable report source</a>
+<!-- END REM INSTRUMENT RESULTS -->
 
 ## Reproducibility and original data sources
 

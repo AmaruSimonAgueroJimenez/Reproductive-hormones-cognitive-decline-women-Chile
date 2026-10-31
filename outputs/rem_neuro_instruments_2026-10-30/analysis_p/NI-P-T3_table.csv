@@ -1,0 +1,71 @@
+Year,Instrument,Sex,Category,Recorded n,Classified N,Share (%)
+2019,Single-leg stance,Men,Altered,"110,121","268,947",40.95
+2019,Single-leg stance,Men,Normal,"158,826","268,947",59.05
+2019,Single-leg stance,Women,Altered,"199,287","412,442",48.32
+2019,Single-leg stance,Women,Normal,"213,155","412,442",51.68
+2019,Timed Up and Go,Men,High fall risk,"22,935","224,913",10.20
+2019,Timed Up and Go,Men,Mild fall risk,"48,683","224,913",21.65
+2019,Timed Up and Go,Men,Normal,"153,295","224,913",68.16
+2019,Timed Up and Go,Women,High fall risk,"41,591","344,850",12.06
+2019,Timed Up and Go,Women,Mild fall risk,"90,816","344,850",26.33
+2019,Timed Up and Go,Women,Normal,"212,443","344,850",61.60
+2020,Single-leg stance,Men,Altered,"66,287","161,774",40.98
+2020,Single-leg stance,Men,Normal,"95,487","161,774",59.02
+2020,Single-leg stance,Women,Altered,"118,480","249,123",47.56
+2020,Single-leg stance,Women,Normal,"130,643","249,123",52.44
+2020,Timed Up and Go,Men,High fall risk,"13,836","136,735",10.12
+2020,Timed Up and Go,Men,Mild fall risk,"30,131","136,735",22.04
+2020,Timed Up and Go,Men,Normal,"92,768","136,735",67.85
+2020,Timed Up and Go,Women,High fall risk,"25,756","208,973",12.33
+2020,Timed Up and Go,Women,Mild fall risk,"56,221","208,973",26.90
+2020,Timed Up and Go,Women,Normal,"126,996","208,973",60.77
+2021,Single-leg stance,Men,Altered,"58,516","133,419",43.86
+2021,Single-leg stance,Men,Normal,"74,903","133,419",56.14
+2021,Single-leg stance,Women,Altered,"104,164","205,581",50.67
+2021,Single-leg stance,Women,Normal,"101,417","205,581",49.33
+2021,Timed Up and Go,Men,High fall risk,"10,257","100,428",10.21
+2021,Timed Up and Go,Men,Mild fall risk,"21,006","100,428",20.92
+2021,Timed Up and Go,Men,Normal,"69,165","100,428",68.87
+2021,Timed Up and Go,Women,High fall risk,"18,846","154,298",12.21
+2021,Timed Up and Go,Women,Mild fall risk,"39,499","154,298",25.60
+2021,Timed Up and Go,Women,Normal,"95,953","154,298",62.19
+2022,Single-leg stance,Men,Altered,"90,181","220,468",40.90
+2022,Single-leg stance,Men,Normal,"130,287","220,468",59.10
+2022,Single-leg stance,Women,Altered,"163,498","342,607",47.72
+2022,Single-leg stance,Women,Normal,"179,109","342,607",52.28
+2022,Timed Up and Go,Men,High fall risk,"19,175","190,124",10.09
+2022,Timed Up and Go,Men,Mild fall risk,"39,450","190,124",20.75
+2022,Timed Up and Go,Men,Normal,"131,499","190,124",69.16
+2022,Timed Up and Go,Women,High fall risk,"36,615","294,817",12.42
+2022,Timed Up and Go,Women,Mild fall risk,"74,369","294,817",25.23
+2022,Timed Up and Go,Women,Normal,"183,833","294,817",62.35
+2023,Single-leg stance,Men,Altered,"110,153","284,498",38.72
+2023,Single-leg stance,Men,Normal,"174,345","284,498",61.28
+2023,Single-leg stance,Women,Altered,"198,477","420,956",47.15
+2023,Single-leg stance,Women,Normal,"222,479","420,956",52.85
+2023,Timed Up and Go,Men,High fall risk,"25,101","245,080",10.24
+2023,Timed Up and Go,Men,Mild fall risk,"50,297","245,080",20.52
+2023,Timed Up and Go,Men,Normal,"169,682","245,080",69.24
+2023,Timed Up and Go,Women,High fall risk,"48,177","374,746",12.86
+2023,Timed Up and Go,Women,Mild fall risk,"94,129","374,746",25.12
+2023,Timed Up and Go,Women,Normal,"232,440","374,746",62.03
+2024,Single-leg stance,Men,Altered,"126,676","311,266",40.70
+2024,Single-leg stance,Men,Normal,"184,590","311,266",59.30
+2024,Single-leg stance,Women,Altered,"222,882","467,711",47.65
+2024,Single-leg stance,Women,Normal,"244,829","467,711",52.35
+2024,Timed Up and Go,Men,High fall risk,"27,629","278,600",9.92
+2024,Timed Up and Go,Men,Mild fall risk,"57,281","278,600",20.56
+2024,Timed Up and Go,Men,Normal,"193,690","278,600",69.52
+2024,Timed Up and Go,Women,High fall risk,"53,916","419,791",12.84
+2024,Timed Up and Go,Women,Mild fall risk,"104,006","419,791",24.78
+2024,Timed Up and Go,Women,Normal,"261,869","419,791",62.38
+2025,Single-leg stance,Men,Altered,"141,664","348,699",40.63
+2025,Single-leg stance,Men,Normal,"207,035","348,699",59.37
+2025,Single-leg stance,Women,Altered,"247,722","520,441",47.60
+2025,Single-leg stance,Women,Normal,"272,719","520,441",52.40
+2025,Timed Up and Go,Men,High fall risk,"31,333","314,747",9.95
+2025,Timed Up and Go,Men,Mild fall risk,"62,335","314,747",19.80
+2025,Timed Up and Go,Men,Normal,"221,079","314,747",70.24
+2025,Timed Up and Go,Women,High fall risk,"59,876","467,846",12.80
+2025,Timed Up and Go,Women,Mild fall risk,"113,040","467,846",24.16
+2025,Timed Up and Go,Women,Normal,"294,930","467,846",63.04

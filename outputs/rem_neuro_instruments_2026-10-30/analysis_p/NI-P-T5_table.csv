@@ -1,0 +1,97 @@
+Instrument,Sex,Age (years),Category,Recorded n,Classified N,Share (%)
+Single-leg stance,Men,65–69,Altered,"18,826","68,454",27.50
+Single-leg stance,Men,65–69,Normal,"49,628","68,454",72.50
+Single-leg stance,Men,70–74,Altered,"22,601","65,843",34.33
+Single-leg stance,Men,70–74,Normal,"43,242","65,843",65.67
+Single-leg stance,Men,75–79,Altered,"23,976","53,207",45.06
+Single-leg stance,Men,75–79,Normal,"29,231","53,207",54.94
+Single-leg stance,Men,80+,Altered,"36,048","56,372",63.95
+Single-leg stance,Men,80+,Normal,"20,324","56,372",36.05
+Single-leg stance,Women,65–69,Altered,"35,115","108,466",32.37
+Single-leg stance,Women,65–69,Normal,"73,351","108,466",67.63
+Single-leg stance,Women,70–74,Altered,"40,036","97,552",41.04
+Single-leg stance,Women,70–74,Normal,"57,516","97,552",58.96
+Single-leg stance,Women,75–79,Altered,"40,582","77,235",52.54
+Single-leg stance,Women,75–79,Normal,"36,653","77,235",47.46
+Single-leg stance,Women,80+,Altered,"65,367","90,571",72.17
+Single-leg stance,Women,80+,Normal,"25,204","90,571",27.83
+Functional classification,Men,65–69,Autonomous with risk,"20,883","59,978",34.82
+Functional classification,Men,65–69,Autonomous without risk,"31,580","59,978",52.65
+Functional classification,Men,65–69,Dependency risk,"3,260","59,978",5.44
+Functional classification,Men,65–69,Mild dependency,"2,714","59,978",4.52
+Functional classification,Men,65–69,Moderate dependency,560,"59,978",0.93
+Functional classification,Men,65–69,Severe dependency,476,"59,978",0.79
+Functional classification,Men,65–69,Total dependency,505,"59,978",0.84
+Functional classification,Men,70–74,Autonomous with risk,"19,234","59,327",32.42
+Functional classification,Men,70–74,Autonomous without risk,"30,689","59,327",51.73
+Functional classification,Men,70–74,Dependency risk,"3,642","59,327",6.14
+Functional classification,Men,70–74,Mild dependency,"3,769","59,327",6.35
+Functional classification,Men,70–74,Moderate dependency,726,"59,327",1.22
+Functional classification,Men,70–74,Severe dependency,626,"59,327",1.06
+Functional classification,Men,70–74,Total dependency,641,"59,327",1.08
+Functional classification,Men,75–79,Autonomous with risk,"15,137","50,093",30.22
+Functional classification,Men,75–79,Autonomous without risk,"22,904","50,093",45.72
+Functional classification,Men,75–79,Dependency risk,"4,628","50,093",9.24
+Functional classification,Men,75–79,Mild dependency,"4,798","50,093",9.58
+Functional classification,Men,75–79,Moderate dependency,848,"50,093",1.69
+Functional classification,Men,75–79,Severe dependency,902,"50,093",1.80
+Functional classification,Men,75–79,Total dependency,876,"50,093",1.75
+Functional classification,Men,80+,Autonomous with risk,"13,043","62,691",20.81
+Functional classification,Men,80+,Autonomous without risk,"19,893","62,691",31.73
+Functional classification,Men,80+,Dependency risk,"9,488","62,691",15.13
+Functional classification,Men,80+,Mild dependency,"11,768","62,691",18.77
+Functional classification,Men,80+,Moderate dependency,"2,731","62,691",4.36
+Functional classification,Men,80+,Severe dependency,"2,853","62,691",4.55
+Functional classification,Men,80+,Total dependency,"2,915","62,691",4.65
+Functional classification,Women,65–69,Autonomous with risk,"33,274","95,781",34.74
+Functional classification,Women,65–69,Autonomous without risk,"51,502","95,781",53.77
+Functional classification,Women,65–69,Dependency risk,"5,063","95,781",5.29
+Functional classification,Women,65–69,Mild dependency,"4,357","95,781",4.55
+Functional classification,Women,65–69,Moderate dependency,590,"95,781",0.62
+Functional classification,Women,65–69,Severe dependency,500,"95,781",0.52
+Functional classification,Women,65–69,Total dependency,495,"95,781",0.52
+Functional classification,Women,70–74,Autonomous with risk,"29,254","89,212",32.79
+Functional classification,Women,70–74,Autonomous without risk,"44,864","89,212",50.29
+Functional classification,Women,70–74,Dependency risk,"6,067","89,212",6.80
+Functional classification,Women,70–74,Mild dependency,"6,653","89,212",7.46
+Functional classification,Women,70–74,Moderate dependency,916,"89,212",1.03
+Functional classification,Women,70–74,Severe dependency,688,"89,212",0.77
+Functional classification,Women,70–74,Total dependency,770,"89,212",0.86
+Functional classification,Women,75–79,Autonomous with risk,"23,005","76,270",30.16
+Functional classification,Women,75–79,Autonomous without risk,"32,142","76,270",42.14
+Functional classification,Women,75–79,Dependency risk,"7,692","76,270",10.09
+Functional classification,Women,75–79,Mild dependency,"9,602","76,270",12.59
+Functional classification,Women,75–79,Moderate dependency,"1,317","76,270",1.73
+Functional classification,Women,75–79,Severe dependency,"1,173","76,270",1.54
+Functional classification,Women,75–79,Total dependency,"1,339","76,270",1.76
+Functional classification,Women,80+,Autonomous with risk,"20,809","113,393",18.35
+Functional classification,Women,80+,Autonomous without risk,"26,331","113,393",23.22
+Functional classification,Women,80+,Dependency risk,"18,569","113,393",16.38
+Functional classification,Women,80+,Mild dependency,"25,976","113,393",22.91
+Functional classification,Women,80+,Moderate dependency,"6,815","113,393",6.01
+Functional classification,Women,80+,Severe dependency,"7,039","113,393",6.21
+Functional classification,Women,80+,Total dependency,"7,854","113,393",6.93
+Timed Up and Go,Men,65–69,High fall risk,"3,180","62,960",5.05
+Timed Up and Go,Men,65–69,Mild fall risk,"7,730","62,960",12.28
+Timed Up and Go,Men,65–69,Normal,"52,050","62,960",82.67
+Timed Up and Go,Men,70–74,High fall risk,"4,062","60,630",6.70
+Timed Up and Go,Men,70–74,Mild fall risk,"9,834","60,630",16.22
+Timed Up and Go,Men,70–74,Normal,"46,734","60,630",77.08
+Timed Up and Go,Men,75–79,High fall risk,"4,914","48,557",10.12
+Timed Up and Go,Men,75–79,Mild fall risk,"10,948","48,557",22.55
+Timed Up and Go,Men,75–79,Normal,"32,695","48,557",67.33
+Timed Up and Go,Men,80+,High fall risk,"10,965","50,518",21.71
+Timed Up and Go,Men,80+,Mild fall risk,"15,947","50,518",31.57
+Timed Up and Go,Men,80+,Normal,"23,606","50,518",46.73
+Timed Up and Go,Women,65–69,High fall risk,"5,329","99,393",5.36
+Timed Up and Go,Women,65–69,Mild fall risk,"15,774","99,393",15.87
+Timed Up and Go,Women,65–69,Normal,"78,290","99,393",78.77
+Timed Up and Go,Women,70–74,High fall risk,"7,215","89,762",8.04
+Timed Up and Go,Women,70–74,Mild fall risk,"19,408","89,762",21.62
+Timed Up and Go,Women,70–74,Normal,"63,139","89,762",70.34
+Timed Up and Go,Women,75–79,High fall risk,"9,271","70,633",13.13
+Timed Up and Go,Women,75–79,Mild fall risk,"20,019","70,633",28.34
+Timed Up and Go,Women,75–79,Normal,"41,343","70,633",58.53
+Timed Up and Go,Women,80+,High fall risk,"23,714","79,373",29.88
+Timed Up and Go,Women,80+,Mild fall risk,"27,270","79,373",34.36
+Timed Up and Go,Women,80+,Normal,"28,389","79,373",35.77

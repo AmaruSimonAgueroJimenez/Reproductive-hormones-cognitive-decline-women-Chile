@@ -27,9 +27,9 @@ execute:
   </header>
 
   <section class="research-intro" aria-labelledby="collection-title">
-    <p class="research-eyebrow">Methods, results and extended analyses · October 2026</p>
+    <p class="research-eyebrow">Methods, results and extended analyses · Updated 30 October 2026</p>
     <h1 id="collection-title">Neurodegeneration and reproductive health in Chile</h1>
-    <p class="research-lead">Read the complete evidence behind the presentations: descriptive disease recording, connected reproductive analyses, and the updated study of hormonal care and diagnostic recording.</p>
+    <p class="research-lead">Read the complete evidence behind the presentations: descriptive disease recording, connected reproductive analyses, and hormonal care and diagnostic recording, now extended with REM functional, dementia and caregiver measures.</p>
     <div class="research-intro-links"><a class="research-button" href="#results">Read the full reports <span aria-hidden="true">↓</span></a><a class="research-text-link" href="docs/combined_project_key_results_slides.html">View the combined presentation <span aria-hidden="true">→</span></a></div>
   </section>
 
@@ -37,30 +37,30 @@ execute:
     <div class="research-section-heading"><div><p class="research-eyebrow">The full research record</p><h2 id="results-title">Three connected reports</h2></div><p>Each report includes Methods and Results, detailed tables, panel figures and folded analysis code.</p></div>
     <div class="research-report-grid">
       <article class="research-card">
-        <div class="research-card-top"><span class="research-part">01 / Part I</span><time datetime="2026-10-28">28 Oct 2026</time></div>
+        <div class="research-card-top"><span class="research-part">01 / Part I</span><time datetime="2026-10-30">30 Oct 2026</time></div>
         <h3><a href="docs/descriptive_methods_results.html">Dementia and neurodegenerative disease</a></h3>
-        <p>Recorded burden across mortality, hospital and primary-care sources, with age and sex patterns, diagnostic coding, variation across centres and geographic analyses.</p>
-        <p class="research-counts">24 figures · 24 tables <span>including the extended selection bank</span></p>
+        <p>Recorded disease burden, now extended with functional status, dependency and fall-risk classifications by sex, age and territory, alongside dementia programme and caregiver measures.</p>
+        <p class="research-counts" data-report-context="descriptive">30 figures · 40 tables <span>including the extended selection bank and new REM instrument analyses</span></p>
         <div class="research-card-links"><a class="research-report-link" href="docs/descriptive_methods_results.html">Read Methods and Results <span aria-hidden="true">→</span></a><a class="research-source-link" href="docs/descriptive_methods_results_source.txt" download="descriptive_methods_results.qmd">Download Quarto source</a></div>
       </article>
 
       <article class="research-card">
-        <div class="research-card-top"><span class="research-part">02 / Part II</span><time datetime="2026-10-28">28 Oct 2026</time></div>
+        <div class="research-card-top"><span class="research-part">02 / Part II</span><time datetime="2026-10-30">30 Oct 2026</time></div>
         <h3><a href="docs/reproductive_life_course.html">Reproductive factors and neurodegenerative outcomes</a></h3>
-        <p>One connected analysis of reproductive history, reported cognitive difficulty, ovarian surgery and menopause-care context, retaining each source's population and observation unit.</p>
-        <p class="research-counts">14 figures · 26 tables <span>with extended survey, surgery and care analyses</span></p>
+        <p>One connected account of reproductive history, cognitive difficulty, ovarian surgery and menopause care, with the new REM functional and dementia measures supplying complementary care context.</p>
+        <p class="research-counts" data-report-context="connected">20 figures · 42 tables <span>including the survey surgery care and new REM instrument analyses</span></p>
         <div class="research-card-links"><a class="research-report-link" href="docs/reproductive_life_course.html">Read Methods and Results <span aria-hidden="true">→</span></a><a class="research-source-link" href="docs/reproductive_life_course_source.txt" download="reproductive_life_course.qmd">Download Quarto source</a></div>
       </article>
 
       <article class="research-card research-card-update">
-        <div class="research-card-top"><span class="research-part">03 / Administrative extension</span><time datetime="2026-10-29">29 Oct 2026</time></div>
+        <div class="research-card-top"><span class="research-part">03 / Administrative extension</span><time datetime="2026-10-30">30 Oct 2026</time></div>
         <h3><a href="docs/access_diagnostic_recording_extension.html">Hormonal care and diagnostic recording</a></h3>
-        <p>Updated REM, DEIS and FONASA GRD evidence on menopause-care recording, neurological caseloads and hospital diagnoses, with source-completeness audits, maps and association sensitivities.</p>
-        <p class="research-counts">10 figures · 26 tables <span>including geographic panels and denominator checks</span></p>
+        <p>REM, DEIS and FONASA GRD care and diagnostic recording, extended with dementia reassessment, caregiver measures and functional classifications, retaining source-completeness checks and geographic analyses.</p>
+        <p class="research-counts" data-report-context="access">16 figures · 42 tables <span>including new REM instrument panels and quality and denominator checks</span></p>
         <div class="research-card-links"><a class="research-report-link" href="docs/access_diagnostic_recording_extension.html">Read Methods and Results <span aria-hidden="true">→</span></a><a class="research-source-link" href="docs/access_diagnostic_recording_extension_source.txt" download="access_diagnostic_recording_extension.qmd">Download Quarto source</a></div>
       </article>
     </div>
-    <p class="research-version-note"><strong>Reading the versions.</strong> Parts I and II preserve the reviewed 28 October snapshots. The 29 October extension updates REM definitions and source handling; use that report for the updated administrative care and diagnostic-recording analyses. Recorded service use and exploratory associations retain the limitations stated in each report.</p>
+    <p class="research-version-note"><strong>Reading the versions.</strong> All three reports now include the 30 October REM instrument extension. Their original analyses retain the reviewed 28 and 29 October definitions and observation windows. New functional, dementia and caregiver results state their own reporting eligibility and quality limitations. The presentations remain selected summaries of the earlier reviewed evidence.</p>
   </section>
 
   <section class="research-presentations" id="presentations" aria-labelledby="presentations-title">
